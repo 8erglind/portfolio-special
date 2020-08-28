@@ -560,7 +560,7 @@
 		{#if timatal}A collection of different ideas and imaginations of time and time-keeping. A kind of non-calendar calendar.<br>Content gathered from a single book found in a library (and returned before I thought of doucumenting it (rookie mistake) so the source remains a mystery).{/if}
 		{#if sortedplastic}A research project, collaboration with Louana Gentner, on where plastic &mdash; sorted by residents of the Hague and delivered to local bins to be recycled &mdash; ends up. An interesting disappointment, documented in an A3-size publication and an online tetris-style game.{/if}
 		{#if litabok}An installation and publication.{/if}
-		{#if oilbuddies}The heads of the worlds biggest oil-companies in 2017, in bubbles, floating around, ...headed to wherever the weahter suits their clothes?{/if}
+		{#if oilbuddies}The heads of the worlds biggest oil-companies in 2017.{/if}
 		{#if trash}A set of stickers for the trash-bins of KABK as a call for recycling. Typeface made out of KABK's logo.{/if}
 	  	{#if familiarfaces}Posters, digital and physical, made in collaboration with Seojeong Youn.{/if}
 	  	{#if musicbook}A publication and a video about music's effect on humans, as seen through Stevie&nbsp;Wonder's 'If&nbsp;It's&nbsp;Magic', Dorothy&nbsp;Ashby, David&nbsp;Lynch, Meditation, Mantras and Patterns.{/if}
@@ -666,13 +666,13 @@
     {#if PICevublad}<img class="smallPic" alt="mynd" src="igms/evublad/evublad-spreads0.jpg" on:click={toggleevublad} on:click="{() => expand = !expand}">{/if}
   	{#if PICfamiliarfaces}<img class="smallPic" alt="mynd" src="igms/familiarfaces/small.jpg" on:click={togglefamiliarfaces} on:click="{() => expand = !expand}">{/if}
     {#if PIClitabok}<img class="smallPic" alt="mynd" style="max-width: 250px;" src="igms/litabok/small.png" on:click={togglelitabok} on:click="{() => expand = !expand}">{/if}
-  	{#if PICtrash}<img class="smallPic" alt="mynd" src="igms/trash/small.png" on:click={toggletrash} on:click="{() => expand = !expand}">{/if}
+  	<!--{#if PICtrash}<img class="smallPic" alt="mynd" src="igms/trash/small.png" on:click={toggletrash} on:click="{() => expand = !expand}">{/if}-->
     <!--<img class="smallPic" alt="mynd" src="igms/alterego/small.png"> OTHER -->
     <!--<img class="smallPic" alt="mynd" src="igms/grad/small.png">-->
     <!--<img class="smallPic" alt="mynd" src="igms/buyt/small.png"> OTHER -->
     <!--<img class="smallPic" alt="mynd" src="igms/faces/small.png"> OTHER -->
     {#if PICplastica}<img class="smallPic" alt="mynd" src="igms/plastica/small2.png" on:click={toggleplastica} on:click="{() => expand = !expand}">{/if}
-    {#if PICoilbuddies}<img class="smallPic" alt="mynd" style="border-radius: 50px;" src="igms/oilbuddies/small.png" on:click={toggleoilbuddies} on:click="{() => expand = !expand}">{/if}
+    <!--{#if PICoilbuddies}<img class="smallPic" alt="mynd" style="border-radius: 50px;" src="igms/oilbuddies/small.png" on:click={toggleoilbuddies} on:click="{() => expand = !expand}">{/if}-->
 
 
 
@@ -702,28 +702,28 @@
 	    <!--<img class="mediumPic" alt="mynd" src="igms/cali/cali4.jpg">-->
 	    {#if PICbaby}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/smallbaby.png">{/if}
 	    {#if PICfimma}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/5red1.png">{/if}
-	    {#if PICleturgif}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/ok.gif">{/if}
-      {#if PICpsdmynd}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/mynd12.png">{/if}
+	    <!--{#if PICleturgif}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/ok.gif">{/if}
+      {#if PICpsdmynd}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/mynd12.png">{/if}-->
 	    <!--<img class="mediumPic" alt="mynd" src="igms/undefined-teikningar/bluelines.jpg">-->
 	    {#if PICpuppy}<img class="mediumPic" alt="mynd" style="max-width: 30vw;" src="igms/undefined-posters/KABKPuppyParade.jpg">{/if}
       {#if PICtypobook}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/typography.jpg">{/if}
 	    <!--<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/blom2b.jpg">-->
       <!--<img class="mediumPic" alt="mynd" src="igms/undefined-teikningar/fruma.jpg">-->
       {#if PICbuyt}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/5web.jpg">{/if}
-	    {#if PICshu}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/skoh.jpg">{/if}
-	    {#if PICrammi}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/rammi.jpg">{/if}
+	    <!--{#if PICshu}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/skoh.jpg">{/if}
+	    {#if PICrammi}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/rammi.jpg">{/if}-->
 	    {#if PICspurn}<img class="mediumPic" alt="mynd" style="max-width: 30vw;" src="igms/undefined-undefined/spurn.png">{/if}
-      {#if PICpsdmynd}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/blomnytt2.jpg">{/if}
-      {#if PICmalverk}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/mamma.jpg">{/if}
+      <!--{#if PICpsdmynd}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/blomnytt2.jpg">{/if}
+      {#if PICmalverk}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/mamma.jpg">{/if}-->
 	    {#if PICleturgif}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/oohnoo.gif">{/if}
 	    {#if PICflottabok}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/front.png">{/if}
       <!--<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/smellt-drawing.jpg">-->
       {#if PICtypobook}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/display1.jpg">{/if}
       {#if PICtypobook}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/display2.jpg">{/if}
       {#if PICtypobook}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/display3.jpg">{/if}
-      {#if PICljosmynd}<img class="mediumPic" alt="mynd" src="igms/undefined-ljosmyndir/tschlin.jpg">{/if}
+      <!--{#if PICljosmynd}<img class="mediumPic" alt="mynd" src="igms/undefined-ljosmyndir/tschlin.jpg">{/if}
       {#if PICljosmynd}<img class="mediumPic" alt="mynd" src="igms/undefined-ljosmyndir/simiafjalli.jpg">{/if}
-      <!--<img class="mediumPic" alt="mynd" src="igms/undefined-ljosmyndir/P1150285.JPG">
+      <img class="mediumPic" alt="mynd" src="igms/undefined-ljosmyndir/P1150285.JPG">
       {#if PICljosmynd}<img class="mediumPic" alt="mynd" src="igms/undefined-ljosmyndir/fjall.jpg">{/if}-->
       <!--<img class="mediumPic" alt="mynd" src="igms/undefined-ljosmyndir/IMG_7173.JPG">-->
       <!--<img class="mediumPic" alt="mynd" src="igms/undefined-ljosmyndir/prent f fólk3106.jpg">-->
@@ -733,12 +733,14 @@
       {#if PICdrawing}<img class="mediumPic" alt="mynd" src="igms/undefined-teikningar/teikning3.jpg">{/if}
       {#if PICalltmitt}<img class="mediumPic" alt="mynd" src="igms/alltmitt/1.png">{/if}
       {#if PICpsdmynd}<img class="mediumPic" alt="mynd" style="border-radius: 120px;" src="igms/undefined-undefined/_.jpg">{/if}
+      {#if PICtrash}<img class="mediumPic" alt="mynd" src="igms/trash/small.png">{/if}
       {#if PICbritney}<img class="mediumPic" alt="mynd" src="igms/undefined-web/7.jpg">{/if}
       {#if PICbrandalism}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/15.png">{/if}
       {#if PICbrandalism}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/14.png">{/if}
       <!--<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/13.png">-->
       {#if PICegobook}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/1.png">{/if}
       {#if PICmen}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/aSmalltable.png">{/if}
+      {#if PICoilbuddies}<img class="mediumPic" alt="mynd" style="border-radius: 50px;" src="igms/oilbuddies/small.png">{/if}
       <br><br><br><br><br><br>
     {/if}
 
