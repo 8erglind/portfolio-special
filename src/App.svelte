@@ -657,10 +657,10 @@
     {#if PICtimatal}<img class="smallPic" alt="mynd" src="igms/timatal/small.png" on:click={toggletimatal} on:click="{() => expand = !expand}">{/if}
     {#if PICtools}<img class="smallPic" alt="mynd" src="igms/tools/tools.png" on:click={toggletools} on:click="{() => expand = !expand}">{/if}
     <!--<img class="smallPic" alt="mynd" src="igms/body/body.png">-->
-    {#if PICsomalgors}<img class="smallPic" alt="mynd" src="igms/somalgors74/small.jpg">{/if}
+    <!--{#if PICsomalgors}<img class="smallPic" alt="mynd" src="igms/somalgors74/small.jpg">{/if}-->
 	  {#if PIClikamar}<img class="smallPic" alt="mynd" src="igms/typedesign/small.jpg" on:click={togglelikamar} on:click="{() => expand = !expand}">{/if}
 	  <!--<img class="smallPic" alt="mynd" src="igms/cali/small.jpg"> OTHER -->
-	  {#if PICsecret}<img class="smallPic" alt="mynd" src="igms/secret/small.png" on:click={togglesecret} on:click="{() => expand = !expand}">{/if}
+	  <!--{#if PICsecret}<img class="smallPic" alt="mynd" src="igms/secret/small.png" on:click={togglesecret} on:click="{() => expand = !expand}">{/if}-->
 	  {#if PICmusicbook}<img class="smallPic larger" alt="mynd" src="igms/musicBook/4.png" on:click={togglemusicbook} on:click="{() => expand = !expand}">{/if}
   	{#if PICcorruptedspace}<img class="smallPic" alt="mynd" src="igms/corruptedspace/smaller.jpg" on:click={togglecorruptedspace} on:click="{() => expand = !expand}">{/if}
     {#if PICevublad}<img class="smallPic" alt="mynd" src="igms/evublad/evublad-spreads0.jpg" on:click={toggleevublad} on:click="{() => expand = !expand}">{/if}
@@ -734,6 +734,7 @@
       {#if PICalltmitt}<img class="mediumPic" alt="mynd" src="igms/alltmitt/1.png">{/if}
       {#if PICpsdmynd}<img class="mediumPic" alt="mynd" style="border-radius: 120px;" src="igms/undefined-undefined/_.jpg">{/if}
       {#if PICtrash}<img class="mediumPic" alt="mynd" src="igms/trash/small.png">{/if}
+      {#if PICsecret}<img class="mediumPic" alt="mynd" src="igms/secret/small.png">{/if}
       {#if PICbritney}<img class="mediumPic" alt="mynd" src="igms/undefined-web/7.jpg">{/if}
       {#if PICbrandalism}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/15.png">{/if}
       {#if PICbrandalism}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/14.png">{/if}
@@ -741,6 +742,7 @@
       {#if PICegobook}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/1.png">{/if}
       {#if PICmen}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/aSmalltable.png">{/if}
       {#if PICoilbuddies}<img class="mediumPic" alt="mynd" style="border-radius: 50px;" src="igms/oilbuddies/small.png">{/if}
+      {#if PICsomalgors}<img class="mediumPic" alt="mynd" src="igms/somalgors74/small.jpg">{/if}
       <br><br><br><br><br><br>
     {/if}
 
