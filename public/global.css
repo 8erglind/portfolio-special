@@ -171,11 +171,11 @@ a {color: blue; font-style: italic;}
 	background-color: #f7f6f2;
 }
 .date {
-  left: 5px;
+  left: 20px;
   top: 50.5%;
 }
 .name {
-  right: 5px;
+  right: 20px;
   top: 50.5%;
   text-align: right;
 }
@@ -314,15 +314,47 @@ a {color: blue; font-style: italic;}
   padding: 6px;
   bottom: -1px;
   right: -1px;
-  cursor: nwse-resize;
+  cursor: pointer;
   z-index: 100;
-  color: #027967;
-  
 }
-.menu:hover {
-	/*border-bottom: 1px solid #027967;*/
-	background-color: #027967;
-  	color: white;
+.menuclose {
+  position: absolute;
+  padding: 6px;
+  top: -1px;
+  left: -1px;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.togglefullscreen {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  right: 20px;
+  bottom: 20px;
+}
+
+.toggle-fullscreen-color {
+  fill: #027967;
+}
+/*.toggle-fullscreen-color:hover {
+  fill: #000000;
+}*/
+.togglefullscreen:hover {
+  width: 45px;
+  height: 45px;
+}
+
+.closeFullscreen {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 15px;
+  top: 15px;
+}
+.closeFullscreen:hover {
+  width: 45px;
+  height: 45px;
 }
 
 
