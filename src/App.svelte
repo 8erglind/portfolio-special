@@ -656,9 +656,9 @@
 <div class="container">
 
   <div class="wrapper back">
-    <div class="caption">
+    <!--<div class="caption">
       Work
-    </div>
+    </div>-->
     <div class="out-on-desktop"></div>
     <br><br><br><br>
     

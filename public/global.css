@@ -248,7 +248,7 @@ a {color: blue; font-style: italic;}
 
 .buttonWrapper {
   position: fixed;
-  top: 5px;
+  top: 0px;
   right: 100px;
   left: 50%;
   display: inline;
@@ -258,7 +258,8 @@ a {color: blue; font-style: italic;}
 .button {
   position: relative;
   display: inline;
-  padding: 5px;
+  padding: 12px;
+  top: 12px;
   border: 1px dotted #027967;
   border-top: none;
   margin-right: 2.5px;
@@ -307,6 +308,8 @@ a {color: blue; font-style: italic;}
   color: white;
   top: 0px;
   right: 0px;
+  padding-right: 20px;
+  padding-top: 20px;
 }
 
 .menu {

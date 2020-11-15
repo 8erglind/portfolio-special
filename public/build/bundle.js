@@ -10294,7 +10294,7 @@ var app = (function () {
     			attr_dev(img, "class", "smallPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/flora/small.png")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$o, 665, 18, 36498);
+    			add_location(img, file$o, 665, 18, 36505);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -10340,7 +10340,7 @@ var app = (function () {
     			attr_dev(img, "class", "smallPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/onourowntime/small.png")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$o, 666, 25, 36648);
+    			add_location(img, file$o, 666, 25, 36655);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -10386,7 +10386,7 @@ var app = (function () {
     			attr_dev(img, "class", "smallPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/thesis/small.jpg")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$o, 667, 18, 36805);
+    			add_location(img, file$o, 667, 18, 36812);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -10432,7 +10432,7 @@ var app = (function () {
     			attr_dev(img, "class", "smallPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/viv/small.png")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$o, 668, 16, 36947);
+    			add_location(img, file$o, 668, 16, 36954);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -10478,7 +10478,7 @@ var app = (function () {
     			attr_dev(img, "class", "smallPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/bread/small.jpg")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$o, 669, 18, 37086);
+    			add_location(img, file$o, 669, 18, 37093);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -10524,7 +10524,7 @@ var app = (function () {
     			attr_dev(img, "class", "smallPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/bread/breadmag.jpg")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$o, 670, 21, 37232);
+    			add_location(img, file$o, 670, 21, 37239);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -10570,7 +10570,7 @@ var app = (function () {
     			attr_dev(img, "class", "smallPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/io/small.png")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$o, 671, 24, 37387);
+    			add_location(img, file$o, 671, 24, 37394);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -10616,7 +10616,7 @@ var app = (function () {
     			attr_dev(img, "class", "smallPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/beauimg/small.jpg")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$o, 672, 20, 37535);
+    			add_location(img, file$o, 672, 20, 37542);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -10662,7 +10662,7 @@ var app = (function () {
     			attr_dev(img, "class", "smallPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/typoPosters/3.jpg")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$o, 673, 24, 37688);
+    			add_location(img, file$o, 673, 24, 37695);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -10708,7 +10708,7 @@ var app = (function () {
     			attr_dev(img, "class", "smallPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/oeb/small.png")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$o, 675, 16, 37970);
+    			add_location(img, file$o, 675, 16, 37977);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -10754,7 +10754,7 @@ var app = (function () {
     			attr_dev(img, "class", "smallPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/sortedPlastic/small.png")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$o, 676, 26, 38117);
+    			add_location(img, file$o, 676, 26, 38124);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -10800,7 +10800,7 @@ var app = (function () {
     			attr_dev(img, "class", "smallPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/musicPosters/small.jpg")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$o, 677, 25, 38283);
+    			add_location(img, file$o, 677, 25, 38290);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -10846,7 +10846,7 @@ var app = (function () {
     			attr_dev(img, "class", "smallPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/timatal/small.png")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$o, 678, 20, 38442);
+    			add_location(img, file$o, 678, 20, 38449);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -10892,7 +10892,7 @@ var app = (function () {
     			attr_dev(img, "class", "smallPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/tools/tools.png")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$o, 679, 18, 38589);
+    			add_location(img, file$o, 679, 18, 38596);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -10938,7 +10938,7 @@ var app = (function () {
     			attr_dev(img, "class", "smallPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/typedesign/small.jpg")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$o, 682, 19, 38904);
+    			add_location(img, file$o, 682, 19, 38911);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -10985,7 +10985,7 @@ var app = (function () {
     			attr_dev(img, "alt", "mynd");
     			set_style(img, "max-width", "430px", 1);
     			if (img.src !== (img_src_value = "igms/musicBook/4.png")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$o, 685, 21, 39286);
+    			add_location(img, file$o, 685, 21, 39293);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -11031,7 +11031,7 @@ var app = (function () {
     			attr_dev(img, "class", "smallPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/corruptedspace/smaller.jpg")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$o, 686, 26, 39478);
+    			add_location(img, file$o, 686, 26, 39485);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -11077,7 +11077,7 @@ var app = (function () {
     			attr_dev(img, "class", "smallPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/evublad/evublad-spreads0.jpg")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$o, 687, 20, 39643);
+    			add_location(img, file$o, 687, 20, 39650);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -11123,7 +11123,7 @@ var app = (function () {
     			attr_dev(img, "class", "smallPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/familiarfaces/small.jpg")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$o, 688, 25, 39808);
+    			add_location(img, file$o, 688, 25, 39815);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -11170,7 +11170,7 @@ var app = (function () {
     			attr_dev(img, "alt", "mynd");
     			set_style(img, "max-width", "230px");
     			if (img.src !== (img_src_value = "igms/litabok/small.png")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$o, 689, 20, 39969);
+    			add_location(img, file$o, 689, 20, 39976);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -11216,7 +11216,7 @@ var app = (function () {
     			attr_dev(img, "class", "smallPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/plastica/small2.png")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$o, 695, 21, 40604);
+    			add_location(img, file$o, 695, 21, 40611);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -11410,12 +11410,12 @@ var app = (function () {
     			br3 = element("br");
     			br4 = element("br");
     			br5 = element("br");
-    			add_location(br0, file$o, 767, 6, 47431);
-    			add_location(br1, file$o, 767, 10, 47435);
-    			add_location(br2, file$o, 767, 14, 47439);
-    			add_location(br3, file$o, 767, 18, 47443);
-    			add_location(br4, file$o, 767, 22, 47447);
-    			add_location(br5, file$o, 767, 26, 47451);
+    			add_location(br0, file$o, 767, 6, 47438);
+    			add_location(br1, file$o, 767, 10, 47442);
+    			add_location(br2, file$o, 767, 14, 47446);
+    			add_location(br3, file$o, 767, 18, 47450);
+    			add_location(br4, file$o, 767, 22, 47454);
+    			add_location(br5, file$o, 767, 26, 47458);
     		},
     		m: function mount(target, anchor) {
     			if (if_block0) if_block0.m(target, anchor);
@@ -11998,7 +11998,7 @@ var app = (function () {
     			attr_dev(img, "class", "mediumPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/undefined-teikningar/ulines.png")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$o, 704, 23, 41087);
+    			add_location(img, file$o, 704, 23, 41094);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -12030,7 +12030,7 @@ var app = (function () {
     			attr_dev(img, "class", "mediumPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/undefined-teikningar/upprodun3rettmeddrasli2.jpg")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$o, 705, 23, 41193);
+    			add_location(img, file$o, 705, 23, 41200);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -12062,7 +12062,7 @@ var app = (function () {
     			attr_dev(img, "class", "mediumPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/undefined-undefined/organo.jpg")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$o, 706, 20, 41313);
+    			add_location(img, file$o, 706, 20, 41320);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -12094,7 +12094,7 @@ var app = (function () {
     			attr_dev(img, "class", "mediumPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/undefined-posters/2.jpg")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$o, 707, 20, 41415);
+    			add_location(img, file$o, 707, 20, 41422);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -12126,7 +12126,7 @@ var app = (function () {
     			attr_dev(img, "class", "mediumPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/undefined-undefined/toomuchtoseelevel.jpg")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$o, 708, 21, 41511);
+    			add_location(img, file$o, 708, 21, 41518);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -12158,7 +12158,7 @@ var app = (function () {
     			attr_dev(img, "class", "mediumPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/undefined-undefined/aproverb.jpg")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$o, 709, 21, 41625);
+    			add_location(img, file$o, 709, 21, 41632);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -12190,7 +12190,7 @@ var app = (function () {
     			attr_dev(img, "class", "mediumPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/undefined-undefined/blubb_Page_14b.jpg")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$o, 713, 21, 42005);
+    			add_location(img, file$o, 713, 21, 42012);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -12222,7 +12222,7 @@ var app = (function () {
     			attr_dev(img, "class", "mediumPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/undefined-undefined/5utgafa-ut.jpg")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$o, 716, 20, 42307);
+    			add_location(img, file$o, 716, 20, 42314);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -12254,7 +12254,7 @@ var app = (function () {
     			attr_dev(img, "class", "mediumPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/cali/cali1.jpg")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$o, 720, 18, 42668);
+    			add_location(img, file$o, 720, 18, 42675);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -12286,7 +12286,7 @@ var app = (function () {
     			attr_dev(img, "class", "mediumPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/cali/cali3.jpg")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$o, 722, 18, 42836);
+    			add_location(img, file$o, 722, 18, 42843);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -12318,7 +12318,7 @@ var app = (function () {
     			attr_dev(img, "class", "mediumPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/undefined-undefined/smallbaby.png")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$o, 724, 18, 42993);
+    			add_location(img, file$o, 724, 18, 43000);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -12350,7 +12350,7 @@ var app = (function () {
     			attr_dev(img, "class", "mediumPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/undefined-undefined/5red1.png")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$o, 725, 19, 43097);
+    			add_location(img, file$o, 725, 19, 43104);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -12383,7 +12383,7 @@ var app = (function () {
     			attr_dev(img, "alt", "mynd");
     			set_style(img, "max-width", "30vw");
     			if (img.src !== (img_src_value = "igms/undefined-posters/KABKPuppyParade.jpg")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$o, 729, 19, 43501);
+    			add_location(img, file$o, 729, 19, 43508);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -12415,7 +12415,7 @@ var app = (function () {
     			attr_dev(img, "class", "mediumPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/undefined-undefined/typography.jpg")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$o, 730, 23, 43638);
+    			add_location(img, file$o, 730, 23, 43645);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -12447,7 +12447,7 @@ var app = (function () {
     			attr_dev(img, "class", "mediumPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/undefined-undefined/5web.jpg")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$o, 733, 19, 43922);
+    			add_location(img, file$o, 733, 19, 43929);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -12480,7 +12480,7 @@ var app = (function () {
     			attr_dev(img, "alt", "mynd");
     			set_style(img, "max-width", "30vw");
     			if (img.src !== (img_src_value = "igms/undefined-undefined/spurn.png")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$o, 736, 19, 44225);
+    			add_location(img, file$o, 736, 19, 44232);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -12512,7 +12512,7 @@ var app = (function () {
     			attr_dev(img, "class", "mediumPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/undefined-undefined/oohnoo.gif")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$o, 739, 22, 44570);
+    			add_location(img, file$o, 739, 22, 44577);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -12544,7 +12544,7 @@ var app = (function () {
     			attr_dev(img, "class", "mediumPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/undefined-undefined/front.png")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$o, 740, 23, 44675);
+    			add_location(img, file$o, 740, 23, 44682);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -12576,7 +12576,7 @@ var app = (function () {
     			attr_dev(img, "class", "mediumPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/undefined-undefined/display1.jpg")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$o, 742, 23, 44877);
+    			add_location(img, file$o, 742, 23, 44884);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -12608,7 +12608,7 @@ var app = (function () {
     			attr_dev(img, "class", "mediumPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/undefined-undefined/display2.jpg")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$o, 743, 23, 44984);
+    			add_location(img, file$o, 743, 23, 44991);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -12640,7 +12640,7 @@ var app = (function () {
     			attr_dev(img, "class", "mediumPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/undefined-undefined/display3.jpg")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$o, 744, 23, 45091);
+    			add_location(img, file$o, 744, 23, 45098);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -12672,7 +12672,7 @@ var app = (function () {
     			attr_dev(img, "class", "mediumPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/undefined-posters/otherPoster.jpg")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$o, 751, 24, 45810);
+    			add_location(img, file$o, 751, 24, 45817);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -12704,7 +12704,7 @@ var app = (function () {
     			attr_dev(img, "class", "mediumPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/undefined-teikningar/teikning1.jpg")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$o, 752, 22, 45917);
+    			add_location(img, file$o, 752, 22, 45924);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -12736,7 +12736,7 @@ var app = (function () {
     			attr_dev(img, "class", "mediumPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/undefined-teikningar/teikning2.jpg")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$o, 753, 22, 46025);
+    			add_location(img, file$o, 753, 22, 46032);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -12768,7 +12768,7 @@ var app = (function () {
     			attr_dev(img, "class", "mediumPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/undefined-teikningar/teikning3.jpg")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$o, 754, 22, 46133);
+    			add_location(img, file$o, 754, 22, 46140);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -12800,7 +12800,7 @@ var app = (function () {
     			attr_dev(img, "class", "mediumPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/alltmitt/1.png")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$o, 755, 23, 46242);
+    			add_location(img, file$o, 755, 23, 46249);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -12833,7 +12833,7 @@ var app = (function () {
     			attr_dev(img, "alt", "mynd");
     			set_style(img, "border-radius", "120px");
     			if (img.src !== (img_src_value = "igms/undefined-undefined/_.jpg")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$o, 756, 22, 46330);
+    			add_location(img, file$o, 756, 22, 46337);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -12865,7 +12865,7 @@ var app = (function () {
     			attr_dev(img, "class", "mediumPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/trash/small.png")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$o, 757, 20, 46457);
+    			add_location(img, file$o, 757, 20, 46464);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -12897,7 +12897,7 @@ var app = (function () {
     			attr_dev(img, "class", "mediumPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/secret/small.png")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$o, 758, 21, 46545);
+    			add_location(img, file$o, 758, 21, 46552);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -12929,7 +12929,7 @@ var app = (function () {
     			attr_dev(img, "class", "mediumPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/undefined-web/7.jpg")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$o, 759, 22, 46635);
+    			add_location(img, file$o, 759, 22, 46642);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -12961,7 +12961,7 @@ var app = (function () {
     			attr_dev(img, "class", "mediumPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/undefined-undefined/15.png")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$o, 760, 25, 46731);
+    			add_location(img, file$o, 760, 25, 46738);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -12993,7 +12993,7 @@ var app = (function () {
     			attr_dev(img, "class", "mediumPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/undefined-undefined/14.png")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$o, 761, 25, 46834);
+    			add_location(img, file$o, 761, 25, 46841);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -13025,7 +13025,7 @@ var app = (function () {
     			attr_dev(img, "class", "mediumPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/undefined-undefined/1.png")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$o, 763, 22, 47020);
+    			add_location(img, file$o, 763, 22, 47027);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -13057,7 +13057,7 @@ var app = (function () {
     			attr_dev(img, "class", "mediumPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/undefined-undefined/aSmalltable.png")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$o, 764, 18, 47115);
+    			add_location(img, file$o, 764, 18, 47122);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -13090,7 +13090,7 @@ var app = (function () {
     			attr_dev(img, "alt", "mynd");
     			set_style(img, "border-radius", "50px");
     			if (img.src !== (img_src_value = "igms/oilbuddies/small.png")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$o, 765, 25, 47227);
+    			add_location(img, file$o, 765, 25, 47234);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -13122,7 +13122,7 @@ var app = (function () {
     			attr_dev(img, "class", "mediumPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/somalgors74/small.jpg")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$o, 766, 24, 47352);
+    			add_location(img, file$o, 766, 24, 47359);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -13326,16 +13326,16 @@ var app = (function () {
     	let br16;
     	let t142;
     	let t143;
-    	let div18;
     	let div17;
+    	let div16;
     	let div14;
-    	let t145;
-    	let div15;
-    	let t146;
+    	let t144;
     	let br17;
     	let br18;
     	let br19;
     	let br20;
+    	let t145;
+    	let t146;
     	let t147;
     	let t148;
     	let t149;
@@ -13356,10 +13356,8 @@ var app = (function () {
     	let t164;
     	let t165;
     	let t166;
+    	let div15;
     	let t167;
-    	let t168;
-    	let div16;
-    	let t169;
     	let current;
     	let mounted;
     	let dispose;
@@ -13811,62 +13809,59 @@ var app = (function () {
     			br16 = element("br");
     			t142 = text("**MOBILE VERSION IS UNDER CONSTRUCTION**");
     			t143 = space();
-    			div18 = element("div");
     			div17 = element("div");
+    			div16 = element("div");
     			div14 = element("div");
-    			div14.textContent = "Work";
-    			t145 = space();
-    			div15 = element("div");
-    			t146 = space();
+    			t144 = space();
     			br17 = element("br");
     			br18 = element("br");
     			br19 = element("br");
     			br20 = element("br");
-    			t147 = space();
+    			t145 = space();
     			if (if_block117) if_block117.c();
-    			t148 = space();
+    			t146 = space();
     			if (if_block118) if_block118.c();
-    			t149 = space();
+    			t147 = space();
     			if (if_block119) if_block119.c();
-    			t150 = space();
+    			t148 = space();
     			if (if_block120) if_block120.c();
-    			t151 = space();
+    			t149 = space();
     			if (if_block121) if_block121.c();
-    			t152 = space();
+    			t150 = space();
     			if (if_block122) if_block122.c();
-    			t153 = space();
+    			t151 = space();
     			if (if_block123) if_block123.c();
-    			t154 = space();
+    			t152 = space();
     			if (if_block124) if_block124.c();
-    			t155 = space();
+    			t153 = space();
     			if (if_block125) if_block125.c();
-    			t156 = space();
+    			t154 = space();
     			if (if_block126) if_block126.c();
-    			t157 = space();
+    			t155 = space();
     			if (if_block127) if_block127.c();
-    			t158 = space();
+    			t156 = space();
     			if (if_block128) if_block128.c();
-    			t159 = space();
+    			t157 = space();
     			if (if_block129) if_block129.c();
-    			t160 = space();
+    			t158 = space();
     			if (if_block130) if_block130.c();
-    			t161 = space();
+    			t159 = space();
     			if (if_block131) if_block131.c();
-    			t162 = space();
+    			t160 = space();
     			if (if_block132) if_block132.c();
-    			t163 = space();
+    			t161 = space();
     			if (if_block133) if_block133.c();
-    			t164 = space();
+    			t162 = space();
     			if (if_block134) if_block134.c();
-    			t165 = space();
+    			t163 = space();
     			if (if_block135) if_block135.c();
-    			t166 = space();
+    			t164 = space();
     			if (if_block136) if_block136.c();
-    			t167 = space();
+    			t165 = space();
     			if (if_block137) if_block137.c();
-    			t168 = space();
-    			div16 = element("div");
-    			t169 = space();
+    			t166 = space();
+    			div15 = element("div");
+    			t167 = space();
     			if (if_block138) if_block138.c();
     			attr_dev(div0, "class", "button");
     			add_location(div0, file$o, 457, 2, 23082);
@@ -13948,20 +13943,18 @@ var app = (function () {
     			add_location(div12, file$o, 631, 2, 35403);
     			attr_dev(div13, "class", "biography");
     			add_location(div13, file$o, 629, 0, 35374);
-    			attr_dev(div14, "class", "caption");
-    			add_location(div14, file$o, 658, 4, 36366);
-    			attr_dev(div15, "class", "out-on-desktop");
-    			add_location(div15, file$o, 661, 4, 36414);
-    			add_location(br17, file$o, 662, 4, 36453);
-    			add_location(br18, file$o, 662, 8, 36457);
-    			add_location(br19, file$o, 662, 12, 36461);
-    			add_location(br20, file$o, 662, 16, 36465);
-    			attr_dev(div16, "class", "line svelte-uaq7m0");
-    			add_location(div16, file$o, 701, 5, 40943);
-    			attr_dev(div17, "class", "wrapper back");
-    			add_location(div17, file$o, 657, 2, 36335);
-    			attr_dev(div18, "class", "container");
-    			add_location(div18, file$o, 655, 0, 36308);
+    			attr_dev(div14, "class", "out-on-desktop");
+    			add_location(div14, file$o, 661, 4, 36421);
+    			add_location(br17, file$o, 662, 4, 36460);
+    			add_location(br18, file$o, 662, 8, 36464);
+    			add_location(br19, file$o, 662, 12, 36468);
+    			add_location(br20, file$o, 662, 16, 36472);
+    			attr_dev(div15, "class", "line svelte-uaq7m0");
+    			add_location(div15, file$o, 701, 5, 40950);
+    			attr_dev(div16, "class", "wrapper back");
+    			add_location(div16, file$o, 657, 2, 36335);
+    			attr_dev(div17, "class", "container");
+    			add_location(div17, file$o, 655, 0, 36308);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -14265,62 +14258,60 @@ var app = (function () {
     			append_dev(span3, br16);
     			append_dev(span3, t142);
     			insert_dev(target, t143, anchor);
-    			insert_dev(target, div18, anchor);
-    			append_dev(div18, div17);
-    			append_dev(div17, div14);
-    			append_dev(div17, t145);
-    			append_dev(div17, div15);
-    			append_dev(div17, t146);
-    			append_dev(div17, br17);
-    			append_dev(div17, br18);
-    			append_dev(div17, br19);
-    			append_dev(div17, br20);
-    			append_dev(div17, t147);
-    			if (if_block117) if_block117.m(div17, null);
-    			append_dev(div17, t148);
-    			if (if_block118) if_block118.m(div17, null);
-    			append_dev(div17, t149);
-    			if (if_block119) if_block119.m(div17, null);
-    			append_dev(div17, t150);
-    			if (if_block120) if_block120.m(div17, null);
-    			append_dev(div17, t151);
-    			if (if_block121) if_block121.m(div17, null);
-    			append_dev(div17, t152);
-    			if (if_block122) if_block122.m(div17, null);
-    			append_dev(div17, t153);
-    			if (if_block123) if_block123.m(div17, null);
-    			append_dev(div17, t154);
-    			if (if_block124) if_block124.m(div17, null);
-    			append_dev(div17, t155);
-    			if (if_block125) if_block125.m(div17, null);
-    			append_dev(div17, t156);
-    			if (if_block126) if_block126.m(div17, null);
-    			append_dev(div17, t157);
-    			if (if_block127) if_block127.m(div17, null);
-    			append_dev(div17, t158);
-    			if (if_block128) if_block128.m(div17, null);
-    			append_dev(div17, t159);
-    			if (if_block129) if_block129.m(div17, null);
-    			append_dev(div17, t160);
-    			if (if_block130) if_block130.m(div17, null);
-    			append_dev(div17, t161);
-    			if (if_block131) if_block131.m(div17, null);
-    			append_dev(div17, t162);
-    			if (if_block132) if_block132.m(div17, null);
-    			append_dev(div17, t163);
-    			if (if_block133) if_block133.m(div17, null);
-    			append_dev(div17, t164);
-    			if (if_block134) if_block134.m(div17, null);
-    			append_dev(div17, t165);
-    			if (if_block135) if_block135.m(div17, null);
-    			append_dev(div17, t166);
-    			if (if_block136) if_block136.m(div17, null);
-    			append_dev(div17, t167);
-    			if (if_block137) if_block137.m(div17, null);
-    			append_dev(div17, t168);
+    			insert_dev(target, div17, anchor);
     			append_dev(div17, div16);
-    			append_dev(div17, t169);
-    			if (if_block138) if_block138.m(div17, null);
+    			append_dev(div16, div14);
+    			append_dev(div16, t144);
+    			append_dev(div16, br17);
+    			append_dev(div16, br18);
+    			append_dev(div16, br19);
+    			append_dev(div16, br20);
+    			append_dev(div16, t145);
+    			if (if_block117) if_block117.m(div16, null);
+    			append_dev(div16, t146);
+    			if (if_block118) if_block118.m(div16, null);
+    			append_dev(div16, t147);
+    			if (if_block119) if_block119.m(div16, null);
+    			append_dev(div16, t148);
+    			if (if_block120) if_block120.m(div16, null);
+    			append_dev(div16, t149);
+    			if (if_block121) if_block121.m(div16, null);
+    			append_dev(div16, t150);
+    			if (if_block122) if_block122.m(div16, null);
+    			append_dev(div16, t151);
+    			if (if_block123) if_block123.m(div16, null);
+    			append_dev(div16, t152);
+    			if (if_block124) if_block124.m(div16, null);
+    			append_dev(div16, t153);
+    			if (if_block125) if_block125.m(div16, null);
+    			append_dev(div16, t154);
+    			if (if_block126) if_block126.m(div16, null);
+    			append_dev(div16, t155);
+    			if (if_block127) if_block127.m(div16, null);
+    			append_dev(div16, t156);
+    			if (if_block128) if_block128.m(div16, null);
+    			append_dev(div16, t157);
+    			if (if_block129) if_block129.m(div16, null);
+    			append_dev(div16, t158);
+    			if (if_block130) if_block130.m(div16, null);
+    			append_dev(div16, t159);
+    			if (if_block131) if_block131.m(div16, null);
+    			append_dev(div16, t160);
+    			if (if_block132) if_block132.m(div16, null);
+    			append_dev(div16, t161);
+    			if (if_block133) if_block133.m(div16, null);
+    			append_dev(div16, t162);
+    			if (if_block134) if_block134.m(div16, null);
+    			append_dev(div16, t163);
+    			if (if_block135) if_block135.m(div16, null);
+    			append_dev(div16, t164);
+    			if (if_block136) if_block136.m(div16, null);
+    			append_dev(div16, t165);
+    			if (if_block137) if_block137.m(div16, null);
+    			append_dev(div16, t166);
+    			append_dev(div16, div15);
+    			append_dev(div16, t167);
+    			if (if_block138) if_block138.m(div16, null);
     			current = true;
 
     			if (!mounted) {
@@ -15875,7 +15866,7 @@ var app = (function () {
     				} else {
     					if_block117 = create_if_block_57(ctx);
     					if_block117.c();
-    					if_block117.m(div17, t148);
+    					if_block117.m(div16, t146);
     				}
     			} else if (if_block117) {
     				if_block117.d(1);
@@ -15888,7 +15879,7 @@ var app = (function () {
     				} else {
     					if_block118 = create_if_block_56(ctx);
     					if_block118.c();
-    					if_block118.m(div17, t149);
+    					if_block118.m(div16, t147);
     				}
     			} else if (if_block118) {
     				if_block118.d(1);
@@ -15901,7 +15892,7 @@ var app = (function () {
     				} else {
     					if_block119 = create_if_block_55(ctx);
     					if_block119.c();
-    					if_block119.m(div17, t150);
+    					if_block119.m(div16, t148);
     				}
     			} else if (if_block119) {
     				if_block119.d(1);
@@ -15914,7 +15905,7 @@ var app = (function () {
     				} else {
     					if_block120 = create_if_block_54(ctx);
     					if_block120.c();
-    					if_block120.m(div17, t151);
+    					if_block120.m(div16, t149);
     				}
     			} else if (if_block120) {
     				if_block120.d(1);
@@ -15927,7 +15918,7 @@ var app = (function () {
     				} else {
     					if_block121 = create_if_block_53(ctx);
     					if_block121.c();
-    					if_block121.m(div17, t152);
+    					if_block121.m(div16, t150);
     				}
     			} else if (if_block121) {
     				if_block121.d(1);
@@ -15940,7 +15931,7 @@ var app = (function () {
     				} else {
     					if_block122 = create_if_block_52(ctx);
     					if_block122.c();
-    					if_block122.m(div17, t153);
+    					if_block122.m(div16, t151);
     				}
     			} else if (if_block122) {
     				if_block122.d(1);
@@ -15953,7 +15944,7 @@ var app = (function () {
     				} else {
     					if_block123 = create_if_block_51(ctx);
     					if_block123.c();
-    					if_block123.m(div17, t154);
+    					if_block123.m(div16, t152);
     				}
     			} else if (if_block123) {
     				if_block123.d(1);
@@ -15966,7 +15957,7 @@ var app = (function () {
     				} else {
     					if_block124 = create_if_block_50(ctx);
     					if_block124.c();
-    					if_block124.m(div17, t155);
+    					if_block124.m(div16, t153);
     				}
     			} else if (if_block124) {
     				if_block124.d(1);
@@ -15979,7 +15970,7 @@ var app = (function () {
     				} else {
     					if_block125 = create_if_block_49(ctx);
     					if_block125.c();
-    					if_block125.m(div17, t156);
+    					if_block125.m(div16, t154);
     				}
     			} else if (if_block125) {
     				if_block125.d(1);
@@ -15992,7 +15983,7 @@ var app = (function () {
     				} else {
     					if_block126 = create_if_block_48(ctx);
     					if_block126.c();
-    					if_block126.m(div17, t157);
+    					if_block126.m(div16, t155);
     				}
     			} else if (if_block126) {
     				if_block126.d(1);
@@ -16005,7 +15996,7 @@ var app = (function () {
     				} else {
     					if_block127 = create_if_block_47(ctx);
     					if_block127.c();
-    					if_block127.m(div17, t158);
+    					if_block127.m(div16, t156);
     				}
     			} else if (if_block127) {
     				if_block127.d(1);
@@ -16018,7 +16009,7 @@ var app = (function () {
     				} else {
     					if_block128 = create_if_block_46(ctx);
     					if_block128.c();
-    					if_block128.m(div17, t159);
+    					if_block128.m(div16, t157);
     				}
     			} else if (if_block128) {
     				if_block128.d(1);
@@ -16031,7 +16022,7 @@ var app = (function () {
     				} else {
     					if_block129 = create_if_block_45(ctx);
     					if_block129.c();
-    					if_block129.m(div17, t160);
+    					if_block129.m(div16, t158);
     				}
     			} else if (if_block129) {
     				if_block129.d(1);
@@ -16044,7 +16035,7 @@ var app = (function () {
     				} else {
     					if_block130 = create_if_block_44(ctx);
     					if_block130.c();
-    					if_block130.m(div17, t161);
+    					if_block130.m(div16, t159);
     				}
     			} else if (if_block130) {
     				if_block130.d(1);
@@ -16057,7 +16048,7 @@ var app = (function () {
     				} else {
     					if_block131 = create_if_block_43(ctx);
     					if_block131.c();
-    					if_block131.m(div17, t162);
+    					if_block131.m(div16, t160);
     				}
     			} else if (if_block131) {
     				if_block131.d(1);
@@ -16070,7 +16061,7 @@ var app = (function () {
     				} else {
     					if_block132 = create_if_block_42(ctx);
     					if_block132.c();
-    					if_block132.m(div17, t163);
+    					if_block132.m(div16, t161);
     				}
     			} else if (if_block132) {
     				if_block132.d(1);
@@ -16083,7 +16074,7 @@ var app = (function () {
     				} else {
     					if_block133 = create_if_block_41(ctx);
     					if_block133.c();
-    					if_block133.m(div17, t164);
+    					if_block133.m(div16, t162);
     				}
     			} else if (if_block133) {
     				if_block133.d(1);
@@ -16096,7 +16087,7 @@ var app = (function () {
     				} else {
     					if_block134 = create_if_block_40(ctx);
     					if_block134.c();
-    					if_block134.m(div17, t165);
+    					if_block134.m(div16, t163);
     				}
     			} else if (if_block134) {
     				if_block134.d(1);
@@ -16109,7 +16100,7 @@ var app = (function () {
     				} else {
     					if_block135 = create_if_block_39(ctx);
     					if_block135.c();
-    					if_block135.m(div17, t166);
+    					if_block135.m(div16, t164);
     				}
     			} else if (if_block135) {
     				if_block135.d(1);
@@ -16122,7 +16113,7 @@ var app = (function () {
     				} else {
     					if_block136 = create_if_block_38(ctx);
     					if_block136.c();
-    					if_block136.m(div17, t167);
+    					if_block136.m(div16, t165);
     				}
     			} else if (if_block136) {
     				if_block136.d(1);
@@ -16135,7 +16126,7 @@ var app = (function () {
     				} else {
     					if_block137 = create_if_block_37(ctx);
     					if_block137.c();
-    					if_block137.m(div17, t168);
+    					if_block137.m(div16, t166);
     				}
     			} else if (if_block137) {
     				if_block137.d(1);
@@ -16323,7 +16314,7 @@ var app = (function () {
     			if (detaching) detach_dev(t127);
     			if (detaching) detach_dev(div13);
     			if (detaching) detach_dev(t143);
-    			if (detaching) detach_dev(div18);
+    			if (detaching) detach_dev(div17);
     			if (if_block117) if_block117.d();
     			if (if_block118) if_block118.d();
     			if (if_block119) if_block119.d();
