@@ -215,10 +215,9 @@ a {color: blue; font-style: italic;}
 .biography {
   position: fixed;
   top: calc(0% + 5px);
-  bottom: 16px;
-  left: 5px;
+  bottom: 0px;
+  left: 0px;
   right: calc(65% - 1px);
-  
   overflow-y: scroll;
   z-index: 1;
   /*border-bottom: 1px dotted #00004d;*/
@@ -234,12 +233,12 @@ a {color: blue; font-style: italic;}
 }
 .biography-text {
   position: absolute;
-  bottom: 10px;
-  left: 10px;
+  bottom: 20px;
+  left: 20px;
   width: calc(100% - 10px);
   z-index: 100;
 
-  bottom: 15px;
+  bottom: 25px;
 }
 
 
