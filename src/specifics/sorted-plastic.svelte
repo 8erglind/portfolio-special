@@ -18,9 +18,9 @@
 	<img class="img portfolio-item" style="border-radius: 30px;" alt="mynd" src="igms/sortedPlastic/lol.jpg" />
 	<img class="img portfolio-item" alt="mynd" src="igms/sortedPlastic/back.png" />
 	<br><br><br><br><br><br><br><br>
-	<img class="img portfolio-item smaller" alt="mynd" src="igms/sortedPlastic/leikur1.png" />
+	<!--<img class="img portfolio-item smaller" alt="mynd" src="igms/sortedPlastic/leikur1.png" />
 	<img class="img portfolio-item smaller" alt="mynd" src="igms/sortedPlastic/leikur2.png" />
-	<br><br><br><br><br><br><br><br>
+	<br><br><br><br><br><br><br><br>-->
 </div>
 
 

@@ -25,6 +25,8 @@
 	import Flora from './specifics/Flora.svelte';
 	import Breadmag from './specifics/Breadmag.svelte';
   import Evublad from './specifics/Evublad.svelte';
+  import Somalgors from './specifics/Somalgors.svelte';
+  import Organogram from './specifics/Organogram.svelte';
 
 
 
@@ -60,6 +62,8 @@
 	let flora = false;
 	let breadmag = false;
   let evublad = false;
+  let somalgors = false;
+  let organogram = false;
 	
 
 
@@ -76,30 +80,34 @@
 	//}
 
 	//const toggleother = () => { other = true;}
-  const toggleonourowntime = () => { frontscreen = false; onourowntime = true; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false; evublad = false; CollapseIcon = true; ExpandIcon = false;}
-	const togglegreen = () => { frontscreen = false; onourowntime = false; green = true; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false; evublad = false; CollapseIcon = true; ExpandIcon = false;}
-	const toggleviv = () => { frontscreen = false; onourowntime = false; green = false; viv = true; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false; evublad = false; CollapseIcon = true; ExpandIcon = false;}
-	const toggleportfolioio = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = true; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false; evublad = false; CollapseIcon = true; ExpandIcon = false;}
-	const toggletypoposters = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = true; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false; evublad = false; CollapseIcon = true; ExpandIcon = false;}
-	const togglesecret = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = true; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false; evublad = false; CollapseIcon = true; ExpandIcon = false;}
-	const togglesortedplastic = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = true; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false; evublad = false; CollapseIcon = true; ExpandIcon = false;}
-	const togglemusicposters = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = true; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false; evublad = false; CollapseIcon = true; ExpandIcon = false;}
-	const toggletimatal = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = true; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false; evublad = false; CollapseIcon = true; ExpandIcon = false;}
-	const toggletools = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = true; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false; evublad = false; CollapseIcon = true; ExpandIcon = false;}
-	const toggleplastica = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = true; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false; evublad = false; CollapseIcon = true; ExpandIcon = false;}
-	const togglemusicbook = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = true; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false; evublad = false; CollapseIcon = true; ExpandIcon = false;}
-	const togglecorruptedspace = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = true; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false; evublad = false; CollapseIcon = true; ExpandIcon = false;}
-	const toggleoilbuddies = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = true; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false; evublad = false; CollapseIcon = true; ExpandIcon = false;}
-	const togglefamiliarfaces = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; litabok = false; plastica = false; familiarfaces = true; trash = false; likamar = false; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false; evublad = false; CollapseIcon = true; ExpandIcon = false;}
-	const togglelitabok = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = true; trash = false; likamar = false; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false; evublad = false; CollapseIcon = true; ExpandIcon = false;}
-	const toggletrash = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = true; likamar = false; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false; evublad = false; CollapseIcon = true; ExpandIcon = false;}
-	const togglelikamar = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = true; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false; evublad = false; CollapseIcon = true; ExpandIcon = false;}
-	const toggleoeb = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = true; beauimg = false;  bread = false; flora = false; breadmag = false; evublad = false; CollapseIcon = true; ExpandIcon = false;}
-	const togglebeauimg = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = true;  bread = false; flora = false; breadmag = false; evublad = false; CollapseIcon = true; ExpandIcon = false;}
-	const togglebread = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false; bread = true; flora = false; breadmag = false; evublad = false; CollapseIcon = true; ExpandIcon = false;}
-	const toggleflora = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false; bread = false; flora = true; breadmag = false; evublad = false; CollapseIcon = true; ExpandIcon = false;}
-	const togglebreadmag = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false; bread = false; flora = false; breadmag = true; evublad = false; CollapseIcon = true; ExpandIcon = false;}
-  const toggleevublad = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false; bread = false; flora = false; breadmag = false; evublad = true; CollapseIcon = true; ExpandIcon = false;}
+  const toggleonourowntime = () => { frontscreen = false; onourowntime = true; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false; evublad = false; somalgors = false; organogram = false; CollapseIcon = true; ExpandIcon = false;}
+	const togglegreen = () => { frontscreen = false; onourowntime = false; green = true; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false; evublad = false; somalgors = false; organogram = false; CollapseIcon = true; ExpandIcon = false;}
+	const toggleviv = () => { frontscreen = false; onourowntime = false; green = false; viv = true; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false; evublad = false; somalgors = false; organogram = false; CollapseIcon = true; ExpandIcon = false;}
+	const toggleportfolioio = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = true; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false; evublad = false; somalgors = false; organogram = false; CollapseIcon = true; ExpandIcon = false;}
+	const toggletypoposters = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = true; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false; evublad = false; somalgors = false; organogram = false; CollapseIcon = true; ExpandIcon = false;}
+	const togglesecret = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = true; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false; evublad = false; somalgors = false; organogram = false; CollapseIcon = true; ExpandIcon = false;}
+	const togglesortedplastic = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = true; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false; evublad = false; somalgors = false; organogram = false; CollapseIcon = true; ExpandIcon = false;}
+	const togglemusicposters = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = true; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false; evublad = false; somalgors = false; organogram = false; CollapseIcon = true; ExpandIcon = false;}
+	const toggletimatal = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = true; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false; evublad = false; somalgors = false; organogram = false; CollapseIcon = true; ExpandIcon = false;}
+	const toggletools = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = true; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false; evublad = false; somalgors = false; organogram = false; CollapseIcon = true; ExpandIcon = false;}
+	const toggleplastica = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = true; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false; evublad = false; somalgors = false; organogram = false; CollapseIcon = true; ExpandIcon = false;}
+	const togglemusicbook = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = true; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false; evublad = false; somalgors = false; organogram = false; CollapseIcon = true; ExpandIcon = false;}
+	const togglecorruptedspace = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = true; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false; evublad = false; somalgors = false; organogram = false; CollapseIcon = true; ExpandIcon = false;}
+	const toggleoilbuddies = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = true; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false; evublad = false; somalgors = false; organogram = false; CollapseIcon = true; ExpandIcon = false;}
+	const togglefamiliarfaces = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; litabok = false; plastica = false; familiarfaces = true; trash = false; likamar = false; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false; evublad = false; somalgors = false; organogram = false; CollapseIcon = true; ExpandIcon = false;}
+	const togglelitabok = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = true; trash = false; likamar = false; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false; evublad = false; somalgors = false; organogram = false; CollapseIcon = true; ExpandIcon = false;}
+	const toggletrash = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = true; likamar = false; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false; evublad = false; somalgors = false; organogram = false; CollapseIcon = true; ExpandIcon = false;}
+	const togglelikamar = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = true; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false; evublad = false; somalgors = false; organogram = false; CollapseIcon = true; ExpandIcon = false;}
+	const toggleoeb = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = true; beauimg = false;  bread = false; flora = false; breadmag = false; evublad = false; somalgors = false; organogram = false; CollapseIcon = true; ExpandIcon = false;}
+	const togglebeauimg = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = true;  bread = false; flora = false; breadmag = false; evublad = false; somalgors = false; organogram = false; CollapseIcon = true; ExpandIcon = false;}
+	const togglebread = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false; bread = true; flora = false; breadmag = false; evublad = false; somalgors = false; organogram = false; CollapseIcon = true; ExpandIcon = false;}
+	const toggleflora = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false; bread = false; flora = true; breadmag = false; evublad = false; somalgors = false; organogram = false; CollapseIcon = true; ExpandIcon = false;}
+	const togglebreadmag = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false; bread = false; flora = false; breadmag = true; evublad = false; somalgors = false; organogram = false; CollapseIcon = true; ExpandIcon = false;}
+  const toggleevublad = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false; bread = false; flora = false; breadmag = false; evublad = true; somalgors = false; organogram = false; CollapseIcon = true; ExpandIcon = false;}
+  const togglesomalgors = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false; bread = false; flora = false; breadmag = false; evublad = false; somalgors = true; organogram = false; CollapseIcon = true; ExpandIcon = false;}
+  const toggleorganogram = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false; bread = false; flora = false; breadmag = false; evublad = false; somalgors = false; organogram = true; CollapseIcon = true; ExpandIcon = false;}
+
+  
 
 
 
@@ -158,6 +166,7 @@
   let PICegobook = true;
   let PICmen = true;
   let PICalltmitt = true;
+  let PICpsycho = true;
 
   const toggleWEB = () => { 
     PICtimatal = false; 
@@ -176,12 +185,13 @@
     PIConourowntime = true; 
     PICgreen = true; 
     PICportfolioio = true; 
-    PICsortedplastic = true; 
+    PICsortedplastic = false; 
     PICtools = false; 
     PICmusicbook = false; 
     PICcorruptedspace = false; 
     PICoilbuddies = false; 
-    PICplastica = true; PICoeb = true; 
+    PICplastica = true; 
+    PICoeb = true; 
     PICflora = true; 
     PICsomalgors = true;
 
@@ -213,6 +223,7 @@
     PICegobook = false;
     PICmen = false;
     PICalltmitt = true;
+    PICpsycho = false;
   }
   const togglePRINT = () => { 
     PICflora = false; 
@@ -269,6 +280,7 @@
     PICegobook = true;
     PICmen = false;
     PICalltmitt = false;
+    PICpsycho = false;
   }
   const toggleVIDEO = () => { 
     PIConourowntime = false; 
@@ -325,6 +337,7 @@
     PICegobook = false;
     PICmen = true;
     PICalltmitt = false;
+    PICpsycho = true;
   }
   const toggleOTHER = () => { 
     PICflora = false; 
@@ -381,6 +394,7 @@
     PICegobook = false;
     PICmen = true;
     PICalltmitt = false;
+    PICpsycho = true;
   }
   const toggleALL = () => { 
     PIConourowntime = true; 
@@ -437,6 +451,7 @@
     PICegobook = true;
     PICmen = true;
     PICalltmitt = true;
+    PICpsycho = true;
   }
 
 
@@ -513,6 +528,8 @@
   	{#if breadmag}Spring 2019{/if}
   	{#if flora}Summer 2018 - ongoing{/if}
     {#if evublad}Spring 2018{/if}
+    {#if somalgors}Autumn 2019{/if}
+    {#if organogram}Autumn 2018{/if}
   </div>
 
   <div class="subtitlesDate mainscreen-subtitles"><span class="subtitles-text">
@@ -569,6 +586,8 @@
   	{#if likamar}Untitled Typeface{/if}
   	{#if flora}<a href="https://flora-utgafa.is/" style="color: lightblue !important;" target="_blank">Flóra útgáfa</a>{/if}
     {#if evublad}Artist Interview<br>Eva Sigurðardóttir{/if}
+    {#if somalgors}Internship at Somalgors74<br>with Curdin Tones{/if}
+    {#if organogram}Organogram{/if}
   </div>
   <div class="subtitlesName mainscreen-subtitles">
     <span class="subtitles-text">
@@ -623,6 +642,8 @@
   {#if flora}<Flora></Flora>{/if}
   {#if breadmag}<Breadmag></Breadmag>{/if}
   {#if evublad}<Evublad></Evublad>{/if}
+  {#if somalgors}<Somalgors></Somalgors>{/if}
+  {#if organogram}<Organogram></Organogram>{/if}
   
   
 </div>
@@ -678,16 +699,16 @@
     {#if PICmusicposters}<img class="smallPic" alt="mynd" src="igms/musicPosters/small.jpg" on:click={togglemusicposters} on:click="{() => expand = !expand}">{/if}
     {#if PICtimatal}<img class="smallPic" alt="mynd" src="igms/timatal/small.png" on:click={toggletimatal} on:click="{() => expand = !expand}">{/if}
     {#if PICtools}<img class="smallPic" alt="mynd" src="igms/tools/tools.png" on:click={toggletools} on:click="{() => expand = !expand}">{/if}
+    {#if PICfamiliarfaces}<img class="smallPic" alt="mynd" src="igms/familiarfaces/small.jpg" on:click={togglefamiliarfaces} on:click="{() => expand = !expand}">{/if}
     <!--<img class="smallPic" alt="mynd" src="igms/body/body.png">-->
     <!--{#if PICsomalgors}<img class="smallPic" alt="mynd" src="igms/somalgors74/small.jpg">{/if}-->
-	  {#if PIClikamar}<img class="smallPic" alt="mynd" src="igms/typedesign/small.jpg" on:click={togglelikamar} on:click="{() => expand = !expand}">{/if}
 	  <!--<img class="smallPic" alt="mynd" src="igms/cali/small.jpg"> OTHER -->
 	  <!--{#if PICsecret}<img class="smallPic" alt="mynd" src="igms/secret/small.png" on:click={togglesecret} on:click="{() => expand = !expand}">{/if}-->
 	  {#if PICmusicbook}<img class="smallPic" alt="mynd" style="max-width: 430px !important;" src="igms/musicBook/4.png" on:click={togglemusicbook} on:click="{() => expand = !expand}">{/if}
   	{#if PICcorruptedspace}<img class="smallPic" alt="mynd" src="igms/corruptedspace/smaller.jpg" on:click={togglecorruptedspace} on:click="{() => expand = !expand}">{/if}
+    {#if PICsomalgors}<img class="smallPic" alt="mynd" src="igms/somalgors74/vitrine.jpg" on:click={togglesomalgors} on:click="{() => expand = !expand}">{/if}
+    {#if PIClitabok}<img class="smallPic" alt="mynd" style="max-width: 230px;" src="igms/litabok/skulpt25-small.png" on:click={togglelitabok} on:click="{() => expand = !expand}">{/if}
     {#if PICevublad}<img class="smallPic" alt="mynd" src="igms/evublad/evublad-spreads0.jpg" on:click={toggleevublad} on:click="{() => expand = !expand}">{/if}
-  	{#if PICfamiliarfaces}<img class="smallPic" alt="mynd" src="igms/familiarfaces/small.jpg" on:click={togglefamiliarfaces} on:click="{() => expand = !expand}">{/if}
-    {#if PIClitabok}<img class="smallPic" alt="mynd" style="max-width: 230px;" src="igms/litabok/small.png" on:click={togglelitabok} on:click="{() => expand = !expand}">{/if}
   	<!--{#if PICtrash}<img class="smallPic" alt="mynd" src="igms/trash/small.png" on:click={toggletrash} on:click="{() => expand = !expand}">{/if}-->
     <!--<img class="smallPic" alt="mynd" src="igms/alterego/small.png"> OTHER -->
     <!--<img class="smallPic" alt="mynd" src="igms/grad/small.png">-->
@@ -695,6 +716,8 @@
     <!--<img class="smallPic" alt="mynd" src="igms/faces/small.png"> OTHER -->
     {#if PICplastica}<img class="smallPic" alt="mynd" src="igms/plastica/small2.png" on:click={toggleplastica} on:click="{() => expand = !expand}">{/if}
     <!--{#if PICoilbuddies}<img class="smallPic" alt="mynd" style="border-radius: 50px;" src="igms/oilbuddies/small.png" on:click={toggleoilbuddies} on:click="{() => expand = !expand}">{/if}-->
+    {#if PICorgano}<img class="smallPic" alt="mynd" src="igms/undefined-undefined/organo.jpg" on:click={toggleorganogram} on:click="{() => expand = !expand}">{/if}
+    {#if PIClikamar}<img class="smallPic" alt="mynd" src="igms/typedesign/small.jpg" on:click={togglelikamar} on:click="{() => expand = !expand}">{/if}
 
 
 
@@ -704,7 +727,6 @@
 	    <!--<img class="mediumPic" src="igms/undefined-teikningar/upprodun2.jpg">-->
 	    {#if PICcalendarA}<img class="mediumPic" alt="mynd" src="igms/undefined-teikningar/ulines.png">{/if}
 	    {#if PICcalendarB}<img class="mediumPic" alt="mynd" src="igms/undefined-teikningar/upprodun3rettmeddrasli2.jpg">{/if}
-	    {#if PICorgano}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/organo.jpg">{/if}
 	    {#if PICbeyond}<img class="mediumPic" alt="mynd" src="igms/undefined-posters/2.jpg">{/if}
 	    {#if PICtoomuch}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/toomuchtoseelevel.jpg">{/if}
 	    {#if PICproverb}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/aproverb.jpg">{/if}
@@ -715,6 +737,9 @@
 	    <!--<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/blubb_Page_16.jpg">-->
 	    <!--<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/blubb_Page_19.jpg">-->
 	    {#if PICfloraA}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/5utgafa-ut.jpg">{/if}
+      {#if PICdrawing}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/heyasinhot.jpg">{/if}
+      {#if PICdrawing}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/rug3.jpg">{/if}
+      {#if PICdrawing}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/box.jpg">{/if}
 	    <!--<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/prufur-31.gif">-->
 	    <!--<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/typoblack.png">-->
 	    <!--<img class="mediumPic" alt="mynd" src="igms/cali/small.jpg">-->
@@ -732,9 +757,12 @@
 	    <!--<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/blom2b.jpg">-->
       <!--<img class="mediumPic" alt="mynd" src="igms/undefined-teikningar/fruma.jpg">-->
       {#if PICbuyt}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/5web.jpg">{/if}
+      {#if PICdrawing}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/mikkimus.jpg">{/if}
+      {#if PICdrawing}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/platti1.png">{/if}
+      {#if PICdrawing}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/platti3.png">{/if}
 	    <!--{#if PICshu}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/skoh.jpg">{/if}
-	    {#if PICrammi}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/rammi.jpg">{/if}-->
-	    {#if PICspurn}<img class="mediumPic" alt="mynd" style="max-width: 30vw;" src="igms/undefined-undefined/spurn.png">{/if}
+	    {#if PICrammi}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/rammi.jpg">{/if}
+	    {#if PICspurn}<img class="mediumPic" alt="mynd" style="max-width: 30vw;" src="igms/undefined-undefined/spurn.png">{/if}-->
       <!--{#if PICpsdmynd}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/blomnytt2.jpg">{/if}
       {#if PICmalverk}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/mamma.jpg">{/if}-->
 	    {#if PICleturgif}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/oohnoo.gif">{/if}
@@ -763,9 +791,11 @@
       <!--<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/13.png">-->
       {#if PICegobook}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/1.png">{/if}
       {#if PICmen}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/aSmalltable.png">{/if}
-      {#if PICoilbuddies}<img class="mediumPic" alt="mynd" style="border-radius: 50px;" src="igms/oilbuddies/small.png">{/if}
-      {#if PICsomalgors}<img class="mediumPic" alt="mynd" src="igms/somalgors74/small.jpg">{/if}
-      <br><br><br><br><br><br>
+      {#if PICoilbuddies}<img class="mediumPic" alt="mynd" style="border-radius: 50px;" src="igms/oilbuddies/small.png">
+        <!--<iframe src="https://player.vimeo.com/video/331605956?autoplay=1&loop=1&color=ffffff&title=0&byline=0&portrait=0" width="320" height="180" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>-->
+      {/if}
+      {#if PICpsycho}<iframe src="https://player.vimeo.com/video/488151130?autoplay=1&loop=1&color=ffffff&title=0&byline=0&portrait=0" width="320" height="230.5" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+      <br><br><br><br><br><br>{/if}
     {/if}
 
     
@@ -808,7 +838,7 @@
   	margin-bottom: 100px;
   }
   .line:after {
-  	content: 'OTHER / UNPUBLISHED / UNFINISHED / UNDEFINED / UNREFINED';
+  	content: 'SKETCHES / OTHER / UNPUBLISHED / UNFINISHED' /* / UNDEFINED / UNREFINED */;
   	position: absolute;
   	width: 100%;
   	height: auto;

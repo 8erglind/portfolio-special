@@ -5,6 +5,8 @@
 
 <div class="backgroundcolor">
 	<br><br>
+	<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/488284876?autoplay=1&loop=1&color=ffffff&title=0&byline=0&portrait=0" style="position:absolute;top:6.5%;left:20%;width:60%;height:80%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+	<br><br><br><br><br><br><br><br>
 	<img class="img portfolio-item" alt="mynd" src="igms/flora/front-desktop.png" />
 	<img class="img portfolio-item smaller" alt="mynd" src="igms/flora/front-mobile.png" /><br>
 	<img class="img portfolio-item smaller" alt="mynd" src="igms/flora/grein1-mobile.png" />
@@ -29,8 +31,15 @@
 	<img class="img portfolio-item larger" alt="mynd" src="igms/flora/plaggadd.jpg" />
 	<img class="img portfolio-item smaller" alt="mynd" src="igms/flora/banner.gif" />
 	<br><br><br><br><br><br><br><br>
-</div>
+	<img class="img portfolio-item larger" alt="mynd" src="igms/flora/spurn.png" /><br>
+	<img class="img portfolio-item larger" alt="mynd" src="igms/flora/tik.png" />
+	<img class="img portfolio-item larger" alt="mynd" src="igms/flora/baradyr.jpg" />
+	<br><br><br><br><br><br><br><br>
+	<img class="img portfolio-item larger" alt="mynd" src="igms/flora/handonlæri2.png" /><br>
+	<br><br><br><br><br><br><br><br>
 
+	<img class="img portfolio-item smaller fixedlogo" alt="mynd" src="igms/flora/logo-flora.png" />
+</div>
 
 <style>
 
@@ -54,6 +63,13 @@ img {
 .larger {
 	max-height: 95% !important;
 	max-width: 80% !important;
+}
+
+.fixedlogo {
+	position: fixed;
+	left: 1vw;
+	top: 2vw;
+	width: 15vw;
 }
 
 </style>
