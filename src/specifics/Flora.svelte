@@ -37,7 +37,6 @@
 	<br><br><br><br><br><br><br><br>
 	<img class="img portfolio-item larger" alt="mynd" src="igms/flora/handonlæri2.png" /><br>
 	<br><br><br><br><br><br><br><br>
-
 	<img class="img portfolio-item smaller fixedlogo" alt="mynd" src="igms/flora/logo-flora.png" />
 </div>
 
