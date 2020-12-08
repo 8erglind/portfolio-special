@@ -304,7 +304,7 @@
     PICoeb = false; 
     PICbeauimg = false; 
     PICbread = false; 
-    PICflora = false; 
+    PICflora = true; 
     PICbreadmag = false; 
     PICevublad = false; 
     PICsomalgors = false;
