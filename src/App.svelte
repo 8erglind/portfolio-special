@@ -168,6 +168,7 @@
   let PICmen = true;
   let PICalltmitt = true;
   let PICpsycho = true;
+  let PICgrad = true;
 
   const toggleWEB = () => { 
     PICtimatal = false; 
@@ -226,6 +227,7 @@
     PICmen = false;
     PICalltmitt = true;
     PICpsycho = false;
+    PICgrad = true;
   }
   const togglePRINT = () => { 
     PICflora = false; 
@@ -284,6 +286,7 @@
     PICmen = false;
     PICalltmitt = false;
     PICpsycho = false;
+    PICgrad = false;
   }
   const toggleVIDEO = () => { 
     PIConourowntime = false; 
@@ -342,6 +345,7 @@
     PICmen = true;
     PICalltmitt = false;
     PICpsycho = true;
+    PICgrad = true;
   }
   const toggleOTHER = () => { 
     PICflora = false; 
@@ -400,6 +404,7 @@
     PICmen = true;
     PICalltmitt = false;
     PICpsycho = true;
+    PICgrad = false;
   }
   const toggleALL = () => { 
     PIConourowntime = true; 
@@ -458,6 +463,7 @@
     PICmen = true;
     PICalltmitt = true;
     PICpsycho = true;
+    PICgrad = true;
   }
 
 
@@ -772,6 +778,7 @@
 	    {#if PICspurn}<img class="mediumPic" alt="mynd" style="max-width: 30vw;" src="igms/undefined-undefined/spurn.png">{/if}-->
       <!--{#if PICpsdmynd}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/blomnytt2.jpg">{/if}
       {#if PICmalverk}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/mamma.jpg">{/if}-->
+      {#if PICgrad}<iframe src="https://player.vimeo.com/video/432623883?autoplay=1&loop=1&color=ffffff&title=0&byline=0&portrait=0" width="320" height="230.5" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>{/if}
 	    {#if PICleturgif}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/oohnoo.gif">{/if}
 	    {#if PICflottabok}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/front.png">{/if}
       <!--<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/smellt-drawing.jpg">-->
@@ -793,6 +800,7 @@
       {#if PICtrash}<img class="mediumPic" alt="mynd" src="igms/trash/small.png">{/if}
       {#if PICsecret}<img class="mediumPic" alt="mynd" src="igms/secret/small.png">{/if}
       {#if PICbritney}<img class="mediumPic" alt="mynd" src="igms/undefined-web/7.jpg">{/if}
+      {#if PICpsycho}<iframe src="https://player.vimeo.com/video/488151130?autoplay=1&loop=1&color=ffffff&title=0&byline=0&portrait=0" width="320" height="230.5" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>{/if}
       {#if PICbrandalism}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/15.png">{/if}
       {#if PICbrandalism}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/14.png">{/if}
       <!--<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/13.png">-->
@@ -801,8 +809,11 @@
       {#if PICoilbuddies}<img class="mediumPic" alt="mynd" style="border-radius: 50px;" src="igms/oilbuddies/small.png">
         <!--<iframe src="https://player.vimeo.com/video/331605956?autoplay=1&loop=1&color=ffffff&title=0&byline=0&portrait=0" width="320" height="180" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>-->
       {/if}
-      {#if PICpsycho}<iframe src="https://player.vimeo.com/video/488151130?autoplay=1&loop=1&color=ffffff&title=0&byline=0&portrait=0" width="320" height="230.5" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-      <br><br><br><br><br><br>{/if}
+      
+
+
+
+      <br><br><br><br><br><br>
     {/if}
 
     
