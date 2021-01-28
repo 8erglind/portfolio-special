@@ -138,6 +138,7 @@
   let PICevublad = true;
   let PICsomalgors = true;
 
+  let PICgjafakort = true;
   let PICcalendarA = true;
   let PICcalendarB = true;
   let PICorgano = true;
@@ -195,6 +196,7 @@
     PICflora = true; 
     PICsomalgors = true;
 
+    PICgjafakort = false;
     PICcalendarA = false;
     PICcalendarB = false;
     PICorgano = true;
@@ -252,6 +254,7 @@
     PICevublad = true; 
     PICsomalgors = true;
 
+    PICgjafakort = true;
     PICcalendarA = false;
     PICcalendarB = true;
     PICorgano = false;
@@ -309,6 +312,7 @@
     PICevublad = false; 
     PICsomalgors = false;
 
+    PICgjafakort = false;
     PICcalendarA = false;
     PICcalendarB = false;
     PICorgano = false;
@@ -366,6 +370,7 @@
     PICevublad = false; 
     PICsomalgors = false;
 
+    PICgjafakort = false;
     PICcalendarA = true;
     PICcalendarB = false;
     PICorgano = false;
@@ -378,7 +383,7 @@
     PICbaby = true;
     PICfimma = true;
     PICleturgif = true;
-    PICpuppy = false;
+    PICpuppy = true;
     PICtypobook = false;
     PICbuyt = false;
     PICshu = true;
@@ -423,6 +428,7 @@
     PICevublad = true; 
     PICsomalgors = true;
 
+    PICgjafakort = true;
     PICcalendarA = true;
     PICcalendarB = true;
     PICorgano = true;
@@ -725,6 +731,7 @@
 	    <div class="line"></div>
 		{#if other}
 	    <!--<img class="mediumPic" src="igms/undefined-teikningar/upprodun2.jpg">-->
+	    {#if PICgjafakort}<img class="mediumPic" alt="mynd" src="igms/kaffivest/gjafakort.png"><img class="mediumPic" alt="mynd" src="igms/kaffivest/gjafakort2.png">{/if}
 	    {#if PICcalendarA}<img class="mediumPic" alt="mynd" src="igms/undefined-teikningar/ulines.png">{/if}
 	    {#if PICcalendarB}<img class="mediumPic" alt="mynd" src="igms/undefined-teikningar/upprodun3rettmeddrasli2.jpg">{/if}
 	    {#if PICbeyond}<img class="mediumPic" alt="mynd" src="igms/undefined-posters/2.jpg">{/if}
@@ -739,7 +746,7 @@
 	    {#if PICfloraA}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/5utgafa-ut.jpg">{/if}
       {#if PICdrawing}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/heyasinhot.jpg">{/if}
       {#if PICdrawing}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/rug3.jpg">{/if}
-      {#if PICdrawing}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/box.jpg">{/if}
+      <!--{#if PICdrawing}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/box.jpg">{/if}-->
 	    <!--<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/prufur-31.gif">-->
 	    <!--<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/typoblack.png">-->
 	    <!--<img class="mediumPic" alt="mynd" src="igms/cali/small.jpg">-->
@@ -752,12 +759,12 @@
 	    <!--{#if PICleturgif}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/ok.gif">{/if}
       {#if PICpsdmynd}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/mynd12.png">{/if}-->
 	    <!--<img class="mediumPic" alt="mynd" src="igms/undefined-teikningar/bluelines.jpg">-->
-	    {#if PICpuppy}<img class="mediumPic" alt="mynd" style="max-width: 30vw;" src="igms/undefined-posters/KABKPuppyParade.jpg">{/if}
+	    {#if PICpuppy}<img class="mediumPic" alt="mynd" style="max-width: 30vw;" src="igms/undefined-posters/KABKPuppyParade2.png">{/if}
       {#if PICtypobook}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/typography.jpg">{/if}
 	    <!--<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/blom2b.jpg">-->
       <!--<img class="mediumPic" alt="mynd" src="igms/undefined-teikningar/fruma.jpg">-->
       {#if PICbuyt}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/5web.jpg">{/if}
-      {#if PICdrawing}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/mikkimus.jpg">{/if}
+      <!--{#if PICdrawing}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/mikkimus.jpg">{/if}-->
       {#if PICdrawing}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/platti1.png">{/if}
       {#if PICdrawing}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/platti3.png">{/if}
 	    <!--{#if PICshu}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/skoh.jpg">{/if}
@@ -838,7 +845,7 @@
   	margin-bottom: 100px;
   }
   .line:after {
-  	content: 'SKETCHES / OTHER / UNPUBLISHED / UNFINISHED' /* / UNDEFINED / UNREFINED */;
+  	content: 'SKETCHES / UNPUBLISHED / UNFINISHED / UNDOCUMENTED' /* / UNDEFINED / UNREFINED */;
   	position: absolute;
   	width: 100%;
   	height: auto;
