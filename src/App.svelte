@@ -856,7 +856,7 @@
   	margin-bottom: 100px;
   }
   .line:after {
-  	content: 'SKETCHES / UNPUBLISHED / UNFINISHED / UNDOCUMENTED' /* / UNDEFINED / UNREFINED */;
+  	content: 'SKETCHES and UNDOCUMENTED PROJECTS' /* UNPUBLISHED / UNFINISHED / UNDEFINED / UNREFINED */;
   	position: absolute;
   	width: 100%;
   	height: auto;

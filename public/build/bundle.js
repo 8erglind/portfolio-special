@@ -15216,7 +15216,7 @@ var app = (function () {
     			attr_dev(div10, "class", "subtitlesName mainscreen-subtitles");
     			add_location(div10, file$q, 603, 2, 33981);
     			attr_dev(div11, "id", "Screen");
-    			attr_dev(div11, "class", "containerMiddleScroll svelte-1fyt75y");
+    			attr_dev(div11, "class", "containerMiddleScroll svelte-l7ke29");
     			toggle_class(div11, "expand", /*expand*/ ctx[0]);
     			add_location(div11, file$q, 493, 0, 26029);
     			attr_dev(img, "class", "logoBio");
@@ -15258,7 +15258,7 @@ var app = (function () {
     			add_location(br18, file$q, 695, 8, 39401);
     			add_location(br19, file$q, 695, 12, 39405);
     			add_location(br20, file$q, 695, 16, 39409);
-    			attr_dev(div15, "class", "line svelte-1fyt75y");
+    			attr_dev(div15, "class", "line svelte-l7ke29");
     			add_location(div15, file$q, 736, 5, 44221);
     			attr_dev(div16, "class", "wrapper back");
     			add_location(div16, file$q, 690, 2, 39272);
