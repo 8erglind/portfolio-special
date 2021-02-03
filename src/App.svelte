@@ -345,7 +345,7 @@
     PICmen = true;
     PICalltmitt = false;
     PICpsycho = true;
-    PICgrad = true;
+    PICgrad = false;
   }
   const toggleOTHER = () => { 
     PICflora = false; 
@@ -737,7 +737,7 @@
 	    <div class="line"></div>
 		{#if other}
 	    <!--<img class="mediumPic" src="igms/undefined-teikningar/upprodun2.jpg">-->
-	    {#if PICgjafakort}<img class="mediumPic" alt="mynd" src="igms/kaffivest/gjafakort.png"><img class="mediumPic" alt="mynd" src="igms/kaffivest/gjafakort2.png">{/if}
+	    {#if PICgjafakort}<img class="mediumPic" alt="mynd" src="igms/kaffivest/gjafakort2.png"><img class="mediumPic" alt="mynd" src="igms/kaffivest/gjafakort.png">{/if}
 	    {#if PICcalendarA}<img class="mediumPic" alt="mynd" src="igms/undefined-teikningar/ulines.png">{/if}
 	    {#if PICcalendarB}<img class="mediumPic" alt="mynd" src="igms/undefined-teikningar/upprodun3rettmeddrasli2.jpg">{/if}
 	    {#if PICbeyond}<img class="mediumPic" alt="mynd" src="igms/undefined-posters/2.jpg">{/if}
@@ -778,7 +778,7 @@
 	    {#if PICspurn}<img class="mediumPic" alt="mynd" style="max-width: 30vw;" src="igms/undefined-undefined/spurn.png">{/if}-->
       <!--{#if PICpsdmynd}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/blomnytt2.jpg">{/if}
       {#if PICmalverk}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/mamma.jpg">{/if}-->
-      {#if PICgrad}<iframe src="https://player.vimeo.com/video/432623883?autoplay=1&loop=1&color=ffffff&title=0&byline=0&portrait=0" width="320" height="230.5" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>{/if}
+      <!--{#if PICgrad}<iframe src="https://player.vimeo.com/video/432623883?autoplay=1&loop=1&color=ffffff&title=0&byline=0&portrait=0" width="320" height="230.5" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>{/if}-->
 	    {#if PICleturgif}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/oohnoo.gif">{/if}
 	    {#if PICflottabok}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/front.png">{/if}
       <!--<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/smellt-drawing.jpg">-->
