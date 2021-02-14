@@ -432,6 +432,11 @@ a {color: blue; font-style: italic;}
 }*/
 
 
+.mw-430px {
+  max-width: 430px !important;
+}
+
+
 
 
 
@@ -439,16 +444,16 @@ a {color: blue; font-style: italic;}
   body {font-size: 3vw;}
 
 .biography {
-  top: calc(20% + 5px);
-  top: 0px;
-  bottom: 0px;
+  /*top: calc(20% + 5px);*/
+  top: 25vh;
+  /*bottom: auto;*/
   left: 5px;
   right: calc(50% + 5px);
   right: 5px;
 }
 .biography-text {
   position: absolute;
-  top: 5px;
+  top: 0px;
   bottom: 5px;
   left: 0px;
   width: calc(100% - 10px);
@@ -463,9 +468,9 @@ a {color: blue; font-style: italic;}
 
 .containerMiddleScroll {
   position: fixed;
-  bottom: 75%;
+  bottom: 75vh;
   right: -1px;
-  left: 40%;
+  left: -1px;
   top: -1px;
   border-right: none;
   border-bottom: 1px dotted #027967;
@@ -479,12 +484,21 @@ a {color: blue; font-style: italic;}
   right: -1px;  
 }
 
+.date {
+  left: 5px;
+  top: 5px;
+}
+.name {
+  right: 5px;
+  top: 5px;
+}
+
 
 .out-on-desktop {
 	display: inline-block;
 	position: relative;
 	width: 100%;
-	height: 40vh;
+	height: 70vh;
 	top: 0px;
 	left: 0px;
 }
@@ -534,6 +548,9 @@ a {color: blue; font-style: italic;}
   max-height: 30vw;
   padding: 5px;
   border-radius: 0px;
+}
+.mw-430px {
+  max-width: 80vw !important;
 }
 
 

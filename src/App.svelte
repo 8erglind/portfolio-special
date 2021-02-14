@@ -492,27 +492,11 @@
 
 
 <div id="Screen" class="containerMiddleScroll" class:expand>
-  <!--<div class="dragAnnounceMobile">!! Mobile version under construction !!</div>-->
 
     <div class="menu expandscreen" on:click="{() => expand = !expand}" on:click={toggleCollapse}>
       <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" class="togglefullscreen"><title/><path class="toggle-fullscreen-color" d="M94.92358,5.61908a1.00026,1.00026,0,0,0-.20459-.30829c-.00512-.00537-.00659-.01263-.012-.01794-.00757-.00751-.01782-.00965-.02551-.01691A.97055.97055,0,0,0,93.99963,5H80a1,1,0,0,0,0,2V6.99994H91.58569L60.99988,37.58582V26a.99988.99988,0,1,0-1.99976,0L59,39.99994h0V40l.00049.002A1.00189,1.00189,0,0,0,60,40.99994H74a.99994.99994,0,0,0,0-1.99988V39H62.41406L92.99988,8.41425,93,20a1,1,0,0,0,2,0L94.99988,6.00024A.99724.99724,0,0,0,94.92358,5.61908Z"/><path class="toggle-fullscreen-color" d="M6,21a1,1,0,0,0,1-1H6.99988V8.41412L37.58569,38.99994,26,39a1,1,0,0,0,0,2l14-.00006.00208-.00043a.96771.96771,0,0,0,.67944-.27551c.00769-.00726.01794-.0094.02551-.01691.00537-.00531.00684-.01257.012-.01794a.98308.98308,0,0,0,.28089-.68952V26a.99988.99988,0,1,0-1.99976,0H39V37.58582L8.41406,6.99994H20A1,1,0,0,0,20,5H6.00024A1.00258,1.00258,0,0,0,5,6H5V20A1,1,0,0,0,6,21Z"/><path class="toggle-fullscreen-color" d="M79,94a1,1,0,0,0,1,1l14-.00006.00208-.00043a.96771.96771,0,0,0,.67944-.27551c.00769-.00726.01794-.0094.02551-.01691.00537-.00531.00684-.01257.012-.01794a.98308.98308,0,0,0,.28089-.68952V80a.99988.99988,0,0,0-1.99976,0H93V91.58582L62.41406,60.99988,74,60.99994a.99994.99994,0,0,0,0-1.99988L60.00024,59A1.00258,1.00258,0,0,0,59,60h0V74a1,1,0,0,0,2,0h-.00012V62.41412L91.58569,92.99994,80,93A.99993.99993,0,0,0,79,94Z"/><path class="toggle-fullscreen-color" d="M5.00049,94.002A1.00189,1.00189,0,0,0,6,94.99994H20a.99994.99994,0,0,0,0-1.99988V93H8.41406L38.99988,62.41425,39,74a1,1,0,0,0,2,0l-.00012-13.99976a.98308.98308,0,0,0-.28089-.68945c-.00512-.00537-.00659-.01263-.012-.01794-.00757-.00751-.01782-.00965-.02551-.01691A.97055.97055,0,0,0,39.99963,59H26a1,1,0,0,0,0,2v-.00006H37.58569L6.99988,91.58582V80a.99988.99988,0,1,0-1.99976,0L5,93.99994H5V94Z"/></svg>
     </div>
 
-    <!--{#if toggleExpand}
-      <div class="menuclose" on:click="{() => expand = !expand}" on:click={toggleCollapse}>
-        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" class="togglefullscreen closeFullscreen"><title/><path class="toggle-fullscreen-color" d="M94.92358,5.61908a1.00026,1.00026,0,0,0-.20459-.30829c-.00512-.00537-.00659-.01263-.012-.01794-.00757-.00751-.01782-.00965-.02551-.01691A.97055.97055,0,0,0,93.99963,5H80a1,1,0,0,0,0,2V6.99994H91.58569L60.99988,37.58582V26a.99988.99988,0,1,0-1.99976,0L59,39.99994h0V40l.00049.002A1.00189,1.00189,0,0,0,60,40.99994H74a.99994.99994,0,0,0,0-1.99988V39H62.41406L92.99988,8.41425,93,20a1,1,0,0,0,2,0L94.99988,6.00024A.99724.99724,0,0,0,94.92358,5.61908Z"/><path class="toggle-fullscreen-color" d="M6,21a1,1,0,0,0,1-1H6.99988V8.41412L37.58569,38.99994,26,39a1,1,0,0,0,0,2l14-.00006.00208-.00043a.96771.96771,0,0,0,.67944-.27551c.00769-.00726.01794-.0094.02551-.01691.00537-.00531.00684-.01257.012-.01794a.98308.98308,0,0,0,.28089-.68952V26a.99988.99988,0,1,0-1.99976,0H39V37.58582L8.41406,6.99994H20A1,1,0,0,0,20,5H6.00024A1.00258,1.00258,0,0,0,5,6H5V20A1,1,0,0,0,6,21Z"/><path class="toggle-fullscreen-color" d="M79,94a1,1,0,0,0,1,1l14-.00006.00208-.00043a.96771.96771,0,0,0,.67944-.27551c.00769-.00726.01794-.0094.02551-.01691.00537-.00531.00684-.01257.012-.01794a.98308.98308,0,0,0,.28089-.68952V80a.99988.99988,0,0,0-1.99976,0H93V91.58582L62.41406,60.99988,74,60.99994a.99994.99994,0,0,0,0-1.99988L60.00024,59A1.00258,1.00258,0,0,0,59,60h0V74a1,1,0,0,0,2,0h-.00012V62.41412L91.58569,92.99994,80,93A.99993.99993,0,0,0,79,94Z"/><path class="toggle-fullscreen-color" d="M5.00049,94.002A1.00189,1.00189,0,0,0,6,94.99994H20a.99994.99994,0,0,0,0-1.99988V93H8.41406L38.99988,62.41425,39,74a1,1,0,0,0,2,0l-.00012-13.99976a.98308.98308,0,0,0-.28089-.68945c-.00512-.00537-.00659-.01263-.012-.01794-.00757-.00751-.01782-.00965-.02551-.01691A.97055.97055,0,0,0,39.99963,59H26a1,1,0,0,0,0,2v-.00006H37.58569L6.99988,91.58582V80a.99988.99988,0,1,0-1.99976,0L5,93.99994H5V94Z"/></svg>
-      </div>
-    {/if}-->
-
-
- <!-- <div class="info">
-    <img class="logo" src="igms/icons/BBJsmall.png">
-    <div class="more">
-     	Berglind Brá Jóhannsdóttir<br>
-     	Graphic Designer<br><br>
-     	berglindbra28@gmail.com
-    </div>
-  </div>-->
 
   <div class="date mainscreen-main">
   	{#if frontscreen}August 2020{/if}
@@ -716,7 +700,7 @@
     <!--{#if PICsomalgors}<img class="smallPic" alt="mynd" src="igms/somalgors74/small.jpg">{/if}-->
 	  <!--<img class="smallPic" alt="mynd" src="igms/cali/small.jpg"> OTHER -->
 	  <!--{#if PICsecret}<img class="smallPic" alt="mynd" src="igms/secret/small.png" on:click={togglesecret} on:click="{() => expand = !expand}">{/if}-->
-	  {#if PICmusicbook}<img class="smallPic" alt="mynd" style="max-width: 430px !important;" src="igms/musicBook/4.png" on:click={togglemusicbook} on:click="{() => expand = !expand}">{/if}
+	  {#if PICmusicbook}<img class="smallPic mw-430px" alt="mynd" src="igms/musicBook/4.png" on:click={togglemusicbook} on:click="{() => expand = !expand}">{/if}
   	{#if PICcorruptedspace}<img class="smallPic" alt="mynd" src="igms/corruptedspace/smaller.jpg" on:click={togglecorruptedspace} on:click="{() => expand = !expand}">{/if}
     {#if PICsomalgors}<img class="smallPic" alt="mynd" src="igms/somalgors74/vitrine.jpg" on:click={togglesomalgors} on:click="{() => expand = !expand}">{/if}
     {#if PIClitabok}<img class="smallPic" alt="mynd" style="max-width: 230px;" src="igms/litabok/skulpt25-small.png" on:click={togglelitabok} on:click="{() => expand = !expand}">{/if}
