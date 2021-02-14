@@ -721,7 +721,7 @@
 	    <div class="line"></div>
 		{#if other}
 	    <!--<img class="mediumPic" src="igms/undefined-teikningar/upprodun2.jpg">-->
-	    {#if PICgjafakort}<img class="mediumPic" alt="mynd" src="igms/kaffivest/gjafakort2.png"><img class="mediumPic" alt="mynd" src="igms/kaffivest/gjafakort.png">{/if}
+	    {#if PICgjafakort}<img class="mediumPic" alt="mynd" src="igms/kaffivest/gjafakort2.png"><img class="mediumPic" alt="mynd" src="igms/kaffivest/gjafakort.png"><img class="mediumPic" alt="mynd" src="igms/kaffivest/3D.png">{/if}
 	    {#if PICcalendarA}<img class="mediumPic" alt="mynd" src="igms/undefined-teikningar/ulines.png">{/if}
 	    {#if PICcalendarB}<img class="mediumPic" alt="mynd" src="igms/undefined-teikningar/upprodun3rettmeddrasli2.jpg">{/if}
 	    {#if PICbeyond}<img class="mediumPic" alt="mynd" src="igms/undefined-posters/2.jpg">{/if}
