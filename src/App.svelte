@@ -674,8 +674,8 @@
   <div class="wrapper back">
     <!--<div class="caption">
       Work
-    </div>-->
-    <div class="out-on-desktop"></div>
+    </div>
+    <div class="out-on-desktop"></div>-->
     
 
 
@@ -841,7 +841,7 @@
 <style>
 
 .expand {
-	  background-color: #f7f6f2;
+	background-color: #f7f6f2;
     right: -1px;
     bottom: -1px;
     top: -1px;
@@ -873,7 +873,30 @@
 
 @media screen and (max-width: 1000px) {
 
+
+.date {font-size: 0vw;}
+.name {font-size: 0vw;}
+.togglefullscreen {
+  position: absolute;
+  width: 0px !important;
+  height: 0px !important;
+  right: 20px;
+  bottom: 20px;
+}
+.expand .togglefullscreen {
+	position: absolute;
+  	width: 40px !important;
+  	height: 40px !important;
+  	right: 20px;
+  	bottom: 20px;
+}
 .expand {
+	font-size: 3.3vw !important;
+}
+.expand .date {
+	font-size: 3.3vw !important;
+}
+.expand .name {
 	font-size: 3.3vw !important;
 }
 

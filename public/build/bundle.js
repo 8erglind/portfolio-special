@@ -14612,52 +14612,51 @@ var app = (function () {
     	let t146;
     	let br14;
     	let t147;
-    	let div18;
     	let div17;
+    	let div16;
     	let div14;
-    	let t148;
-    	let div15;
     	let img1;
     	let img1_src_value;
     	let br15;
     	let br16;
-    	let t149;
+    	let t148;
     	let br17;
     	let br18;
-    	let t150;
+    	let t149;
     	let i3;
     	let br19;
-    	let t152;
+    	let t151;
     	let br20;
-    	let t153;
+    	let t152;
     	let br21;
     	let br22;
-    	let t154;
+    	let t153;
     	let span3;
     	let i4;
     	let br23;
-    	let t156;
+    	let t155;
     	let br24;
-    	let t157;
+    	let t156;
     	let br25;
-    	let t158;
+    	let t157;
     	let br26;
     	let br27;
-    	let t159;
+    	let t158;
     	let i5;
     	let br28;
-    	let t161;
+    	let t160;
     	let br29;
-    	let t162;
+    	let t161;
     	let span4;
     	let br30;
     	let br31;
+    	let t162;
     	let t163;
-    	let t164;
     	let br32;
     	let br33;
     	let br34;
     	let br35;
+    	let t164;
     	let t165;
     	let t166;
     	let t167;
@@ -14681,9 +14680,8 @@ var app = (function () {
     	let t185;
     	let t186;
     	let t187;
+    	let div15;
     	let t188;
-    	let div16;
-    	let t189;
     	let current;
     	let mounted;
     	let dispose;
@@ -15150,103 +15148,101 @@ var app = (function () {
     			t146 = text("\n      berglindbra28@gmail.com");
     			br14 = element("br");
     			t147 = space();
-    			div18 = element("div");
     			div17 = element("div");
+    			div16 = element("div");
     			div14 = element("div");
-    			t148 = space();
-    			div15 = element("div");
     			img1 = element("img");
     			br15 = element("br");
     			br16 = element("br");
-    			t149 = text("\n      BERGLIND BRÁ");
+    			t148 = text("\n      BERGLIND BRÁ");
     			br17 = element("br");
     			br18 = element("br");
-    			t150 = space();
+    			t149 = space();
     			i3 = element("i");
     			i3.textContent = "Education";
     			br19 = element("br");
-    			t152 = text("\n      Sjónlist 2015, Myndlistaskólinn í Reykjavík");
+    			t151 = text("\n      Sjónlist 2015, Myndlistaskólinn í Reykjavík");
     			br20 = element("br");
-    			t153 = text("\n      Graphic Design BA 2020, The Royal Academy of Art, The Hague\n      ");
+    			t152 = text("\n      Graphic Design BA 2020, The Royal Academy of Art, The Hague\n      ");
     			br21 = element("br");
     			br22 = element("br");
-    			t154 = space();
+    			t153 = space();
     			span3 = element("span");
     			i4 = element("i");
     			i4.textContent = "Work experience";
     			br23 = element("br");
-    			t156 = text("\n      Web building / graphic design for Flóra útgáfa");
+    			t155 = text("\n      Web building / graphic design for Flóra útgáfa");
     			br24 = element("br");
-    			t157 = text("\n      Internship at Somalgors74 / Curdin Tones");
+    			t156 = text("\n      Internship at Somalgors74 / Curdin Tones");
     			br25 = element("br");
-    			t158 = text("\n      Portfolio website for photographer Io Alexa Sivertsen");
+    			t157 = text("\n      Portfolio website for photographer Io Alexa Sivertsen");
     			br26 = element("br");
     			br27 = element("br");
-    			t159 = space();
+    			t158 = space();
     			i5 = element("i");
     			i5.textContent = "Contact";
     			br28 = element("br");
-    			t161 = text("\n      berglindbra28@gmail.com");
+    			t160 = text("\n      berglindbra28@gmail.com");
     			br29 = element("br");
-    			t162 = space();
+    			t161 = space();
     			span4 = element("span");
     			br30 = element("br");
     			br31 = element("br");
-    			t163 = text("**MOBILE VERSION IS UNDER CONSTRUCTION**");
-    			t164 = space();
+    			t162 = text("**MOBILE VERSION IS UNDER CONSTRUCTION**");
+    			t163 = space();
     			br32 = element("br");
     			br33 = element("br");
     			br34 = element("br");
     			br35 = element("br");
-    			t165 = space();
+    			t164 = space();
     			if (if_block123) if_block123.c();
-    			t166 = space();
+    			t165 = space();
     			if (if_block124) if_block124.c();
-    			t167 = space();
+    			t166 = space();
     			if (if_block125) if_block125.c();
-    			t168 = space();
+    			t167 = space();
     			if (if_block126) if_block126.c();
-    			t169 = space();
+    			t168 = space();
     			if (if_block127) if_block127.c();
-    			t170 = space();
+    			t169 = space();
     			if (if_block128) if_block128.c();
-    			t171 = space();
+    			t170 = space();
     			if (if_block129) if_block129.c();
-    			t172 = space();
+    			t171 = space();
     			if (if_block130) if_block130.c();
-    			t173 = space();
+    			t172 = space();
     			if (if_block131) if_block131.c();
-    			t174 = space();
+    			t173 = space();
     			if (if_block132) if_block132.c();
-    			t175 = space();
+    			t174 = space();
     			if (if_block133) if_block133.c();
-    			t176 = space();
+    			t175 = space();
     			if (if_block134) if_block134.c();
-    			t177 = space();
+    			t176 = space();
     			if (if_block135) if_block135.c();
-    			t178 = space();
+    			t177 = space();
     			if (if_block136) if_block136.c();
-    			t179 = space();
+    			t178 = space();
     			if (if_block137) if_block137.c();
-    			t180 = space();
+    			t179 = space();
     			if (if_block138) if_block138.c();
-    			t181 = space();
+    			t180 = space();
     			if (if_block139) if_block139.c();
-    			t182 = space();
+    			t181 = space();
     			if (if_block140) if_block140.c();
-    			t183 = space();
+    			t182 = space();
     			if (if_block141) if_block141.c();
-    			t184 = space();
+    			t183 = space();
     			if (if_block142) if_block142.c();
-    			t185 = space();
+    			t184 = space();
     			if (if_block143) if_block143.c();
-    			t186 = space();
+    			t185 = space();
     			if (if_block144) if_block144.c();
-    			t187 = space();
+    			t186 = space();
     			if (if_block145) if_block145.c();
+    			t187 = space();
+    			div15 = element("div");
     			t188 = space();
-    			div16 = element("div");
-    			t189 = space();
     			if (if_block146) if_block146.c();
     			attr_dev(div0, "class", "button");
     			add_location(div0, file$q, 484, 2, 25744);
@@ -15275,24 +15271,24 @@ var app = (function () {
     			add_location(path3, file$q, 496, 1465, 27654);
     			attr_dev(svg, "viewBox", "0 0 100 100");
     			attr_dev(svg, "xmlns", "http://www.w3.org/2000/svg");
-    			attr_dev(svg, "class", "togglefullscreen");
+    			attr_dev(svg, "class", "togglefullscreen svelte-rr7jic");
     			add_location(svg, file$q, 496, 6, 26195);
     			attr_dev(div6, "class", "menu expandscreen");
     			add_location(div6, file$q, 495, 4, 26095);
-    			attr_dev(div7, "class", "date mainscreen-main");
+    			attr_dev(div7, "class", "date mainscreen-main svelte-rr7jic");
     			add_location(div7, file$q, 500, 2, 28113);
     			attr_dev(span0, "class", "subtitles-text");
     			add_location(span0, file$q, 530, 50, 29165);
     			attr_dev(div8, "class", "subtitlesDate mainscreen-subtitles");
     			add_location(div8, file$q, 530, 2, 29117);
-    			attr_dev(div9, "class", "name mainscreen-main");
+    			attr_dev(div9, "class", "name mainscreen-main svelte-rr7jic");
     			add_location(div9, file$q, 558, 2, 30029);
     			attr_dev(span1, "class", "subtitles-text");
     			add_location(span1, file$q, 588, 4, 31651);
     			attr_dev(div10, "class", "subtitlesName mainscreen-subtitles");
     			add_location(div10, file$q, 587, 2, 31598);
     			attr_dev(div11, "id", "Screen");
-    			attr_dev(div11, "class", "containerMiddleScroll svelte-l7ke29");
+    			attr_dev(div11, "class", "containerMiddleScroll svelte-rr7jic");
     			toggle_class(div11, "expand", /*expand*/ ctx[0]);
     			add_location(div11, file$q, 493, 0, 26029);
     			attr_dev(img0, "class", "logoBio");
@@ -15323,8 +15319,6 @@ var app = (function () {
     			add_location(div12, file$q, 648, 2, 35971);
     			attr_dev(div13, "class", "biography out-on-mobile");
     			add_location(div13, file$q, 646, 0, 35928);
-    			attr_dev(div14, "class", "out-on-desktop");
-    			add_location(div14, file$q, 677, 4, 36857);
     			attr_dev(img1, "class", "logoBio");
     			attr_dev(img1, "alt", "mynd");
     			if (img1.src !== (img1_src_value = "igms/icons/BBJsmall2.png")) attr_dev(img1, "src", img1_src_value);
@@ -15353,18 +15347,18 @@ var app = (function () {
     			attr_dev(span4, "class", "construction");
     			set_style(span4, "text-align", "center");
     			add_location(span4, file$q, 698, 6, 37702);
-    			attr_dev(div15, "class", "biography-text biography-text-mobile out-on-desktop");
-    			add_location(div15, file$q, 681, 4, 36903);
+    			attr_dev(div14, "class", "biography-text biography-text-mobile out-on-desktop");
+    			add_location(div14, file$q, 681, 4, 36903);
     			add_location(br32, file$q, 701, 4, 37832);
     			add_location(br33, file$q, 701, 8, 37836);
     			add_location(br34, file$q, 701, 12, 37840);
     			add_location(br35, file$q, 701, 16, 37844);
-    			attr_dev(div16, "class", "line svelte-l7ke29");
-    			add_location(div16, file$q, 741, 5, 42623);
-    			attr_dev(div17, "class", "wrapper back");
-    			add_location(div17, file$q, 673, 2, 36771);
-    			attr_dev(div18, "class", "container");
-    			add_location(div18, file$q, 671, 0, 36744);
+    			attr_dev(div15, "class", "line svelte-rr7jic");
+    			add_location(div15, file$q, 741, 5, 42623);
+    			attr_dev(div16, "class", "wrapper back");
+    			add_location(div16, file$q, 673, 2, 36771);
+    			attr_dev(div17, "class", "container");
+    			add_location(div17, file$q, 671, 0, 36744);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -15675,101 +15669,99 @@ var app = (function () {
     			append_dev(div12, t146);
     			append_dev(div12, br14);
     			insert_dev(target, t147, anchor);
-    			insert_dev(target, div18, anchor);
-    			append_dev(div18, div17);
-    			append_dev(div17, div14);
-    			append_dev(div17, t148);
-    			append_dev(div17, div15);
-    			append_dev(div15, img1);
-    			append_dev(div15, br15);
-    			append_dev(div15, br16);
-    			append_dev(div15, t149);
-    			append_dev(div15, br17);
-    			append_dev(div15, br18);
-    			append_dev(div15, t150);
-    			append_dev(div15, i3);
-    			append_dev(div15, br19);
-    			append_dev(div15, t152);
-    			append_dev(div15, br20);
-    			append_dev(div15, t153);
-    			append_dev(div15, br21);
-    			append_dev(div15, br22);
-    			append_dev(div15, t154);
-    			append_dev(div15, span3);
+    			insert_dev(target, div17, anchor);
+    			append_dev(div17, div16);
+    			append_dev(div16, div14);
+    			append_dev(div14, img1);
+    			append_dev(div14, br15);
+    			append_dev(div14, br16);
+    			append_dev(div14, t148);
+    			append_dev(div14, br17);
+    			append_dev(div14, br18);
+    			append_dev(div14, t149);
+    			append_dev(div14, i3);
+    			append_dev(div14, br19);
+    			append_dev(div14, t151);
+    			append_dev(div14, br20);
+    			append_dev(div14, t152);
+    			append_dev(div14, br21);
+    			append_dev(div14, br22);
+    			append_dev(div14, t153);
+    			append_dev(div14, span3);
     			append_dev(span3, i4);
     			append_dev(span3, br23);
-    			append_dev(span3, t156);
+    			append_dev(span3, t155);
     			append_dev(span3, br24);
-    			append_dev(span3, t157);
+    			append_dev(span3, t156);
     			append_dev(span3, br25);
-    			append_dev(span3, t158);
+    			append_dev(span3, t157);
     			append_dev(span3, br26);
     			append_dev(span3, br27);
-    			append_dev(div15, t159);
-    			append_dev(div15, i5);
-    			append_dev(div15, br28);
-    			append_dev(div15, t161);
-    			append_dev(div15, br29);
-    			append_dev(div15, t162);
-    			append_dev(div15, span4);
+    			append_dev(div14, t158);
+    			append_dev(div14, i5);
+    			append_dev(div14, br28);
+    			append_dev(div14, t160);
+    			append_dev(div14, br29);
+    			append_dev(div14, t161);
+    			append_dev(div14, span4);
     			append_dev(span4, br30);
     			append_dev(span4, br31);
-    			append_dev(span4, t163);
-    			append_dev(div17, t164);
-    			append_dev(div17, br32);
-    			append_dev(div17, br33);
-    			append_dev(div17, br34);
-    			append_dev(div17, br35);
-    			append_dev(div17, t165);
-    			if (if_block123) if_block123.m(div17, null);
-    			append_dev(div17, t166);
-    			if (if_block124) if_block124.m(div17, null);
-    			append_dev(div17, t167);
-    			if (if_block125) if_block125.m(div17, null);
-    			append_dev(div17, t168);
-    			if (if_block126) if_block126.m(div17, null);
-    			append_dev(div17, t169);
-    			if (if_block127) if_block127.m(div17, null);
-    			append_dev(div17, t170);
-    			if (if_block128) if_block128.m(div17, null);
-    			append_dev(div17, t171);
-    			if (if_block129) if_block129.m(div17, null);
-    			append_dev(div17, t172);
-    			if (if_block130) if_block130.m(div17, null);
-    			append_dev(div17, t173);
-    			if (if_block131) if_block131.m(div17, null);
-    			append_dev(div17, t174);
-    			if (if_block132) if_block132.m(div17, null);
-    			append_dev(div17, t175);
-    			if (if_block133) if_block133.m(div17, null);
-    			append_dev(div17, t176);
-    			if (if_block134) if_block134.m(div17, null);
-    			append_dev(div17, t177);
-    			if (if_block135) if_block135.m(div17, null);
-    			append_dev(div17, t178);
-    			if (if_block136) if_block136.m(div17, null);
-    			append_dev(div17, t179);
-    			if (if_block137) if_block137.m(div17, null);
-    			append_dev(div17, t180);
-    			if (if_block138) if_block138.m(div17, null);
-    			append_dev(div17, t181);
-    			if (if_block139) if_block139.m(div17, null);
-    			append_dev(div17, t182);
-    			if (if_block140) if_block140.m(div17, null);
-    			append_dev(div17, t183);
-    			if (if_block141) if_block141.m(div17, null);
-    			append_dev(div17, t184);
-    			if (if_block142) if_block142.m(div17, null);
-    			append_dev(div17, t185);
-    			if (if_block143) if_block143.m(div17, null);
-    			append_dev(div17, t186);
-    			if (if_block144) if_block144.m(div17, null);
-    			append_dev(div17, t187);
-    			if (if_block145) if_block145.m(div17, null);
-    			append_dev(div17, t188);
-    			append_dev(div17, div16);
-    			append_dev(div17, t189);
-    			if (if_block146) if_block146.m(div17, null);
+    			append_dev(span4, t162);
+    			append_dev(div16, t163);
+    			append_dev(div16, br32);
+    			append_dev(div16, br33);
+    			append_dev(div16, br34);
+    			append_dev(div16, br35);
+    			append_dev(div16, t164);
+    			if (if_block123) if_block123.m(div16, null);
+    			append_dev(div16, t165);
+    			if (if_block124) if_block124.m(div16, null);
+    			append_dev(div16, t166);
+    			if (if_block125) if_block125.m(div16, null);
+    			append_dev(div16, t167);
+    			if (if_block126) if_block126.m(div16, null);
+    			append_dev(div16, t168);
+    			if (if_block127) if_block127.m(div16, null);
+    			append_dev(div16, t169);
+    			if (if_block128) if_block128.m(div16, null);
+    			append_dev(div16, t170);
+    			if (if_block129) if_block129.m(div16, null);
+    			append_dev(div16, t171);
+    			if (if_block130) if_block130.m(div16, null);
+    			append_dev(div16, t172);
+    			if (if_block131) if_block131.m(div16, null);
+    			append_dev(div16, t173);
+    			if (if_block132) if_block132.m(div16, null);
+    			append_dev(div16, t174);
+    			if (if_block133) if_block133.m(div16, null);
+    			append_dev(div16, t175);
+    			if (if_block134) if_block134.m(div16, null);
+    			append_dev(div16, t176);
+    			if (if_block135) if_block135.m(div16, null);
+    			append_dev(div16, t177);
+    			if (if_block136) if_block136.m(div16, null);
+    			append_dev(div16, t178);
+    			if (if_block137) if_block137.m(div16, null);
+    			append_dev(div16, t179);
+    			if (if_block138) if_block138.m(div16, null);
+    			append_dev(div16, t180);
+    			if (if_block139) if_block139.m(div16, null);
+    			append_dev(div16, t181);
+    			if (if_block140) if_block140.m(div16, null);
+    			append_dev(div16, t182);
+    			if (if_block141) if_block141.m(div16, null);
+    			append_dev(div16, t183);
+    			if (if_block142) if_block142.m(div16, null);
+    			append_dev(div16, t184);
+    			if (if_block143) if_block143.m(div16, null);
+    			append_dev(div16, t185);
+    			if (if_block144) if_block144.m(div16, null);
+    			append_dev(div16, t186);
+    			if (if_block145) if_block145.m(div16, null);
+    			append_dev(div16, t187);
+    			append_dev(div16, div15);
+    			append_dev(div16, t188);
+    			if (if_block146) if_block146.m(div16, null);
     			current = true;
 
     			if (!mounted) {
@@ -17410,7 +17402,7 @@ var app = (function () {
     				} else {
     					if_block123 = create_if_block_62(ctx);
     					if_block123.c();
-    					if_block123.m(div17, t166);
+    					if_block123.m(div16, t165);
     				}
     			} else if (if_block123) {
     				if_block123.d(1);
@@ -17423,7 +17415,7 @@ var app = (function () {
     				} else {
     					if_block124 = create_if_block_61(ctx);
     					if_block124.c();
-    					if_block124.m(div17, t167);
+    					if_block124.m(div16, t166);
     				}
     			} else if (if_block124) {
     				if_block124.d(1);
@@ -17436,7 +17428,7 @@ var app = (function () {
     				} else {
     					if_block125 = create_if_block_60(ctx);
     					if_block125.c();
-    					if_block125.m(div17, t168);
+    					if_block125.m(div16, t167);
     				}
     			} else if (if_block125) {
     				if_block125.d(1);
@@ -17449,7 +17441,7 @@ var app = (function () {
     				} else {
     					if_block126 = create_if_block_59(ctx);
     					if_block126.c();
-    					if_block126.m(div17, t169);
+    					if_block126.m(div16, t168);
     				}
     			} else if (if_block126) {
     				if_block126.d(1);
@@ -17462,7 +17454,7 @@ var app = (function () {
     				} else {
     					if_block127 = create_if_block_58(ctx);
     					if_block127.c();
-    					if_block127.m(div17, t170);
+    					if_block127.m(div16, t169);
     				}
     			} else if (if_block127) {
     				if_block127.d(1);
@@ -17475,7 +17467,7 @@ var app = (function () {
     				} else {
     					if_block128 = create_if_block_57(ctx);
     					if_block128.c();
-    					if_block128.m(div17, t171);
+    					if_block128.m(div16, t170);
     				}
     			} else if (if_block128) {
     				if_block128.d(1);
@@ -17488,7 +17480,7 @@ var app = (function () {
     				} else {
     					if_block129 = create_if_block_56(ctx);
     					if_block129.c();
-    					if_block129.m(div17, t172);
+    					if_block129.m(div16, t171);
     				}
     			} else if (if_block129) {
     				if_block129.d(1);
@@ -17501,7 +17493,7 @@ var app = (function () {
     				} else {
     					if_block130 = create_if_block_55(ctx);
     					if_block130.c();
-    					if_block130.m(div17, t173);
+    					if_block130.m(div16, t172);
     				}
     			} else if (if_block130) {
     				if_block130.d(1);
@@ -17514,7 +17506,7 @@ var app = (function () {
     				} else {
     					if_block131 = create_if_block_54(ctx);
     					if_block131.c();
-    					if_block131.m(div17, t174);
+    					if_block131.m(div16, t173);
     				}
     			} else if (if_block131) {
     				if_block131.d(1);
@@ -17527,7 +17519,7 @@ var app = (function () {
     				} else {
     					if_block132 = create_if_block_53(ctx);
     					if_block132.c();
-    					if_block132.m(div17, t175);
+    					if_block132.m(div16, t174);
     				}
     			} else if (if_block132) {
     				if_block132.d(1);
@@ -17540,7 +17532,7 @@ var app = (function () {
     				} else {
     					if_block133 = create_if_block_52(ctx);
     					if_block133.c();
-    					if_block133.m(div17, t176);
+    					if_block133.m(div16, t175);
     				}
     			} else if (if_block133) {
     				if_block133.d(1);
@@ -17553,7 +17545,7 @@ var app = (function () {
     				} else {
     					if_block134 = create_if_block_51(ctx);
     					if_block134.c();
-    					if_block134.m(div17, t177);
+    					if_block134.m(div16, t176);
     				}
     			} else if (if_block134) {
     				if_block134.d(1);
@@ -17566,7 +17558,7 @@ var app = (function () {
     				} else {
     					if_block135 = create_if_block_50(ctx);
     					if_block135.c();
-    					if_block135.m(div17, t178);
+    					if_block135.m(div16, t177);
     				}
     			} else if (if_block135) {
     				if_block135.d(1);
@@ -17579,7 +17571,7 @@ var app = (function () {
     				} else {
     					if_block136 = create_if_block_49(ctx);
     					if_block136.c();
-    					if_block136.m(div17, t179);
+    					if_block136.m(div16, t178);
     				}
     			} else if (if_block136) {
     				if_block136.d(1);
@@ -17592,7 +17584,7 @@ var app = (function () {
     				} else {
     					if_block137 = create_if_block_48(ctx);
     					if_block137.c();
-    					if_block137.m(div17, t180);
+    					if_block137.m(div16, t179);
     				}
     			} else if (if_block137) {
     				if_block137.d(1);
@@ -17605,7 +17597,7 @@ var app = (function () {
     				} else {
     					if_block138 = create_if_block_47(ctx);
     					if_block138.c();
-    					if_block138.m(div17, t181);
+    					if_block138.m(div16, t180);
     				}
     			} else if (if_block138) {
     				if_block138.d(1);
@@ -17618,7 +17610,7 @@ var app = (function () {
     				} else {
     					if_block139 = create_if_block_46(ctx);
     					if_block139.c();
-    					if_block139.m(div17, t182);
+    					if_block139.m(div16, t181);
     				}
     			} else if (if_block139) {
     				if_block139.d(1);
@@ -17631,7 +17623,7 @@ var app = (function () {
     				} else {
     					if_block140 = create_if_block_45(ctx);
     					if_block140.c();
-    					if_block140.m(div17, t183);
+    					if_block140.m(div16, t182);
     				}
     			} else if (if_block140) {
     				if_block140.d(1);
@@ -17644,7 +17636,7 @@ var app = (function () {
     				} else {
     					if_block141 = create_if_block_44(ctx);
     					if_block141.c();
-    					if_block141.m(div17, t184);
+    					if_block141.m(div16, t183);
     				}
     			} else if (if_block141) {
     				if_block141.d(1);
@@ -17657,7 +17649,7 @@ var app = (function () {
     				} else {
     					if_block142 = create_if_block_43(ctx);
     					if_block142.c();
-    					if_block142.m(div17, t185);
+    					if_block142.m(div16, t184);
     				}
     			} else if (if_block142) {
     				if_block142.d(1);
@@ -17670,7 +17662,7 @@ var app = (function () {
     				} else {
     					if_block143 = create_if_block_42(ctx);
     					if_block143.c();
-    					if_block143.m(div17, t186);
+    					if_block143.m(div16, t185);
     				}
     			} else if (if_block143) {
     				if_block143.d(1);
@@ -17683,7 +17675,7 @@ var app = (function () {
     				} else {
     					if_block144 = create_if_block_41(ctx);
     					if_block144.c();
-    					if_block144.m(div17, t187);
+    					if_block144.m(div16, t186);
     				}
     			} else if (if_block144) {
     				if_block144.d(1);
@@ -17696,7 +17688,7 @@ var app = (function () {
     				} else {
     					if_block145 = create_if_block_40(ctx);
     					if_block145.c();
-    					if_block145.m(div17, t188);
+    					if_block145.m(div16, t187);
     				}
     			} else if (if_block145) {
     				if_block145.d(1);
@@ -17894,7 +17886,7 @@ var app = (function () {
     			if (detaching) detach_dev(t133);
     			if (detaching) detach_dev(div13);
     			if (detaching) detach_dev(t147);
-    			if (detaching) detach_dev(div18);
+    			if (detaching) detach_dev(div17);
     			if (if_block123) if_block123.d();
     			if (if_block124) if_block124.d();
     			if (if_block125) if_block125.d();

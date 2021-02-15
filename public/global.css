@@ -475,9 +475,11 @@ a {color: blue; font-style: italic;}
 
 .containerMiddleScroll {
   position: fixed;
-  bottom: 75vh;
   right: -1px;
-  left: -1px;
+  /*bottom: 75vh;*/
+  /*left: -1px;*/
+  bottom: 101vh;
+  left: 101vw;
   top: -1px;
   border-right: none;
   border-bottom: 1px dotted #027967;
