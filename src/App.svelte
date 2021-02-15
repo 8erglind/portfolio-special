@@ -644,7 +644,7 @@
   
 </div>
 
-<div class="biography">
+<div class="biography out-on-mobile">
 		
   <div class="biography-text">
       <img class="logoBio" alt="mynd" src="igms/icons/BBJsmall2.png"><br><br>
@@ -663,7 +663,6 @@
       <i>Contact</i><br>
       berglindbra28@gmail.com<br>
       <!--instagram (I don't really feed it content but can be contacted through it!)-->
-      <span class="out-on-desktop construction" style="text-align: center;"><br><br>**MOBILE VERSION IS UNDER CONSTRUCTION**</span>
   </div>
 </div>
 
@@ -677,8 +676,30 @@
       Work
     </div>-->
     <div class="out-on-desktop"></div>
-    <br><br><br><br>
     
+
+
+    <div class="biography-text biography-text-mobile out-on-desktop">
+      <img class="logoBio" alt="mynd" src="igms/icons/BBJsmall2.png"><br><br>
+      BERGLIND BRÁ<br><br>
+      <i>Education</i><br>
+      Sjónlist 2015, Myndlistaskólinn í Reykjavík<br>
+      Graphic Design BA 2020, The Royal Academy of Art, The Hague
+      <br><br>
+      <span class="out-on-mobile"><i>Work experience</i><br>
+      Web building / graphic design for Flóra útgáfa<br>
+      Internship at Somalgors74 / Curdin Tones<br>
+      Portfolio website for photographer Io Alexa Sivertsen<br><br></span>
+      <!--<i>Experties</i><br>
+      Webdesign<br><br>-->
+      
+      <i>Contact</i><br>
+      berglindbra28@gmail.com<br>
+      <!--instagram (I don't really feed it content but can be contacted through it!)-->
+      <span class="construction" style="text-align: center;"><br><br>**MOBILE VERSION IS UNDER CONSTRUCTION**</span>
+  	</div>
+    
+    <br><br><br><br>
     
     {#if PICflora}<img class="smallPic" alt="mynd" src="igms/flora/small.png" on:click={toggleflora} on:click="{() => expand = !expand}">{/if}
     {#if PIConourowntime}<img class="smallPic" alt="mynd" src="igms/onourowntime/small.png" on:click={toggleonourowntime} on:click="{() => expand = !expand}">{/if}
