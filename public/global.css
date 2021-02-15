@@ -504,7 +504,7 @@ a {color: blue; font-style: italic;}
 .out-on-desktop {
 	display: inline-block;
 	position: relative;
-	width: 100%;
+	width: calc(100vw - 10px);
 	height: 25vh;
 	top: 0px;
 	left: 0px;

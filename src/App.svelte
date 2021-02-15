@@ -684,12 +684,12 @@
       BERGLIND BRÁ<br><br>
       <i>Education</i><br>
       Sjónlist 2015, Myndlistaskólinn í Reykjavík<br>
-      Graphic Design BA 2020, The Royal Academy of Art, The Hague
+      Graphic Design BA 2020, The Royal Academy of&nbsp;Art, The&nbsp;Hague
       <br><br>
-      <span class="out-on-mobile"><i>Work experience</i><br>
-      Web building / graphic design for Flóra útgáfa<br>
-      Internship at Somalgors74 / Curdin Tones<br>
-      Portfolio website for photographer Io Alexa Sivertsen<br><br></span>
+      <span><i>Work experience</i><br>
+      Web building / graphic design for Flóra&nbsp;útgáfa<br>
+      Internship at Somalgors74 / Curdin&nbsp;Tones<br>
+      Portfolio website for photographer Io&nbsp;Alexa Sivertsen<br><br></span>
       <!--<i>Experties</i><br>
       Webdesign<br><br>-->
       
