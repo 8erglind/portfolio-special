@@ -477,9 +477,9 @@ a {color: blue; font-style: italic;}
   position: fixed;
   right: -1px;
   /*bottom: 75vh;*/
-  /*left: -1px;*/
+  left: -1px;
   bottom: 101vh;
-  left: 101vw;
+  /*left: 101vw;*/
   top: -1px;
   border-right: none;
   border-bottom: 1px dotted #027967;
