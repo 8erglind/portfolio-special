@@ -499,7 +499,7 @@
 
 
   <div class="date mainscreen-main">
-  	{#if frontscreen}August 2020{/if}
+  	{#if frontscreen}March 2021{/if}
   	{#if onourowntime}Spring 2020{/if}
   	{#if green}Winter 2019-2020{/if}
   	{#if viv}Spring 2017{/if}
@@ -529,7 +529,7 @@
   </div>
 
   <div class="subtitlesDate mainscreen-subtitles"><span class="subtitles-text">
-  	{#if frontscreen}Page last updated<br>27th of August, 2020.{/if}
+  	{#if frontscreen}Page last updated<br>3rd of March, 2021.{/if}
   	{#if onourowntime}...{/if}
   	{#if green}...{/if}
   	{#if viv}...{/if}
@@ -588,7 +588,7 @@
   <div class="subtitlesName mainscreen-subtitles">
     <span class="subtitles-text">
     	{#if frontscreen}Welcome to my portfolio!<br>Browse through my projects on the right and click to see more details.{/if}
-		{#if onourowntime}Fundraiser / Catalogue website for Graphic Design and Non Linear Narrative, The Royal Academy of Art in The Hague, graduation class of 2020. Website design and building collaboration with Trang Ha, identity designed by Zahari Dimitrov and Zuzanna Zgierska using typefaces by Edward Dżułaj and Nedislav Kamburov.{/if}
+		{#if onourowntime}Fundraiser / Catalogue website for Graphic Design and Non Linear Narrative, The&nbsp;Royal Academy of Art in The&nbsp;Hague, graduation class of 2020. Website design and building collaboration with Trang&nbsp;Ha, identity designed by Zahari&nbsp;Dimitrov and Zuzanna&nbsp;Zgierska using typefaces by Edward&nbsp;Dżułaj and Nedislav&nbsp;Kamburov.{/if}
 	  	<!--{#if green}...{/if}-->
 	  	{#if viv}A publication containing an interview with Vivienne Westwood by Tim Blanks (published in Interview Magazine, July 18, 2012) along with added content related to topics mentioned in the interview. Printed on A3 and folded into a a-bit-wider-than-A4 format.{/if}
 	  	{#if typoposters}20 posters celebrating 10 different typefaces. Printed front and back on 10 A2-sized sheets, and folded into A4 for storage.{/if}
@@ -653,10 +653,16 @@
       Sjónlist 2015, Myndlistaskólinn í Reykjavík<br>
       Graphic Design BA 2020, The Royal Academy of Art, The Hague
       <br><br>
+      <i>Specialities</i><br>
+      Web design and building<br>
+      Typography and layout
+      <br><br>
       <span class="out-on-mobile"><i>Work experience</i><br>
-      Web building / graphic design for Flóra útgáfa<br>
+      Designing <i>Kortlagning á kynjasjónarmiðum - Stöðuskýrsla 2021</i> report for Iceland's Prime&nbsp;Minister's&nbsp;Office and Ministry of Finance and Economic&nbsp;Affairs<br>
+      Designing drink-menu and gift card for Kaffihús Vesturbæjar<br>
+      Graphic design / web building for Flóra útgáfa<br>
       Internship at Somalgors74 / Curdin Tones<br>
-      Portfolio website for photographer Io Alexa Sivertsen<br><br></span>
+      Portfolio website design and building for photographer Io Alexa Sivertsen<br><br></span>
       <!--<i>Experties</i><br>
       Webdesign<br><br>-->
       
@@ -861,7 +867,7 @@
   	margin-bottom: 100px;
   }
   .line:after {
-  	content: 'SKETCHES and UNDOCUMENTED PROJECTS' /* UNPUBLISHED / UNFINISHED / UNDEFINED / UNREFINED */;
+  	content: 'SKETCHES, UNDOCUMENTED PROJECTS and OTHER SNIPPETS'/* SKETCHES and UNDOCUMENTED PROJECTS */ /* UNPUBLISHED / UNFINISHED / UNDEFINED / UNREFINED */;
   	position: absolute;
   	width: 100%;
   	height: auto;
