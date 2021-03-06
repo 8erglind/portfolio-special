@@ -357,128 +357,145 @@ var app = (function () {
 
     function create_fragment(ctx) {
     	let div;
-    	let img0;
-    	let img0_src_value;
-    	let t0;
-    	let img1;
-    	let img1_src_value;
-    	let t1;
-    	let img2;
-    	let img2_src_value;
-    	let t2;
-    	let img3;
-    	let img3_src_value;
-    	let t3;
-    	let img4;
-    	let img4_src_value;
     	let br0;
     	let br1;
     	let br2;
     	let br3;
     	let br4;
+    	let t0;
+    	let img0;
+    	let img0_src_value;
+    	let t1;
+    	let img1;
+    	let img1_src_value;
+    	let t2;
+    	let img2;
+    	let img2_src_value;
+    	let t3;
+    	let img3;
+    	let img3_src_value;
+    	let t4;
+    	let img4;
+    	let img4_src_value;
     	let br5;
     	let br6;
     	let br7;
-    	let t4;
-    	let img5;
-    	let img5_src_value;
-    	let t5;
-    	let img6;
-    	let img6_src_value;
-    	let t6;
-    	let img7;
-    	let img7_src_value;
     	let br8;
     	let br9;
     	let br10;
     	let br11;
     	let br12;
+    	let t5;
+    	let img5;
+    	let img5_src_value;
+    	let t6;
+    	let img6;
+    	let img6_src_value;
+    	let t7;
+    	let img7;
+    	let img7_src_value;
     	let br13;
     	let br14;
     	let br15;
+    	let br16;
+    	let br17;
+    	let br18;
+    	let br19;
+    	let br20;
 
     	const block = {
     		c: function create() {
     			div = element("div");
-    			img0 = element("img");
-    			t0 = space();
-    			img1 = element("img");
-    			t1 = space();
-    			img2 = element("img");
-    			t2 = space();
-    			img3 = element("img");
-    			t3 = space();
-    			img4 = element("img");
     			br0 = element("br");
     			br1 = element("br");
     			br2 = element("br");
     			br3 = element("br");
     			br4 = element("br");
+    			t0 = space();
+    			img0 = element("img");
+    			t1 = space();
+    			img1 = element("img");
+    			t2 = space();
+    			img2 = element("img");
+    			t3 = space();
+    			img3 = element("img");
+    			t4 = space();
+    			img4 = element("img");
     			br5 = element("br");
     			br6 = element("br");
     			br7 = element("br");
-    			t4 = space();
-    			img5 = element("img");
-    			t5 = space();
-    			img6 = element("img");
-    			t6 = space();
-    			img7 = element("img");
     			br8 = element("br");
     			br9 = element("br");
     			br10 = element("br");
     			br11 = element("br");
     			br12 = element("br");
+    			t5 = space();
+    			img5 = element("img");
+    			t6 = space();
+    			img6 = element("img");
+    			t7 = space();
+    			img7 = element("img");
     			br13 = element("br");
     			br14 = element("br");
     			br15 = element("br");
+    			br16 = element("br");
+    			br17 = element("br");
+    			br18 = element("br");
+    			br19 = element("br");
+    			br20 = element("br");
+    			add_location(br0, file, 6, 1, 54);
+    			add_location(br1, file, 6, 5, 58);
+    			add_location(br2, file, 6, 9, 62);
+    			add_location(br3, file, 6, 13, 66);
+    			add_location(br4, file, 6, 17, 70);
     			attr_dev(img0, "class", "img portfolio-item svelte-1phlr82");
     			attr_dev(img0, "alt", "mynd");
     			if (img0.src !== (img0_src_value = "igms/onourowntime/1.png")) attr_dev(img0, "src", img0_src_value);
-    			add_location(img0, file, 6, 1, 54);
+    			add_location(img0, file, 7, 1, 76);
     			attr_dev(img1, "class", "img portfolio-item svelte-1phlr82");
     			attr_dev(img1, "alt", "mynd");
     			if (img1.src !== (img1_src_value = "igms/onourowntime/3.png")) attr_dev(img1, "src", img1_src_value);
-    			add_location(img1, file, 7, 1, 131);
+    			add_location(img1, file, 8, 1, 153);
     			attr_dev(img2, "class", "img portfolio-item svelte-1phlr82");
     			attr_dev(img2, "alt", "mynd");
     			if (img2.src !== (img2_src_value = "igms/onourowntime/4.png")) attr_dev(img2, "src", img2_src_value);
-    			add_location(img2, file, 8, 1, 208);
+    			add_location(img2, file, 9, 1, 230);
     			attr_dev(img3, "class", "img portfolio-item svelte-1phlr82");
     			attr_dev(img3, "alt", "mynd");
     			if (img3.src !== (img3_src_value = "igms/onourowntime/5.png")) attr_dev(img3, "src", img3_src_value);
-    			add_location(img3, file, 9, 1, 285);
+    			add_location(img3, file, 10, 1, 307);
     			attr_dev(img4, "class", "img portfolio-item svelte-1phlr82");
     			attr_dev(img4, "alt", "mynd");
     			if (img4.src !== (img4_src_value = "igms/onourowntime/2.png")) attr_dev(img4, "src", img4_src_value);
-    			add_location(img4, file, 10, 1, 362);
-    			add_location(br0, file, 10, 76, 437);
-    			add_location(br1, file, 10, 80, 441);
-    			add_location(br2, file, 10, 84, 445);
-    			add_location(br3, file, 10, 88, 449);
-    			add_location(br4, file, 10, 92, 453);
-    			add_location(br5, file, 10, 96, 457);
-    			add_location(br6, file, 10, 100, 461);
-    			add_location(br7, file, 10, 104, 465);
+    			add_location(img4, file, 11, 1, 384);
+    			add_location(br5, file, 11, 76, 459);
+    			add_location(br6, file, 11, 80, 463);
+    			add_location(br7, file, 11, 84, 467);
+    			add_location(br8, file, 11, 88, 471);
+    			add_location(br9, file, 11, 92, 475);
+    			add_location(br10, file, 11, 96, 479);
+    			add_location(br11, file, 11, 100, 483);
+    			add_location(br12, file, 11, 104, 487);
     			attr_dev(img5, "class", "img portfolio-item svelte-1phlr82");
     			attr_dev(img5, "alt", "mynd");
     			if (img5.src !== (img5_src_value = "igms/onourowntime/a.jpg")) attr_dev(img5, "src", img5_src_value);
-    			add_location(img5, file, 11, 1, 471);
+    			add_location(img5, file, 12, 1, 493);
     			attr_dev(img6, "class", "img portfolio-item svelte-1phlr82");
     			attr_dev(img6, "alt", "mynd");
     			if (img6.src !== (img6_src_value = "igms/onourowntime/b.jpg")) attr_dev(img6, "src", img6_src_value);
-    			add_location(img6, file, 12, 1, 548);
+    			add_location(img6, file, 13, 1, 570);
     			attr_dev(img7, "class", "img portfolio-item svelte-1phlr82");
     			attr_dev(img7, "alt", "mynd");
     			if (img7.src !== (img7_src_value = "igms/onourowntime/c.jpg")) attr_dev(img7, "src", img7_src_value);
-    			add_location(img7, file, 13, 1, 625);
-    			add_location(br8, file, 13, 76, 700);
-    			add_location(br9, file, 13, 80, 704);
-    			add_location(br10, file, 13, 84, 708);
-    			add_location(br11, file, 13, 88, 712);
-    			add_location(br12, file, 13, 92, 716);
-    			add_location(br13, file, 13, 96, 720);
-    			add_location(br14, file, 13, 100, 724);
-    			add_location(br15, file, 13, 104, 728);
+    			add_location(img7, file, 14, 1, 647);
+    			add_location(br13, file, 14, 76, 722);
+    			add_location(br14, file, 14, 80, 726);
+    			add_location(br15, file, 14, 84, 730);
+    			add_location(br16, file, 14, 88, 734);
+    			add_location(br17, file, 14, 92, 738);
+    			add_location(br18, file, 14, 96, 742);
+    			add_location(br19, file, 14, 100, 746);
+    			add_location(br20, file, 14, 104, 750);
     			attr_dev(div, "class", "backgroundcolor svelte-1phlr82");
     			add_location(div, file, 5, 0, 23);
     		},
@@ -487,37 +504,43 @@ var app = (function () {
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
-    			append_dev(div, img0);
-    			append_dev(div, t0);
-    			append_dev(div, img1);
-    			append_dev(div, t1);
-    			append_dev(div, img2);
-    			append_dev(div, t2);
-    			append_dev(div, img3);
-    			append_dev(div, t3);
-    			append_dev(div, img4);
     			append_dev(div, br0);
     			append_dev(div, br1);
     			append_dev(div, br2);
     			append_dev(div, br3);
     			append_dev(div, br4);
+    			append_dev(div, t0);
+    			append_dev(div, img0);
+    			append_dev(div, t1);
+    			append_dev(div, img1);
+    			append_dev(div, t2);
+    			append_dev(div, img2);
+    			append_dev(div, t3);
+    			append_dev(div, img3);
+    			append_dev(div, t4);
+    			append_dev(div, img4);
     			append_dev(div, br5);
     			append_dev(div, br6);
     			append_dev(div, br7);
-    			append_dev(div, t4);
-    			append_dev(div, img5);
-    			append_dev(div, t5);
-    			append_dev(div, img6);
-    			append_dev(div, t6);
-    			append_dev(div, img7);
     			append_dev(div, br8);
     			append_dev(div, br9);
     			append_dev(div, br10);
     			append_dev(div, br11);
     			append_dev(div, br12);
+    			append_dev(div, t5);
+    			append_dev(div, img5);
+    			append_dev(div, t6);
+    			append_dev(div, img6);
+    			append_dev(div, t7);
+    			append_dev(div, img7);
     			append_dev(div, br13);
     			append_dev(div, br14);
     			append_dev(div, br15);
+    			append_dev(div, br16);
+    			append_dev(div, br17);
+    			append_dev(div, br18);
+    			append_dev(div, br19);
+    			append_dev(div, br20);
     		},
     		p: noop,
     		i: noop,
@@ -729,31 +752,31 @@ var app = (function () {
     			br29 = element("br");
     			add_location(br0, file$1, 6, 1, 54);
     			add_location(br1, file$1, 6, 5, 58);
-    			attr_dev(img0, "class", "img portfolio-item svelte-4zfd0m");
+    			attr_dev(img0, "class", "img portfolio-item svelte-tpjxi");
     			attr_dev(img0, "alt", "mynd");
     			if (img0.src !== (img0_src_value = "igms/thesis/1smaller.jpg")) attr_dev(img0, "src", img0_src_value);
     			add_location(img0, file$1, 7, 1, 64);
-    			attr_dev(img1, "class", "img portfolio-item svelte-4zfd0m");
+    			attr_dev(img1, "class", "img portfolio-item svelte-tpjxi");
     			attr_dev(img1, "alt", "mynd");
     			if (img1.src !== (img1_src_value = "igms/thesis/2smaller.jpg")) attr_dev(img1, "src", img1_src_value);
     			add_location(img1, file$1, 8, 1, 142);
     			add_location(br2, file$1, 8, 77, 218);
-    			attr_dev(img2, "class", "img portfolio-item svelte-4zfd0m");
+    			attr_dev(img2, "class", "img portfolio-item svelte-tpjxi");
     			attr_dev(img2, "alt", "mynd");
     			if (img2.src !== (img2_src_value = "igms/thesis/cover.gif")) attr_dev(img2, "src", img2_src_value);
     			add_location(img2, file$1, 9, 1, 224);
     			add_location(br3, file$1, 9, 74, 297);
-    			attr_dev(img3, "class", "img portfolio-item svelte-4zfd0m");
+    			attr_dev(img3, "class", "img portfolio-item svelte-tpjxi");
     			attr_dev(img3, "alt", "mynd");
     			if (img3.src !== (img3_src_value = "igms/thesis/3smaller.jpg")) attr_dev(img3, "src", img3_src_value);
     			add_location(img3, file$1, 11, 1, 304);
     			add_location(br4, file$1, 11, 77, 380);
-    			attr_dev(img4, "class", "img portfolio-item svelte-4zfd0m");
+    			attr_dev(img4, "class", "img portfolio-item svelte-tpjxi");
     			attr_dev(img4, "alt", "mynd");
     			if (img4.src !== (img4_src_value = "igms/thesis/4smaller.jpg")) attr_dev(img4, "src", img4_src_value);
     			add_location(img4, file$1, 12, 1, 386);
     			add_location(br5, file$1, 12, 77, 462);
-    			attr_dev(img5, "class", "img portfolio-item svelte-4zfd0m");
+    			attr_dev(img5, "class", "img portfolio-item svelte-tpjxi");
     			attr_dev(img5, "alt", "mynd");
     			if (img5.src !== (img5_src_value = "igms/thesis/6smaller.jpg")) attr_dev(img5, "src", img5_src_value);
     			add_location(img5, file$1, 14, 1, 470);
@@ -761,39 +784,39 @@ var app = (function () {
     			if (source.src !== (source_src_value = "igms/thesis/green6.mp4")) attr_dev(source, "src", source_src_value);
     			attr_dev(source, "type", "video/mp4");
     			add_location(source, file$1, 16, 3, 625);
-    			attr_dev(video, "class", "img portfolio-item");
+    			attr_dev(video, "class", "img portfolio-item svelte-tpjxi");
     			attr_dev(video, "width", "400");
     			video.controls = true;
     			video.autoplay = true;
     			video.loop = true;
     			add_location(video, file$1, 15, 1, 552);
     			add_location(br7, file$1, 18, 9, 735);
-    			attr_dev(img6, "class", "img portfolio-item svelte-4zfd0m");
+    			attr_dev(img6, "class", "img portfolio-item svelte-tpjxi");
     			attr_dev(img6, "alt", "mynd");
     			if (img6.src !== (img6_src_value = "igms/thesis/7smaller.jpg")) attr_dev(img6, "src", img6_src_value);
     			add_location(img6, file$1, 19, 1, 741);
     			add_location(br8, file$1, 19, 77, 817);
-    			attr_dev(img7, "class", "img portfolio-item svelte-4zfd0m");
+    			attr_dev(img7, "class", "img portfolio-item svelte-tpjxi");
     			attr_dev(img7, "alt", "mynd");
     			if (img7.src !== (img7_src_value = "igms/thesis/9smaller.jpg")) attr_dev(img7, "src", img7_src_value);
     			add_location(img7, file$1, 20, 1, 823);
     			add_location(br9, file$1, 20, 77, 899);
-    			attr_dev(img8, "class", "img portfolio-item svelte-4zfd0m");
+    			attr_dev(img8, "class", "img portfolio-item svelte-tpjxi");
     			attr_dev(img8, "alt", "mynd");
     			if (img8.src !== (img8_src_value = "igms/thesis/10smaller2.jpg")) attr_dev(img8, "src", img8_src_value);
     			add_location(img8, file$1, 21, 1, 905);
     			add_location(br10, file$1, 21, 79, 983);
-    			attr_dev(img9, "class", "img portfolio-item svelte-4zfd0m");
+    			attr_dev(img9, "class", "img portfolio-item svelte-tpjxi");
     			attr_dev(img9, "alt", "mynd");
     			if (img9.src !== (img9_src_value = "igms/thesis/11smaller3.jpg")) attr_dev(img9, "src", img9_src_value);
     			add_location(img9, file$1, 22, 1, 989);
     			add_location(br11, file$1, 22, 79, 1067);
-    			attr_dev(img10, "class", "img portfolio-item svelte-4zfd0m");
+    			attr_dev(img10, "class", "img portfolio-item svelte-tpjxi");
     			attr_dev(img10, "alt", "mynd");
     			if (img10.src !== (img10_src_value = "igms/thesis/12smaller.jpg")) attr_dev(img10, "src", img10_src_value);
     			add_location(img10, file$1, 24, 1, 1075);
     			add_location(br12, file$1, 24, 78, 1152);
-    			attr_dev(img11, "class", "img portfolio-item svelte-4zfd0m");
+    			attr_dev(img11, "class", "img portfolio-item svelte-tpjxi");
     			attr_dev(img11, "alt", "mynd");
     			if (img11.src !== (img11_src_value = "igms/thesis/krisa.jpg")) attr_dev(img11, "src", img11_src_value);
     			add_location(img11, file$1, 28, 1, 1323);
@@ -805,20 +828,20 @@ var app = (function () {
     			add_location(br18, file$1, 29, 21, 1418);
     			add_location(br19, file$1, 29, 25, 1422);
     			add_location(br20, file$1, 29, 29, 1426);
-    			attr_dev(img12, "class", "img smaller portfolio-item svelte-4zfd0m");
+    			attr_dev(img12, "class", "img smaller portfolio-item svelte-tpjxi");
     			attr_dev(img12, "alt", "mynd");
     			if (img12.src !== (img12_src_value = "igms/thesis/mobile2.jpg")) attr_dev(img12, "src", img12_src_value);
     			add_location(img12, file$1, 31, 1, 1524);
-    			attr_dev(img13, "class", "img smaller portfolio-item svelte-4zfd0m");
+    			attr_dev(img13, "class", "img smaller portfolio-item svelte-tpjxi");
     			attr_dev(img13, "alt", "mynd");
     			if (img13.src !== (img13_src_value = "igms/thesis/mobile3.jpg")) attr_dev(img13, "src", img13_src_value);
     			add_location(img13, file$1, 32, 1, 1609);
     			add_location(br21, file$1, 32, 84, 1692);
-    			attr_dev(img14, "class", "img smaller portfolio-item svelte-4zfd0m");
+    			attr_dev(img14, "class", "img smaller portfolio-item svelte-tpjxi");
     			attr_dev(img14, "alt", "mynd");
     			if (img14.src !== (img14_src_value = "igms/thesis/mobile5.jpg")) attr_dev(img14, "src", img14_src_value);
     			add_location(img14, file$1, 34, 1, 1790);
-    			attr_dev(img15, "class", "img smaller portfolio-item svelte-4zfd0m");
+    			attr_dev(img15, "class", "img smaller portfolio-item svelte-tpjxi");
     			attr_dev(img15, "alt", "mynd");
     			if (img15.src !== (img15_src_value = "igms/thesis/mobile6.jpg")) attr_dev(img15, "src", img15_src_value);
     			add_location(img15, file$1, 35, 1, 1875);
@@ -830,7 +853,7 @@ var app = (function () {
     			add_location(br27, file$1, 36, 21, 1980);
     			add_location(br28, file$1, 36, 25, 1984);
     			add_location(br29, file$1, 36, 29, 1988);
-    			attr_dev(div, "class", "backgroundcolor svelte-4zfd0m");
+    			attr_dev(div, "class", "backgroundcolor svelte-tpjxi");
     			add_location(div, file$1, 5, 0, 23);
     		},
     		l: function claim(nodes) {
@@ -1115,7 +1138,7 @@ var app = (function () {
     			add_location(br13, file$2, 18, 53, 637);
     			add_location(br14, file$2, 18, 57, 641);
     			add_location(br15, file$2, 18, 61, 645);
-    			attr_dev(img0, "class", "img poster svelte-qf6bwt");
+    			attr_dev(img0, "class", "img poster svelte-jup5om");
     			attr_dev(img0, "alt", "mynd");
     			if (img0.src !== (img0_src_value = "igms/viv/poster.jpg")) attr_dev(img0, "src", img0_src_value);
     			add_location(img0, file$2, 19, 1, 651);
@@ -1128,23 +1151,23 @@ var app = (function () {
     			add_location(br22, file$2, 20, 21, 740);
     			add_location(br23, file$2, 20, 25, 744);
     			add_location(br24, file$2, 20, 29, 748);
-    			attr_dev(img1, "class", "img svelte-qf6bwt");
+    			attr_dev(img1, "class", "img svelte-jup5om");
     			attr_dev(img1, "alt", "mynd");
     			if (img1.src !== (img1_src_value = "igms/viv/22B.jpg")) attr_dev(img1, "src", img1_src_value);
     			add_location(img1, file$2, 21, 1, 754);
-    			attr_dev(img2, "class", "img svelte-qf6bwt");
+    			attr_dev(img2, "class", "img svelte-jup5om");
     			attr_dev(img2, "alt", "mynd");
     			if (img2.src !== (img2_src_value = "igms/viv/38A.jpg")) attr_dev(img2, "src", img2_src_value);
     			add_location(img2, file$2, 22, 1, 809);
-    			attr_dev(img3, "class", "img svelte-qf6bwt");
+    			attr_dev(img3, "class", "img svelte-jup5om");
     			attr_dev(img3, "alt", "mynd");
     			if (img3.src !== (img3_src_value = "igms/viv/41A.jpg")) attr_dev(img3, "src", img3_src_value);
     			add_location(img3, file$2, 23, 1, 864);
-    			attr_dev(img4, "class", "img svelte-qf6bwt");
+    			attr_dev(img4, "class", "img svelte-jup5om");
     			attr_dev(img4, "alt", "mynd");
     			if (img4.src !== (img4_src_value = "igms/viv/42A.jpg")) attr_dev(img4, "src", img4_src_value);
     			add_location(img4, file$2, 24, 1, 919);
-    			attr_dev(img5, "class", "img svelte-qf6bwt");
+    			attr_dev(img5, "class", "img svelte-jup5om");
     			attr_dev(img5, "alt", "mynd");
     			if (img5.src !== (img5_src_value = "igms/viv/44A.jpg")) attr_dev(img5, "src", img5_src_value);
     			add_location(img5, file$2, 25, 1, 974);
@@ -1156,7 +1179,7 @@ var app = (function () {
     			add_location(br30, file$2, 26, 21, 1049);
     			add_location(br31, file$2, 26, 25, 1053);
     			add_location(br32, file$2, 26, 29, 1057);
-    			attr_dev(div2, "class", "backgroundcolor svelte-qf6bwt");
+    			attr_dev(div2, "class", "backgroundcolor svelte-jup5om");
     			add_location(div2, file$2, 4, 0, 22);
     		},
     		l: function claim(nodes) {
@@ -1355,41 +1378,41 @@ var app = (function () {
     			br13 = element("br");
     			add_location(br0, file$3, 6, 1, 54);
     			add_location(br1, file$3, 6, 5, 58);
-    			attr_dev(img0, "class", "img portfolio-item svelte-13rl728");
+    			attr_dev(img0, "class", "img portfolio-item svelte-kx3kpm");
     			if (img0.src !== (img0_src_value = "igms/io/1.png")) attr_dev(img0, "src", img0_src_value);
     			add_location(img0, file$3, 8, 1, 66);
     			add_location(br2, file$3, 8, 55, 120);
-    			attr_dev(img1, "class", "img portfolio-item svelte-13rl728");
+    			attr_dev(img1, "class", "img portfolio-item svelte-kx3kpm");
     			if (img1.src !== (img1_src_value = "igms/io/2.png")) attr_dev(img1, "src", img1_src_value);
     			add_location(img1, file$3, 9, 1, 126);
     			add_location(br3, file$3, 9, 55, 180);
-    			attr_dev(img2, "class", "img portfolio-item svelte-13rl728");
+    			attr_dev(img2, "class", "img portfolio-item svelte-kx3kpm");
     			if (img2.src !== (img2_src_value = "igms/io/3.png")) attr_dev(img2, "src", img2_src_value);
     			add_location(img2, file$3, 10, 1, 186);
     			add_location(br4, file$3, 10, 55, 240);
-    			attr_dev(img3, "class", "img portfolio-item svelte-13rl728");
+    			attr_dev(img3, "class", "img portfolio-item svelte-kx3kpm");
     			if (img3.src !== (img3_src_value = "igms/io/5.png")) attr_dev(img3, "src", img3_src_value);
     			add_location(img3, file$3, 12, 1, 313);
     			add_location(br5, file$3, 12, 55, 367);
-    			attr_dev(img4, "class", "img portfolio-item svelte-13rl728");
+    			attr_dev(img4, "class", "img portfolio-item svelte-kx3kpm");
     			if (img4.src !== (img4_src_value = "igms/io/6.png")) attr_dev(img4, "src", img4_src_value);
     			add_location(img4, file$3, 13, 1, 373);
     			add_location(br6, file$3, 13, 55, 427);
-    			attr_dev(img5, "class", "img portfolio-item svelte-13rl728");
+    			attr_dev(img5, "class", "img portfolio-item svelte-kx3kpm");
     			if (img5.src !== (img5_src_value = "igms/io/7.png")) attr_dev(img5, "src", img5_src_value);
     			add_location(img5, file$3, 14, 1, 433);
     			add_location(br7, file$3, 14, 55, 487);
-    			attr_dev(img6, "class", "img portfolio-item svelte-13rl728");
+    			attr_dev(img6, "class", "img portfolio-item svelte-kx3kpm");
     			if (img6.src !== (img6_src_value = "igms/io/8.png")) attr_dev(img6, "src", img6_src_value);
     			add_location(img6, file$3, 15, 1, 493);
-    			attr_dev(img7, "class", "img portfolio-item svelte-13rl728");
+    			attr_dev(img7, "class", "img portfolio-item svelte-kx3kpm");
     			if (img7.src !== (img7_src_value = "igms/io/allblurred10.png")) attr_dev(img7, "src", img7_src_value);
     			add_location(img7, file$3, 16, 1, 549);
     			add_location(br8, file$3, 16, 66, 614);
-    			attr_dev(img8, "class", "img portfolio-item svelte-13rl728");
+    			attr_dev(img8, "class", "img portfolio-item svelte-kx3kpm");
     			if (img8.src !== (img8_src_value = "igms/io/9.jpg")) attr_dev(img8, "src", img8_src_value);
     			add_location(img8, file$3, 17, 1, 620);
-    			attr_dev(img9, "class", "img portfolio-item svelte-13rl728");
+    			attr_dev(img9, "class", "img portfolio-item svelte-kx3kpm");
     			if (img9.src !== (img9_src_value = "igms/io/10.jpg")) attr_dev(img9, "src", img9_src_value);
     			add_location(img9, file$3, 18, 1, 676);
     			add_location(br9, file$3, 19, 1, 733);
@@ -1397,7 +1420,7 @@ var app = (function () {
     			add_location(br11, file$3, 19, 9, 741);
     			add_location(br12, file$3, 19, 13, 745);
     			add_location(br13, file$3, 19, 17, 749);
-    			attr_dev(div, "class", "backgroundcolor svelte-13rl728");
+    			attr_dev(div, "class", "backgroundcolor svelte-kx3kpm");
     			add_location(div, file$3, 5, 0, 23);
     		},
     		l: function claim(nodes) {
@@ -1570,35 +1593,35 @@ var app = (function () {
     			br14 = element("br");
     			add_location(br0, file$4, 6, 1, 54);
     			add_location(br1, file$4, 6, 5, 58);
-    			attr_dev(img0, "class", "img portfolio-item svelte-1n8gjtn");
+    			attr_dev(img0, "class", "img portfolio-item svelte-1oyu8g9");
     			if (img0.src !== (img0_src_value = "igms/typoPosters/3.jpg")) attr_dev(img0, "src", img0_src_value);
     			add_location(img0, file$4, 7, 1, 64);
     			add_location(br2, file$4, 7, 73, 136);
-    			attr_dev(img1, "class", "img portfolio-item svelte-1n8gjtn");
+    			attr_dev(img1, "class", "img portfolio-item svelte-1oyu8g9");
     			if (img1.src !== (img1_src_value = "igms/typoPosters/4.jpg")) attr_dev(img1, "src", img1_src_value);
     			add_location(img1, file$4, 8, 1, 142);
     			add_location(br3, file$4, 8, 73, 214);
-    			attr_dev(img2, "class", "img portfolio-item svelte-1n8gjtn");
+    			attr_dev(img2, "class", "img portfolio-item svelte-1oyu8g9");
     			if (img2.src !== (img2_src_value = "igms/typoPosters/puffwind2.png")) attr_dev(img2, "src", img2_src_value);
     			add_location(img2, file$4, 9, 1, 220);
     			add_location(br4, file$4, 9, 72, 291);
-    			attr_dev(img3, "class", "img portfolio-item svelte-1n8gjtn");
+    			attr_dev(img3, "class", "img portfolio-item svelte-1oyu8g9");
     			if (img3.src !== (img3_src_value = "igms/typoPosters/1.jpg")) attr_dev(img3, "src", img3_src_value);
     			add_location(img3, file$4, 10, 1, 297);
     			add_location(br5, file$4, 10, 73, 369);
-    			attr_dev(img4, "class", "img portfolio-item smaller svelte-1n8gjtn");
+    			attr_dev(img4, "class", "img portfolio-item smaller svelte-1oyu8g9");
     			if (img4.src !== (img4_src_value = "igms/typoPosters/arial2.png")) attr_dev(img4, "src", img4_src_value);
     			add_location(img4, file$4, 12, 1, 456);
     			add_location(br6, file$4, 12, 77, 532);
-    			attr_dev(img5, "class", "img portfolio-item svelte-1n8gjtn");
+    			attr_dev(img5, "class", "img portfolio-item svelte-1oyu8g9");
     			if (img5.src !== (img5_src_value = "igms/typoPosters/7.jpg")) attr_dev(img5, "src", img5_src_value);
     			add_location(img5, file$4, 13, 1, 538);
     			add_location(br7, file$4, 13, 73, 610);
-    			attr_dev(img6, "class", "img portfolio-item svelte-1n8gjtn");
+    			attr_dev(img6, "class", "img portfolio-item svelte-1oyu8g9");
     			if (img6.src !== (img6_src_value = "igms/typoPosters/5.jpg")) attr_dev(img6, "src", img6_src_value);
     			add_location(img6, file$4, 14, 1, 616);
     			add_location(br8, file$4, 14, 73, 688);
-    			attr_dev(img7, "class", "img portfolio-item svelte-1n8gjtn");
+    			attr_dev(img7, "class", "img portfolio-item svelte-1oyu8g9");
     			if (img7.src !== (img7_src_value = "igms/typoPosters/2.jpg")) attr_dev(img7, "src", img7_src_value);
     			add_location(img7, file$4, 15, 1, 694);
     			add_location(br9, file$4, 15, 73, 766);
@@ -1607,7 +1630,7 @@ var app = (function () {
     			add_location(br12, file$4, 16, 9, 780);
     			add_location(br13, file$4, 16, 13, 784);
     			add_location(br14, file$4, 16, 17, 788);
-    			attr_dev(div, "class", "backgroundcolor svelte-1n8gjtn");
+    			attr_dev(div, "class", "backgroundcolor svelte-1oyu8g9");
     			add_location(div, file$4, 5, 0, 23);
     		},
     		l: function claim(nodes) {
@@ -1953,56 +1976,56 @@ var app = (function () {
     			br11 = element("br");
     			add_location(br0, file$6, 6, 1, 54);
     			add_location(br1, file$6, 6, 5, 58);
-    			attr_dev(img0, "class", "img portfolio-item svelte-1y06s13");
+    			attr_dev(img0, "class", "img portfolio-item svelte-io3dfd");
     			attr_dev(img0, "alt", "mynd");
     			if (img0.src !== (img0_src_value = "igms/sortedPlastic/front.png")) attr_dev(img0, "src", img0_src_value);
     			add_location(img0, file$6, 7, 1, 64);
-    			attr_dev(img1, "class", "img portfolio-item svelte-1y06s13");
+    			attr_dev(img1, "class", "img portfolio-item svelte-io3dfd");
     			set_style(img1, "border-radius", "30px");
     			attr_dev(img1, "alt", "mynd");
     			if (img1.src !== (img1_src_value = "igms/sortedPlastic/intro.jpg")) attr_dev(img1, "src", img1_src_value);
     			add_location(img1, file$6, 8, 1, 146);
     			add_location(br2, file$6, 8, 110, 255);
-    			attr_dev(img2, "class", "img portfolio-item svelte-1y06s13");
+    			attr_dev(img2, "class", "img portfolio-item svelte-io3dfd");
     			attr_dev(img2, "alt", "mynd");
     			if (img2.src !== (img2_src_value = "igms/sortedPlastic/3-4.png")) attr_dev(img2, "src", img2_src_value);
     			add_location(img2, file$6, 9, 1, 261);
-    			attr_dev(img3, "class", "img portfolio-item svelte-1y06s13");
+    			attr_dev(img3, "class", "img portfolio-item svelte-io3dfd");
     			attr_dev(img3, "alt", "mynd");
     			if (img3.src !== (img3_src_value = "igms/sortedPlastic/5-6.png")) attr_dev(img3, "src", img3_src_value);
     			add_location(img3, file$6, 10, 1, 341);
-    			attr_dev(img4, "class", "img portfolio-item svelte-1y06s13");
+    			attr_dev(img4, "class", "img portfolio-item svelte-io3dfd");
     			attr_dev(img4, "alt", "mynd");
     			if (img4.src !== (img4_src_value = "igms/sortedPlastic/8-9.png")) attr_dev(img4, "src", img4_src_value);
     			add_location(img4, file$6, 11, 1, 421);
-    			attr_dev(img5, "class", "img portfolio-item svelte-1y06s13");
+    			attr_dev(img5, "class", "img portfolio-item svelte-io3dfd");
     			attr_dev(img5, "alt", "mynd");
     			if (img5.src !== (img5_src_value = "igms/sortedPlastic/11-12.png")) attr_dev(img5, "src", img5_src_value);
     			add_location(img5, file$6, 12, 1, 501);
-    			attr_dev(img6, "class", "img portfolio-item svelte-1y06s13");
+    			attr_dev(img6, "class", "img portfolio-item svelte-io3dfd");
     			set_style(img6, "border-radius", "30px");
     			attr_dev(img6, "alt", "mynd");
     			if (img6.src !== (img6_src_value = "igms/sortedPlastic/detail.jpg")) attr_dev(img6, "src", img6_src_value);
     			add_location(img6, file$6, 13, 1, 583);
-    			attr_dev(img7, "class", "img portfolio-item svelte-1y06s13");
+    			attr_dev(img7, "class", "img portfolio-item svelte-io3dfd");
     			attr_dev(img7, "alt", "mynd");
     			if (img7.src !== (img7_src_value = "igms/sortedPlastic/14-15.png")) attr_dev(img7, "src", img7_src_value);
     			add_location(img7, file$6, 14, 1, 695);
-    			attr_dev(img8, "class", "img portfolio-item svelte-1y06s13");
+    			attr_dev(img8, "class", "img portfolio-item svelte-io3dfd");
     			attr_dev(img8, "alt", "mynd");
     			if (img8.src !== (img8_src_value = "igms/sortedPlastic/17-18.png")) attr_dev(img8, "src", img8_src_value);
     			add_location(img8, file$6, 15, 1, 777);
-    			attr_dev(img9, "class", "img portfolio-item svelte-1y06s13");
+    			attr_dev(img9, "class", "img portfolio-item svelte-io3dfd");
     			attr_dev(img9, "alt", "mynd");
     			if (img9.src !== (img9_src_value = "igms/sortedPlastic/20-21.png")) attr_dev(img9, "src", img9_src_value);
     			add_location(img9, file$6, 16, 1, 859);
     			add_location(br3, file$6, 16, 81, 939);
-    			attr_dev(img10, "class", "img portfolio-item svelte-1y06s13");
+    			attr_dev(img10, "class", "img portfolio-item svelte-io3dfd");
     			set_style(img10, "border-radius", "30px");
     			attr_dev(img10, "alt", "mynd");
     			if (img10.src !== (img10_src_value = "igms/sortedPlastic/lol.jpg")) attr_dev(img10, "src", img10_src_value);
     			add_location(img10, file$6, 17, 1, 945);
-    			attr_dev(img11, "class", "img portfolio-item svelte-1y06s13");
+    			attr_dev(img11, "class", "img portfolio-item svelte-io3dfd");
     			attr_dev(img11, "alt", "mynd");
     			if (img11.src !== (img11_src_value = "igms/sortedPlastic/back.png")) attr_dev(img11, "src", img11_src_value);
     			add_location(img11, file$6, 18, 1, 1054);
@@ -2014,7 +2037,7 @@ var app = (function () {
     			add_location(br9, file$6, 19, 21, 1155);
     			add_location(br10, file$6, 19, 25, 1159);
     			add_location(br11, file$6, 19, 29, 1163);
-    			attr_dev(div, "class", "backgroundcolor svelte-1y06s13");
+    			attr_dev(div, "class", "backgroundcolor svelte-io3dfd");
     			add_location(div, file$6, 5, 0, 23);
     		},
     		l: function claim(nodes) {
@@ -2226,11 +2249,11 @@ var app = (function () {
     			br28 = element("br");
     			add_location(br0, file$7, 6, 1, 54);
     			add_location(br1, file$7, 6, 5, 58);
-    			attr_dev(img0, "class", "img portfolio-item svelte-vso4qw");
+    			attr_dev(img0, "class", "img portfolio-item svelte-1uwsbkp");
     			attr_dev(img0, "alt", "mynd");
     			if (img0.src !== (img0_src_value = "igms/musicPosters/1.jpg")) attr_dev(img0, "src", img0_src_value);
     			add_location(img0, file$7, 7, 1, 64);
-    			attr_dev(img1, "class", "img portfolio-item svelte-vso4qw");
+    			attr_dev(img1, "class", "img portfolio-item svelte-1uwsbkp");
     			attr_dev(img1, "alt", "mynd");
     			if (img1.src !== (img1_src_value = "igms/musicPosters/1b.jpg")) attr_dev(img1, "src", img1_src_value);
     			add_location(img1, file$7, 8, 1, 141);
@@ -2241,6 +2264,7 @@ var app = (function () {
     			attr_dev(iframe0, "frameborder", "0");
     			attr_dev(iframe0, "allow", "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture");
     			iframe0.allowFullscreen = true;
+    			attr_dev(iframe0, "class", "svelte-1uwsbkp");
     			add_location(iframe0, file$7, 9, 1, 223);
     			add_location(br3, file$7, 10, 1, 427);
     			add_location(br4, file$7, 10, 5, 431);
@@ -2250,11 +2274,11 @@ var app = (function () {
     			add_location(br8, file$7, 10, 21, 447);
     			add_location(br9, file$7, 10, 25, 451);
     			add_location(br10, file$7, 10, 29, 455);
-    			attr_dev(img2, "class", "img portfolio-item svelte-vso4qw");
+    			attr_dev(img2, "class", "img portfolio-item svelte-1uwsbkp");
     			attr_dev(img2, "alt", "mynd");
     			if (img2.src !== (img2_src_value = "igms/musicPosters/2.jpg")) attr_dev(img2, "src", img2_src_value);
     			add_location(img2, file$7, 11, 1, 461);
-    			attr_dev(img3, "class", "img portfolio-item svelte-vso4qw");
+    			attr_dev(img3, "class", "img portfolio-item svelte-1uwsbkp");
     			attr_dev(img3, "alt", "mynd");
     			if (img3.src !== (img3_src_value = "igms/musicPosters/2b.jpg")) attr_dev(img3, "src", img3_src_value);
     			add_location(img3, file$7, 12, 1, 538);
@@ -2265,6 +2289,7 @@ var app = (function () {
     			attr_dev(iframe1, "frameborder", "0");
     			attr_dev(iframe1, "allow", "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture");
     			iframe1.allowFullscreen = true;
+    			attr_dev(iframe1, "class", "svelte-1uwsbkp");
     			add_location(iframe1, file$7, 13, 1, 620);
     			add_location(br12, file$7, 14, 1, 825);
     			add_location(br13, file$7, 14, 5, 829);
@@ -2274,11 +2299,11 @@ var app = (function () {
     			add_location(br17, file$7, 14, 21, 845);
     			add_location(br18, file$7, 14, 25, 849);
     			add_location(br19, file$7, 14, 29, 853);
-    			attr_dev(img4, "class", "img portfolio-item svelte-vso4qw");
+    			attr_dev(img4, "class", "img portfolio-item svelte-1uwsbkp");
     			attr_dev(img4, "alt", "mynd");
     			if (img4.src !== (img4_src_value = "igms/musicPosters/3.jpg")) attr_dev(img4, "src", img4_src_value);
     			add_location(img4, file$7, 15, 1, 859);
-    			attr_dev(img5, "class", "img portfolio-item svelte-vso4qw");
+    			attr_dev(img5, "class", "img portfolio-item svelte-1uwsbkp");
     			attr_dev(img5, "alt", "mynd");
     			if (img5.src !== (img5_src_value = "igms/musicPosters/3b.jpg")) attr_dev(img5, "src", img5_src_value);
     			add_location(img5, file$7, 16, 1, 936);
@@ -2289,6 +2314,7 @@ var app = (function () {
     			attr_dev(iframe2, "frameborder", "0");
     			attr_dev(iframe2, "allow", "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture");
     			iframe2.allowFullscreen = true;
+    			attr_dev(iframe2, "class", "svelte-1uwsbkp");
     			add_location(iframe2, file$7, 17, 1, 1018);
     			add_location(br21, file$7, 18, 1, 1222);
     			add_location(br22, file$7, 18, 5, 1226);
@@ -2298,7 +2324,7 @@ var app = (function () {
     			add_location(br26, file$7, 18, 21, 1242);
     			add_location(br27, file$7, 18, 25, 1246);
     			add_location(br28, file$7, 18, 29, 1250);
-    			attr_dev(div, "class", "backgroundcolor svelte-vso4qw");
+    			attr_dev(div, "class", "backgroundcolor svelte-1uwsbkp");
     			add_location(div, file$7, 5, 0, 23);
     		},
     		l: function claim(nodes) {
@@ -2508,72 +2534,72 @@ var app = (function () {
     			br10 = element("br");
     			add_location(br0, file$8, 6, 1, 54);
     			add_location(br1, file$8, 6, 5, 58);
-    			attr_dev(img0, "class", "img portfolio-item svelte-197gr3d");
+    			attr_dev(img0, "class", "img portfolio-item svelte-n5j4iw");
     			attr_dev(img0, "alt", "mynd");
     			if (img0.src !== (img0_src_value = "igms/timatal/sammen.png")) attr_dev(img0, "src", img0_src_value);
     			add_location(img0, file$8, 7, 1, 64);
     			add_location(br2, file$8, 7, 76, 139);
-    			attr_dev(img1, "class", "img portfolio-item smaller svelte-197gr3d");
+    			attr_dev(img1, "class", "img portfolio-item smaller svelte-n5j4iw");
     			attr_dev(img1, "alt", "mynd");
     			if (img1.src !== (img1_src_value = "igms/timatal/1.png")) attr_dev(img1, "src", img1_src_value);
     			add_location(img1, file$8, 8, 1, 145);
-    			attr_dev(img2, "class", "img portfolio-item smaller svelte-197gr3d");
+    			attr_dev(img2, "class", "img portfolio-item smaller svelte-n5j4iw");
     			attr_dev(img2, "alt", "mynd");
     			if (img2.src !== (img2_src_value = "igms/timatal/2.png")) attr_dev(img2, "src", img2_src_value);
     			add_location(img2, file$8, 9, 1, 225);
-    			attr_dev(img3, "class", "img portfolio-item smaller svelte-197gr3d");
+    			attr_dev(img3, "class", "img portfolio-item smaller svelte-n5j4iw");
     			attr_dev(img3, "alt", "mynd");
     			if (img3.src !== (img3_src_value = "igms/timatal/3.png")) attr_dev(img3, "src", img3_src_value);
     			add_location(img3, file$8, 10, 1, 305);
-    			attr_dev(img4, "class", "img portfolio-item smaller svelte-197gr3d");
+    			attr_dev(img4, "class", "img portfolio-item smaller svelte-n5j4iw");
     			attr_dev(img4, "alt", "mynd");
     			if (img4.src !== (img4_src_value = "igms/timatal/5.png")) attr_dev(img4, "src", img4_src_value);
     			add_location(img4, file$8, 11, 1, 385);
-    			attr_dev(img5, "class", "img portfolio-item smaller svelte-197gr3d");
+    			attr_dev(img5, "class", "img portfolio-item smaller svelte-n5j4iw");
     			attr_dev(img5, "alt", "mynd");
     			if (img5.src !== (img5_src_value = "igms/timatal/6.png")) attr_dev(img5, "src", img5_src_value);
     			add_location(img5, file$8, 12, 1, 465);
-    			attr_dev(img6, "class", "img portfolio-item smaller svelte-197gr3d");
+    			attr_dev(img6, "class", "img portfolio-item smaller svelte-n5j4iw");
     			attr_dev(img6, "alt", "mynd");
     			if (img6.src !== (img6_src_value = "igms/timatal/4.png")) attr_dev(img6, "src", img6_src_value);
     			add_location(img6, file$8, 13, 1, 545);
-    			attr_dev(img7, "class", "img portfolio-item smaller svelte-197gr3d");
+    			attr_dev(img7, "class", "img portfolio-item smaller svelte-n5j4iw");
     			attr_dev(img7, "alt", "mynd");
     			if (img7.src !== (img7_src_value = "igms/timatal/7.png")) attr_dev(img7, "src", img7_src_value);
     			add_location(img7, file$8, 16, 1, 629);
-    			attr_dev(img8, "class", "img portfolio-item smaller svelte-197gr3d");
+    			attr_dev(img8, "class", "img portfolio-item smaller svelte-n5j4iw");
     			attr_dev(img8, "alt", "mynd");
     			if (img8.src !== (img8_src_value = "igms/timatal/8.png")) attr_dev(img8, "src", img8_src_value);
     			add_location(img8, file$8, 17, 1, 709);
-    			attr_dev(img9, "class", "img portfolio-item smaller svelte-197gr3d");
+    			attr_dev(img9, "class", "img portfolio-item smaller svelte-n5j4iw");
     			attr_dev(img9, "alt", "mynd");
     			if (img9.src !== (img9_src_value = "igms/timatal/9.png")) attr_dev(img9, "src", img9_src_value);
     			add_location(img9, file$8, 18, 1, 789);
-    			attr_dev(img10, "class", "img portfolio-item smaller svelte-197gr3d");
+    			attr_dev(img10, "class", "img portfolio-item smaller svelte-n5j4iw");
     			attr_dev(img10, "alt", "mynd");
     			if (img10.src !== (img10_src_value = "igms/timatal/11.png")) attr_dev(img10, "src", img10_src_value);
     			add_location(img10, file$8, 20, 1, 871);
-    			attr_dev(img11, "class", "img portfolio-item smaller svelte-197gr3d");
+    			attr_dev(img11, "class", "img portfolio-item smaller svelte-n5j4iw");
     			attr_dev(img11, "alt", "mynd");
     			if (img11.src !== (img11_src_value = "igms/timatal/10.png")) attr_dev(img11, "src", img11_src_value);
     			add_location(img11, file$8, 21, 1, 952);
-    			attr_dev(img12, "class", "img portfolio-item svelte-197gr3d");
+    			attr_dev(img12, "class", "img portfolio-item svelte-n5j4iw");
     			attr_dev(img12, "alt", "mynd");
     			if (img12.src !== (img12_src_value = "igms/timatal/sammen2.png")) attr_dev(img12, "src", img12_src_value);
     			add_location(img12, file$8, 22, 1, 1033);
-    			attr_dev(img13, "class", "img portfolio-item svelte-197gr3d");
+    			attr_dev(img13, "class", "img portfolio-item lastpic svelte-n5j4iw");
     			attr_dev(img13, "alt", "mynd");
     			if (img13.src !== (img13_src_value = "igms/timatal/uppst.jpg")) attr_dev(img13, "src", img13_src_value);
     			add_location(img13, file$8, 23, 1, 1111);
-    			add_location(br3, file$8, 24, 1, 1187);
-    			add_location(br4, file$8, 24, 5, 1191);
-    			add_location(br5, file$8, 24, 9, 1195);
-    			add_location(br6, file$8, 24, 13, 1199);
-    			add_location(br7, file$8, 24, 17, 1203);
-    			add_location(br8, file$8, 24, 21, 1207);
-    			add_location(br9, file$8, 24, 25, 1211);
-    			add_location(br10, file$8, 24, 29, 1215);
-    			attr_dev(div, "class", "backgroundcolor svelte-197gr3d");
+    			add_location(br3, file$8, 24, 1, 1195);
+    			add_location(br4, file$8, 24, 5, 1199);
+    			add_location(br5, file$8, 24, 9, 1203);
+    			add_location(br6, file$8, 24, 13, 1207);
+    			add_location(br7, file$8, 24, 17, 1211);
+    			add_location(br8, file$8, 24, 21, 1215);
+    			add_location(br9, file$8, 24, 25, 1219);
+    			add_location(br10, file$8, 24, 29, 1223);
+    			attr_dev(div, "class", "backgroundcolor svelte-n5j4iw");
     			add_location(div, file$8, 5, 0, 23);
     		},
     		l: function claim(nodes) {
@@ -2755,52 +2781,52 @@ var app = (function () {
     			br6 = element("br");
     			br7 = element("br");
     			br8 = element("br");
-    			attr_dev(img0, "class", "img portfolio-item svelte-1phlr82");
+    			attr_dev(img0, "class", "img portfolio-item svelte-prshb0");
     			attr_dev(img0, "alt", "mynd");
     			if (img0.src !== (img0_src_value = "igms/tools/1.png")) attr_dev(img0, "src", img0_src_value);
     			add_location(img0, file$9, 6, 1, 54);
-    			attr_dev(img1, "class", "img portfolio-item svelte-1phlr82");
+    			attr_dev(img1, "class", "img portfolio-item svelte-prshb0");
     			attr_dev(img1, "alt", "mynd");
     			if (img1.src !== (img1_src_value = "igms/tools/2.png")) attr_dev(img1, "src", img1_src_value);
     			add_location(img1, file$9, 7, 1, 124);
-    			attr_dev(img2, "class", "img portfolio-item svelte-1phlr82");
+    			attr_dev(img2, "class", "img portfolio-item svelte-prshb0");
     			attr_dev(img2, "alt", "mynd");
     			if (img2.src !== (img2_src_value = "igms/tools/3.png")) attr_dev(img2, "src", img2_src_value);
     			add_location(img2, file$9, 8, 1, 194);
-    			attr_dev(img3, "class", "img portfolio-item svelte-1phlr82");
+    			attr_dev(img3, "class", "img portfolio-item svelte-prshb0");
     			attr_dev(img3, "alt", "mynd");
     			if (img3.src !== (img3_src_value = "igms/tools/4.png")) attr_dev(img3, "src", img3_src_value);
     			add_location(img3, file$9, 9, 1, 264);
-    			attr_dev(img4, "class", "img portfolio-item svelte-1phlr82");
+    			attr_dev(img4, "class", "img portfolio-item svelte-prshb0");
     			attr_dev(img4, "alt", "mynd");
     			if (img4.src !== (img4_src_value = "igms/tools/5.png")) attr_dev(img4, "src", img4_src_value);
     			add_location(img4, file$9, 10, 1, 334);
-    			attr_dev(img5, "class", "img portfolio-item svelte-1phlr82");
+    			attr_dev(img5, "class", "img portfolio-item svelte-prshb0");
     			attr_dev(img5, "alt", "mynd");
     			if (img5.src !== (img5_src_value = "igms/tools/6.png")) attr_dev(img5, "src", img5_src_value);
     			add_location(img5, file$9, 11, 1, 404);
-    			attr_dev(img6, "class", "img portfolio-item svelte-1phlr82");
+    			attr_dev(img6, "class", "img portfolio-item svelte-prshb0");
     			attr_dev(img6, "alt", "mynd");
     			if (img6.src !== (img6_src_value = "igms/tools/7.png")) attr_dev(img6, "src", img6_src_value);
     			add_location(img6, file$9, 12, 1, 474);
-    			attr_dev(img7, "class", "img portfolio-item svelte-1phlr82");
+    			attr_dev(img7, "class", "img portfolio-item svelte-prshb0");
     			attr_dev(img7, "alt", "mynd");
     			if (img7.src !== (img7_src_value = "igms/tools/9.png")) attr_dev(img7, "src", img7_src_value);
     			add_location(img7, file$9, 13, 1, 544);
-    			attr_dev(img8, "class", "img portfolio-item svelte-1phlr82");
+    			attr_dev(img8, "class", "img portfolio-item svelte-prshb0");
     			attr_dev(img8, "alt", "mynd");
     			if (img8.src !== (img8_src_value = "igms/tools/10.png")) attr_dev(img8, "src", img8_src_value);
     			add_location(img8, file$9, 14, 1, 614);
-    			attr_dev(img9, "class", "img portfolio-item svelte-1phlr82");
+    			attr_dev(img9, "class", "img portfolio-item svelte-prshb0");
     			attr_dev(img9, "alt", "mynd");
     			if (img9.src !== (img9_src_value = "igms/tools/11.png")) attr_dev(img9, "src", img9_src_value);
     			add_location(img9, file$9, 15, 1, 685);
-    			attr_dev(img10, "class", "img portfolio-item svelte-1phlr82");
+    			attr_dev(img10, "class", "img portfolio-item svelte-prshb0");
     			attr_dev(img10, "alt", "mynd");
     			if (img10.src !== (img10_src_value = "igms/tools/12.png")) attr_dev(img10, "src", img10_src_value);
     			add_location(img10, file$9, 16, 1, 756);
     			add_location(br0, file$9, 16, 70, 825);
-    			attr_dev(img11, "class", "img portfolio-item svelte-1phlr82");
+    			attr_dev(img11, "class", "img portfolio-item svelte-prshb0");
     			attr_dev(img11, "alt", "mynd");
     			if (img11.src !== (img11_src_value = "igms/tools/tools.png")) attr_dev(img11, "src", img11_src_value);
     			add_location(img11, file$9, 17, 1, 831);
@@ -2812,7 +2838,7 @@ var app = (function () {
     			add_location(br6, file$9, 18, 21, 925);
     			add_location(br7, file$9, 18, 25, 929);
     			add_location(br8, file$9, 18, 29, 933);
-    			attr_dev(div, "class", "backgroundcolor svelte-1phlr82");
+    			attr_dev(div, "class", "backgroundcolor svelte-prshb0");
     			add_location(div, file$9, 5, 0, 23);
     		},
     		l: function claim(nodes) {
@@ -3148,35 +3174,35 @@ var app = (function () {
     			br17 = element("br");
     			add_location(br0, file$b, 6, 1, 54);
     			add_location(br1, file$b, 6, 5, 58);
-    			attr_dev(img0, "class", "img portfolio-item smaller svelte-viypl1");
+    			attr_dev(img0, "class", "img portfolio-item smaller svelte-1av7bfc");
     			attr_dev(img0, "alt", "mynd");
     			if (img0.src !== (img0_src_value = "igms/musicBook/front.png")) attr_dev(img0, "src", img0_src_value);
     			add_location(img0, file$b, 7, 1, 64);
-    			attr_dev(img1, "class", "img portfolio-item smaller svelte-viypl1");
+    			attr_dev(img1, "class", "img portfolio-item smaller svelte-1av7bfc");
     			attr_dev(img1, "alt", "mynd");
     			if (img1.src !== (img1_src_value = "igms/musicBook/back.png")) attr_dev(img1, "src", img1_src_value);
     			add_location(img1, file$b, 8, 1, 150);
-    			attr_dev(img2, "class", "img portfolio-item svelte-viypl1");
+    			attr_dev(img2, "class", "img portfolio-item svelte-1av7bfc");
     			attr_dev(img2, "alt", "mynd");
     			if (img2.src !== (img2_src_value = "igms/musicBook/6.png")) attr_dev(img2, "src", img2_src_value);
     			add_location(img2, file$b, 9, 1, 235);
-    			attr_dev(img3, "class", "img portfolio-item svelte-viypl1");
+    			attr_dev(img3, "class", "img portfolio-item svelte-1av7bfc");
     			attr_dev(img3, "alt", "mynd");
     			if (img3.src !== (img3_src_value = "igms/musicBook/5.png")) attr_dev(img3, "src", img3_src_value);
     			add_location(img3, file$b, 10, 1, 309);
-    			attr_dev(img4, "class", "img portfolio-item svelte-viypl1");
+    			attr_dev(img4, "class", "img portfolio-item svelte-1av7bfc");
     			attr_dev(img4, "alt", "mynd");
     			if (img4.src !== (img4_src_value = "igms/musicBook/4.png")) attr_dev(img4, "src", img4_src_value);
     			add_location(img4, file$b, 11, 1, 383);
-    			attr_dev(img5, "class", "img portfolio-item svelte-viypl1");
+    			attr_dev(img5, "class", "img portfolio-item svelte-1av7bfc");
     			attr_dev(img5, "alt", "mynd");
     			if (img5.src !== (img5_src_value = "igms/musicBook/3.png")) attr_dev(img5, "src", img5_src_value);
     			add_location(img5, file$b, 12, 1, 457);
-    			attr_dev(img6, "class", "img portfolio-item svelte-viypl1");
+    			attr_dev(img6, "class", "img portfolio-item svelte-1av7bfc");
     			attr_dev(img6, "alt", "mynd");
     			if (img6.src !== (img6_src_value = "igms/musicBook/2.png")) attr_dev(img6, "src", img6_src_value);
     			add_location(img6, file$b, 13, 1, 531);
-    			attr_dev(img7, "class", "img portfolio-item svelte-viypl1");
+    			attr_dev(img7, "class", "img portfolio-item svelte-1av7bfc");
     			attr_dev(img7, "alt", "mynd");
     			if (img7.src !== (img7_src_value = "igms/musicBook/1.png")) attr_dev(img7, "src", img7_src_value);
     			add_location(img7, file$b, 14, 1, 605);
@@ -3194,6 +3220,7 @@ var app = (function () {
     			attr_dev(iframe, "frameborder", "0");
     			attr_dev(iframe, "allow", "autoplay; encrypted-media");
     			iframe.allowFullscreen = true;
+    			attr_dev(iframe, "class", "svelte-1av7bfc");
     			add_location(iframe, file$b, 16, 1, 713);
     			add_location(p, file$b, 17, 1, 907);
     			add_location(br10, file$b, 18, 1, 950);
@@ -3204,7 +3231,7 @@ var app = (function () {
     			add_location(br15, file$b, 18, 21, 970);
     			add_location(br16, file$b, 18, 25, 974);
     			add_location(br17, file$b, 18, 29, 978);
-    			attr_dev(div, "class", "backgroundcolor svelte-viypl1");
+    			attr_dev(div, "class", "backgroundcolor svelte-1av7bfc");
     			add_location(div, file$b, 5, 0, 23);
     		},
     		l: function claim(nodes) {
@@ -3363,27 +3390,23 @@ var app = (function () {
     			br12 = element("br");
     			add_location(br0, file$c, 6, 1, 54);
     			add_location(br1, file$c, 6, 5, 58);
-    			attr_dev(img0, "class", "img portfolio-item svelte-lsg2gy");
+    			attr_dev(img0, "class", "img portfolio-item svelte-1r4jk2k");
     			attr_dev(img0, "alt", "mynd");
     			if (img0.src !== (img0_src_value = "igms/corruptedspace/1.jpg")) attr_dev(img0, "src", img0_src_value);
     			add_location(img0, file$c, 7, 1, 64);
     			add_location(br2, file$c, 7, 78, 141);
-    			attr_dev(img1, "class", "img portfolio-item svelte-lsg2gy");
+    			attr_dev(img1, "class", "img portfolio-item svelte-1r4jk2k");
     			attr_dev(img1, "alt", "mynd");
     			if (img1.src !== (img1_src_value = "igms/corruptedspace/2.jpg")) attr_dev(img1, "src", img1_src_value);
     			add_location(img1, file$c, 8, 1, 147);
     			add_location(br3, file$c, 8, 78, 224);
-    			attr_dev(img2, "class", "img portfolio-item svelte-lsg2gy");
+    			attr_dev(img2, "class", "img portfolio-item svelte-1r4jk2k");
     			attr_dev(img2, "alt", "mynd");
     			if (img2.src !== (img2_src_value = "igms/corruptedspace/3.jpg")) attr_dev(img2, "src", img2_src_value);
     			add_location(img2, file$c, 9, 1, 230);
     			add_location(br4, file$c, 9, 78, 307);
     			if (iframe.src !== (iframe_src_value = "https://player.vimeo.com/video/329483614?autoplay=1&loop=1&color=ffffff&title=0&byline=0&portrait=0")) attr_dev(iframe, "src", iframe_src_value);
-    			set_style(iframe, "position", "absolute");
-    			set_style(iframe, "top", "0%");
-    			set_style(iframe, "left", "20%");
-    			set_style(iframe, "width", "60%");
-    			set_style(iframe, "height", "100%");
+    			attr_dev(iframe, "class", "video-vidd svelte-1r4jk2k");
     			attr_dev(iframe, "frameborder", "0");
     			attr_dev(iframe, "allow", "autoplay; fullscreen");
     			iframe.allowFullscreen = true;
@@ -3392,16 +3415,16 @@ var app = (function () {
     			set_style(div0, "position", "relative");
     			add_location(div0, file$c, 11, 1, 314);
     			if (script.src !== (script_src_value = "https://player.vimeo.com/api/player.js")) attr_dev(script, "src", script_src_value);
-    			add_location(script, file$c, 11, 306, 619);
-    			add_location(br5, file$c, 12, 1, 683);
-    			add_location(br6, file$c, 12, 5, 687);
-    			add_location(br7, file$c, 12, 9, 691);
-    			add_location(br8, file$c, 12, 13, 695);
-    			add_location(br9, file$c, 12, 17, 699);
-    			add_location(br10, file$c, 12, 21, 703);
-    			add_location(br11, file$c, 12, 25, 707);
-    			add_location(br12, file$c, 12, 29, 711);
-    			attr_dev(div1, "class", "backgroundcolor svelte-lsg2gy");
+    			add_location(script, file$c, 11, 260, 573);
+    			add_location(br5, file$c, 12, 1, 637);
+    			add_location(br6, file$c, 12, 5, 641);
+    			add_location(br7, file$c, 12, 9, 645);
+    			add_location(br8, file$c, 12, 13, 649);
+    			add_location(br9, file$c, 12, 17, 653);
+    			add_location(br10, file$c, 12, 21, 657);
+    			add_location(br11, file$c, 12, 25, 661);
+    			add_location(br12, file$c, 12, 29, 665);
+    			attr_dev(div1, "class", "backgroundcolor svelte-1r4jk2k");
     			add_location(div1, file$c, 5, 0, 23);
     		},
     		l: function claim(nodes) {
@@ -3700,24 +3723,24 @@ var app = (function () {
     			br19 = element("br");
     			add_location(br0, file$e, 6, 1, 54);
     			add_location(br1, file$e, 6, 5, 58);
-    			attr_dev(img0, "class", "img portfolio-item svelte-1c7vd3i");
+    			attr_dev(img0, "class", "img portfolio-item svelte-1kpd0oy");
     			attr_dev(img0, "alt", "mynd");
     			if (img0.src !== (img0_src_value = "igms/litabok/15.png")) attr_dev(img0, "src", img0_src_value);
     			add_location(img0, file$e, 7, 1, 64);
     			add_location(br2, file$e, 7, 72, 135);
-    			attr_dev(img1, "class", "img portfolio-item smaller svelte-1c7vd3i");
+    			attr_dev(img1, "class", "img portfolio-item smaller svelte-1kpd0oy");
     			attr_dev(img1, "alt", "mynd");
     			if (img1.src !== (img1_src_value = "igms/litabok/14.png")) attr_dev(img1, "src", img1_src_value);
     			add_location(img1, file$e, 8, 1, 141);
-    			attr_dev(img2, "class", "img portfolio-item smaller svelte-1c7vd3i");
+    			attr_dev(img2, "class", "img portfolio-item smaller svelte-1kpd0oy");
     			attr_dev(img2, "alt", "mynd");
     			if (img2.src !== (img2_src_value = "igms/litabok/13.png")) attr_dev(img2, "src", img2_src_value);
     			add_location(img2, file$e, 9, 1, 222);
-    			attr_dev(img3, "class", "img portfolio-item smaller svelte-1c7vd3i");
+    			attr_dev(img3, "class", "img portfolio-item smaller svelte-1kpd0oy");
     			attr_dev(img3, "alt", "mynd");
     			if (img3.src !== (img3_src_value = "igms/litabok/12.png")) attr_dev(img3, "src", img3_src_value);
     			add_location(img3, file$e, 10, 1, 303);
-    			attr_dev(img4, "class", "img portfolio-item smaller svelte-1c7vd3i");
+    			attr_dev(img4, "class", "img portfolio-item smaller svelte-1kpd0oy");
     			attr_dev(img4, "alt", "mynd");
     			if (img4.src !== (img4_src_value = "igms/litabok/2.png")) attr_dev(img4, "src", img4_src_value);
     			add_location(img4, file$e, 20, 1, 1118);
@@ -3729,36 +3752,36 @@ var app = (function () {
     			add_location(br8, file$e, 22, 21, 1305);
     			add_location(br9, file$e, 22, 25, 1309);
     			add_location(br10, file$e, 22, 29, 1313);
-    			attr_dev(img5, "class", "img portfolio-item svelte-1c7vd3i");
+    			attr_dev(img5, "class", "img portfolio-item svelte-1kpd0oy");
     			attr_dev(img5, "alt", "mynd");
     			if (img5.src !== (img5_src_value = "igms/litabok/3.jpg")) attr_dev(img5, "src", img5_src_value);
     			add_location(img5, file$e, 23, 1, 1319);
     			add_location(br11, file$e, 23, 71, 1389);
-    			attr_dev(img6, "class", "img portfolio-item svelte-1c7vd3i");
+    			attr_dev(img6, "class", "img portfolio-item svelte-1kpd0oy");
     			attr_dev(img6, "alt", "mynd");
     			if (img6.src !== (img6_src_value = "igms/litabok/2.jpg")) attr_dev(img6, "src", img6_src_value);
     			add_location(img6, file$e, 24, 1, 1395);
-    			attr_dev(img7, "class", "img portfolio-item svelte-1c7vd3i");
+    			attr_dev(img7, "class", "img portfolio-item svelte-1kpd0oy");
     			attr_dev(img7, "alt", "mynd");
     			if (img7.src !== (img7_src_value = "igms/litabok/1.jpg")) attr_dev(img7, "src", img7_src_value);
     			add_location(img7, file$e, 25, 1, 1467);
-    			attr_dev(img8, "class", "img portfolio-item svelte-1c7vd3i");
+    			attr_dev(img8, "class", "img portfolio-item svelte-1kpd0oy");
     			attr_dev(img8, "alt", "mynd");
     			if (img8.src !== (img8_src_value = "igms/litabok/0.jpg")) attr_dev(img8, "src", img8_src_value);
     			add_location(img8, file$e, 26, 1, 1539);
-    			attr_dev(img9, "class", "img portfolio-item fixedsmallpic fourth-fixedsmallpic svelte-1c7vd3i");
+    			attr_dev(img9, "class", "img portfolio-item fixedsmallpic fourth-fixedsmallpic svelte-1kpd0oy");
     			attr_dev(img9, "alt", "mynd");
     			if (img9.src !== (img9_src_value = "igms/litabok/skulpt25-small.png")) attr_dev(img9, "src", img9_src_value);
     			add_location(img9, file$e, 29, 1, 1613);
-    			attr_dev(img10, "class", "img portfolio-item fixedsmallpic first-fixedsmallpic svelte-1c7vd3i");
+    			attr_dev(img10, "class", "img portfolio-item fixedsmallpic first-fixedsmallpic svelte-1kpd0oy");
     			attr_dev(img10, "alt", "mynd");
     			if (img10.src !== (img10_src_value = "igms/litabok/skulpt5-small-skuggi.png")) attr_dev(img10, "src", img10_src_value);
     			add_location(img10, file$e, 30, 1, 1733);
-    			attr_dev(img11, "class", "img portfolio-item fixedsmallpic third-fixedsmallpic svelte-1c7vd3i");
+    			attr_dev(img11, "class", "img portfolio-item fixedsmallpic third-fixedsmallpic svelte-1kpd0oy");
     			attr_dev(img11, "alt", "mynd");
     			if (img11.src !== (img11_src_value = "igms/litabok/skulpt8-small.png")) attr_dev(img11, "src", img11_src_value);
     			add_location(img11, file$e, 31, 1, 1858);
-    			attr_dev(img12, "class", "img portfolio-item fixedsmallpic second-fixedsmallpic svelte-1c7vd3i");
+    			attr_dev(img12, "class", "img portfolio-item fixedsmallpic second-fixedsmallpic svelte-1kpd0oy");
     			attr_dev(img12, "alt", "mynd");
     			if (img12.src !== (img12_src_value = "igms/litabok/skulpt6-small.png")) attr_dev(img12, "src", img12_src_value);
     			add_location(img12, file$e, 32, 1, 1976);
@@ -3770,7 +3793,7 @@ var app = (function () {
     			add_location(br17, file$e, 39, 21, 2124);
     			add_location(br18, file$e, 39, 25, 2128);
     			add_location(br19, file$e, 39, 29, 2132);
-    			attr_dev(div, "class", "backgroundcolor svelte-1c7vd3i");
+    			attr_dev(div, "class", "backgroundcolor svelte-1kpd0oy");
     			add_location(div, file$e, 5, 0, 23);
     		},
     		l: function claim(nodes) {
@@ -3943,32 +3966,32 @@ var app = (function () {
     			br10 = element("br");
     			add_location(br0, file$f, 6, 1, 54);
     			add_location(br1, file$f, 6, 5, 58);
-    			attr_dev(img0, "class", "img portfolio-item svelte-viypl1");
+    			attr_dev(img0, "class", "img portfolio-item svelte-kjrpwt");
     			attr_dev(img0, "alt", "mynd");
     			if (img0.src !== (img0_src_value = "igms/plastica/1.jpg")) attr_dev(img0, "src", img0_src_value);
     			add_location(img0, file$f, 7, 1, 64);
     			add_location(br2, file$f, 7, 72, 135);
-    			attr_dev(img1, "class", "img portfolio-item smaller svelte-viypl1");
+    			attr_dev(img1, "class", "img portfolio-item smaller svelte-kjrpwt");
     			attr_dev(img1, "alt", "mynd");
     			if (img1.src !== (img1_src_value = "igms/plastica/2.jpg")) attr_dev(img1, "src", img1_src_value);
     			add_location(img1, file$f, 8, 1, 141);
-    			attr_dev(img2, "class", "img portfolio-item smaller svelte-viypl1");
+    			attr_dev(img2, "class", "img portfolio-item smaller svelte-kjrpwt");
     			attr_dev(img2, "alt", "mynd");
     			if (img2.src !== (img2_src_value = "igms/plastica/3.jpg")) attr_dev(img2, "src", img2_src_value);
     			add_location(img2, file$f, 9, 1, 222);
-    			attr_dev(img3, "class", "img portfolio-item smaller svelte-viypl1");
+    			attr_dev(img3, "class", "img portfolio-item smaller svelte-kjrpwt");
     			attr_dev(img3, "alt", "mynd");
     			if (img3.src !== (img3_src_value = "igms/plastica/5.jpg")) attr_dev(img3, "src", img3_src_value);
     			add_location(img3, file$f, 10, 1, 303);
-    			attr_dev(img4, "class", "img portfolio-item smaller svelte-viypl1");
+    			attr_dev(img4, "class", "img portfolio-item smaller svelte-kjrpwt");
     			attr_dev(img4, "alt", "mynd");
     			if (img4.src !== (img4_src_value = "igms/plastica/4.jpg")) attr_dev(img4, "src", img4_src_value);
     			add_location(img4, file$f, 11, 1, 384);
-    			attr_dev(img5, "class", "img portfolio-item smaller svelte-viypl1");
+    			attr_dev(img5, "class", "img portfolio-item smaller svelte-kjrpwt");
     			attr_dev(img5, "alt", "mynd");
     			if (img5.src !== (img5_src_value = "igms/plastica/6.jpg")) attr_dev(img5, "src", img5_src_value);
     			add_location(img5, file$f, 12, 1, 465);
-    			attr_dev(img6, "class", "img portfolio-item svelte-viypl1");
+    			attr_dev(img6, "class", "img portfolio-item svelte-kjrpwt");
     			attr_dev(img6, "alt", "mynd");
     			if (img6.src !== (img6_src_value = "igms/plastica/8.jpg")) attr_dev(img6, "src", img6_src_value);
     			add_location(img6, file$f, 14, 1, 626);
@@ -3980,7 +4003,7 @@ var app = (function () {
     			add_location(br8, file$f, 15, 21, 719);
     			add_location(br9, file$f, 15, 25, 723);
     			add_location(br10, file$f, 15, 29, 727);
-    			attr_dev(div, "class", "backgroundcolor svelte-viypl1");
+    			attr_dev(div, "class", "backgroundcolor svelte-kjrpwt");
     			add_location(div, file$f, 5, 0, 23);
     		},
     		l: function claim(nodes) {
@@ -4140,58 +4163,53 @@ var app = (function () {
     			add_location(br0, file$g, 6, 1, 54);
     			add_location(br1, file$g, 6, 5, 58);
     			if (iframe.src !== (iframe_src_value = "https://player.vimeo.com/video/324752891?autoplay=1&loop=1&color=ffffff&title=0&byline=0&portrait=0")) attr_dev(iframe, "src", iframe_src_value);
-    			set_style(iframe, "position", "absolute");
-    			set_style(iframe, "top", "6.5%");
-    			set_style(iframe, "left", "20%");
-    			set_style(iframe, "width", "60%");
-    			set_style(iframe, "height", "80%");
+    			attr_dev(iframe, "class", "moving-vid svelte-1muytiu");
     			attr_dev(iframe, "frameborder", "0");
     			attr_dev(iframe, "allow", "autoplay; fullscreen");
     			iframe.allowFullscreen = true;
-    			add_location(iframe, file$g, 7, 54, 117);
-    			set_style(div0, "padding", "56.25% 0 0 0");
-    			set_style(div0, "position", "relative");
+    			add_location(iframe, file$g, 7, 24, 87);
+    			attr_dev(div0, "class", "vid-kassi svelte-1muytiu");
     			add_location(div0, file$g, 7, 1, 64);
     			if (script.src !== (script_src_value = "https://player.vimeo.com/api/player.js")) attr_dev(script, "src", script_src_value);
-    			add_location(script, file$g, 7, 310, 373);
-    			attr_dev(img0, "class", "img portfolio-item svelte-zqi07z");
+    			add_location(script, file$g, 7, 233, 296);
+    			attr_dev(img0, "class", "img portfolio-item svelte-1muytiu");
     			set_style(img0, "height", "80%");
     			attr_dev(img0, "alt", "mynd");
     			if (img0.src !== (img0_src_value = "igms/familiarfaces/1.jpg")) attr_dev(img0, "src", img0_src_value);
-    			add_location(img0, file$g, 8, 1, 437);
-    			attr_dev(img1, "class", "img portfolio-item svelte-zqi07z");
+    			add_location(img0, file$g, 8, 1, 360);
+    			attr_dev(img1, "class", "img portfolio-item svelte-1muytiu");
     			attr_dev(img1, "alt", "mynd");
     			if (img1.src !== (img1_src_value = "igms/familiarfaces/2.jpg")) attr_dev(img1, "src", img1_src_value);
-    			add_location(img1, file$g, 9, 1, 536);
-    			attr_dev(img2, "class", "img portfolio-item svelte-zqi07z");
+    			add_location(img1, file$g, 9, 1, 459);
+    			attr_dev(img2, "class", "img portfolio-item svelte-1muytiu");
     			attr_dev(img2, "alt", "mynd");
     			if (img2.src !== (img2_src_value = "igms/familiarfaces/3.jpg")) attr_dev(img2, "src", img2_src_value);
-    			add_location(img2, file$g, 10, 1, 614);
-    			attr_dev(img3, "class", "img portfolio-item svelte-zqi07z");
+    			add_location(img2, file$g, 10, 1, 537);
+    			attr_dev(img3, "class", "img portfolio-item svelte-1muytiu");
     			attr_dev(img3, "alt", "mynd");
     			if (img3.src !== (img3_src_value = "igms/familiarfaces/4.jpg")) attr_dev(img3, "src", img3_src_value);
-    			add_location(img3, file$g, 11, 1, 692);
-    			attr_dev(img4, "class", "img portfolio-item svelte-zqi07z");
+    			add_location(img3, file$g, 11, 1, 615);
+    			attr_dev(img4, "class", "img portfolio-item svelte-1muytiu");
     			attr_dev(img4, "alt", "mynd");
     			if (img4.src !== (img4_src_value = "igms/familiarfaces/5.jpg")) attr_dev(img4, "src", img4_src_value);
-    			add_location(img4, file$g, 12, 1, 770);
-    			attr_dev(img5, "class", "img portfolio-item svelte-zqi07z");
+    			add_location(img4, file$g, 12, 1, 693);
+    			attr_dev(img5, "class", "img portfolio-item svelte-1muytiu");
     			attr_dev(img5, "alt", "mynd");
     			if (img5.src !== (img5_src_value = "igms/familiarfaces/6.jpg")) attr_dev(img5, "src", img5_src_value);
-    			add_location(img5, file$g, 13, 1, 848);
-    			attr_dev(img6, "class", "img portfolio-item svelte-zqi07z");
+    			add_location(img5, file$g, 13, 1, 771);
+    			attr_dev(img6, "class", "img portfolio-item svelte-1muytiu");
     			attr_dev(img6, "alt", "mynd");
     			if (img6.src !== (img6_src_value = "igms/familiarfaces/7.jpg")) attr_dev(img6, "src", img6_src_value);
-    			add_location(img6, file$g, 14, 1, 926);
-    			add_location(br2, file$g, 15, 1, 1004);
-    			add_location(br3, file$g, 15, 5, 1008);
-    			add_location(br4, file$g, 15, 9, 1012);
-    			add_location(br5, file$g, 15, 13, 1016);
-    			add_location(br6, file$g, 15, 17, 1020);
-    			add_location(br7, file$g, 15, 21, 1024);
-    			add_location(br8, file$g, 15, 25, 1028);
-    			add_location(br9, file$g, 15, 29, 1032);
-    			attr_dev(div1, "class", "backgroundcolor svelte-zqi07z");
+    			add_location(img6, file$g, 14, 1, 849);
+    			add_location(br2, file$g, 15, 1, 927);
+    			add_location(br3, file$g, 15, 5, 931);
+    			add_location(br4, file$g, 15, 9, 935);
+    			add_location(br5, file$g, 15, 13, 939);
+    			add_location(br6, file$g, 15, 17, 943);
+    			add_location(br7, file$g, 15, 21, 947);
+    			add_location(br8, file$g, 15, 25, 951);
+    			add_location(br9, file$g, 15, 29, 955);
+    			attr_dev(div1, "class", "backgroundcolor svelte-1muytiu");
     			add_location(div1, file$g, 5, 0, 23);
     		},
     		l: function claim(nodes) {
@@ -4364,46 +4382,46 @@ var app = (function () {
     			br12 = element("br");
     			add_location(br0, file$h, 6, 1, 54);
     			add_location(br1, file$h, 6, 5, 58);
-    			attr_dev(img0, "class", "img portfolio-item tiny svelte-sledhr");
+    			attr_dev(img0, "class", "img portfolio-item tiny svelte-1fvzsuk");
     			attr_dev(img0, "alt", "mynd");
     			if (img0.src !== (img0_src_value = "igms/typedesign/likamartestpink.png")) attr_dev(img0, "src", img0_src_value);
     			add_location(img0, file$h, 7, 1, 64);
-    			attr_dev(img1, "class", "img portfolio-item svelte-sledhr");
+    			attr_dev(img1, "class", "img portfolio-item svelte-1fvzsuk");
     			attr_dev(img1, "alt", "mynd");
     			if (img1.src !== (img1_src_value = "igms/typedesign/apri2.jpg")) attr_dev(img1, "src", img1_src_value);
     			add_location(img1, file$h, 10, 1, 160);
     			add_location(br2, file$h, 10, 78, 237);
-    			attr_dev(img2, "class", "img portfolio-item smaller svelte-sledhr");
+    			attr_dev(img2, "class", "img portfolio-item smaller svelte-1fvzsuk");
     			attr_dev(img2, "alt", "mynd");
     			if (img2.src !== (img2_src_value = "igms/typedesign/blatt.jpg")) attr_dev(img2, "src", img2_src_value);
     			add_location(img2, file$h, 12, 1, 245);
-    			attr_dev(img3, "class", "img portfolio-item smaller svelte-sledhr");
+    			attr_dev(img3, "class", "img portfolio-item smaller svelte-1fvzsuk");
     			attr_dev(img3, "alt", "mynd");
     			if (img3.src !== (img3_src_value = "igms/typedesign/dokkt.jpg")) attr_dev(img3, "src", img3_src_value);
     			add_location(img3, file$h, 13, 1, 332);
-    			attr_dev(img4, "class", "img portfolio-item smaller svelte-sledhr");
+    			attr_dev(img4, "class", "img portfolio-item smaller svelte-1fvzsuk");
     			attr_dev(img4, "alt", "mynd");
     			if (img4.src !== (img4_src_value = "igms/typedesign/orange.jpg")) attr_dev(img4, "src", img4_src_value);
     			add_location(img4, file$h, 14, 1, 419);
     			add_location(br3, file$h, 14, 87, 505);
-    			attr_dev(img5, "class", "img portfolio-item larger svelte-sledhr");
+    			attr_dev(img5, "class", "img portfolio-item larger svelte-1fvzsuk");
     			attr_dev(img5, "alt", "mynd");
     			if (img5.src !== (img5_src_value = "igms/typedesign/building.jpg")) attr_dev(img5, "src", img5_src_value);
     			add_location(img5, file$h, 15, 1, 511);
     			add_location(br4, file$h, 15, 88, 598);
-    			attr_dev(img6, "class", "img portfolio-item smaller-two svelte-sledhr");
+    			attr_dev(img6, "class", "img portfolio-item smaller-two svelte-1fvzsuk");
     			attr_dev(img6, "alt", "mynd");
     			if (img6.src !== (img6_src_value = "igms/typedesign/motionMobile.gif")) attr_dev(img6, "src", img6_src_value);
     			add_location(img6, file$h, 17, 1, 605);
-    			attr_dev(img7, "class", "img portfolio-item smaller-two  svelte-sledhr");
+    			attr_dev(img7, "class", "img portfolio-item smaller-two  svelte-1fvzsuk");
     			attr_dev(img7, "alt", "mynd");
     			if (img7.src !== (img7_src_value = "igms/typedesign/motionMobileCgaedi.gif")) attr_dev(img7, "src", img7_src_value);
     			add_location(img7, file$h, 18, 1, 703);
-    			attr_dev(img8, "class", "img portfolio-item smaller-two svelte-sledhr");
+    			attr_dev(img8, "class", "img portfolio-item smaller-two svelte-1fvzsuk");
     			attr_dev(img8, "alt", "mynd");
     			if (img8.src !== (img8_src_value = "igms/typedesign/svhv27b.jpg")) attr_dev(img8, "src", img8_src_value);
     			add_location(img8, file$h, 19, 1, 808);
-    			attr_dev(img9, "class", "img portfolio-item smaller-two svelte-sledhr");
+    			attr_dev(img9, "class", "img portfolio-item smaller-two svelte-1fvzsuk");
     			attr_dev(img9, "alt", "mynd");
     			if (img9.src !== (img9_src_value = "igms/typedesign/svhv35b.jpg")) attr_dev(img9, "src", img9_src_value);
     			add_location(img9, file$h, 20, 1, 901);
@@ -4415,7 +4433,7 @@ var app = (function () {
     			add_location(br10, file$h, 22, 21, 1016);
     			add_location(br11, file$h, 22, 25, 1020);
     			add_location(br12, file$h, 22, 29, 1024);
-    			attr_dev(div, "class", "backgroundcolor svelte-sledhr");
+    			attr_dev(div, "class", "backgroundcolor svelte-1fvzsuk");
     			add_location(div, file$h, 5, 0, 23);
     		},
     		l: function claim(nodes) {
@@ -4671,7 +4689,7 @@ var app = (function () {
     			br50 = element("br");
     			add_location(br0, file$i, 6, 1, 54);
     			add_location(br1, file$i, 6, 5, 58);
-    			attr_dev(img0, "class", "img portfolio-item larger svelte-c6giv6");
+    			attr_dev(img0, "class", "img portfolio-item larger svelte-13vy55a");
     			attr_dev(img0, "alt", "mynd");
     			if (img0.src !== (img0_src_value = "igms/oeb/screena.jpg")) attr_dev(img0, "src", img0_src_value);
     			add_location(img0, file$i, 7, 1, 64);
@@ -4683,7 +4701,7 @@ var app = (function () {
     			add_location(br7, file$i, 7, 100, 163);
     			add_location(br8, file$i, 7, 104, 167);
     			add_location(br9, file$i, 7, 108, 171);
-    			attr_dev(img1, "class", "img portfolio-item larger svelte-c6giv6");
+    			attr_dev(img1, "class", "img portfolio-item larger svelte-13vy55a");
     			attr_dev(img1, "alt", "mynd");
     			if (img1.src !== (img1_src_value = "igms/oeb/screenb.jpg")) attr_dev(img1, "src", img1_src_value);
     			add_location(img1, file$i, 8, 1, 177);
@@ -4695,7 +4713,7 @@ var app = (function () {
     			add_location(br15, file$i, 8, 100, 276);
     			add_location(br16, file$i, 8, 104, 280);
     			add_location(br17, file$i, 8, 108, 284);
-    			attr_dev(img2, "class", "img portfolio-item larger svelte-c6giv6");
+    			attr_dev(img2, "class", "img portfolio-item larger svelte-13vy55a");
     			attr_dev(img2, "alt", "mynd");
     			if (img2.src !== (img2_src_value = "igms/oeb/screenc.jpg")) attr_dev(img2, "src", img2_src_value);
     			add_location(img2, file$i, 9, 1, 290);
@@ -4707,7 +4725,7 @@ var app = (function () {
     			add_location(br23, file$i, 9, 100, 389);
     			add_location(br24, file$i, 9, 104, 393);
     			add_location(br25, file$i, 9, 108, 397);
-    			attr_dev(img3, "class", "img portfolio-item larger svelte-c6giv6");
+    			attr_dev(img3, "class", "img portfolio-item larger svelte-13vy55a");
     			attr_dev(img3, "alt", "mynd");
     			if (img3.src !== (img3_src_value = "igms/oeb/screend.jpg")) attr_dev(img3, "src", img3_src_value);
     			add_location(img3, file$i, 10, 1, 403);
@@ -4719,50 +4737,48 @@ var app = (function () {
     			add_location(br31, file$i, 11, 21, 504);
     			add_location(br32, file$i, 11, 25, 508);
     			add_location(br33, file$i, 11, 29, 512);
-    			attr_dev(img4, "class", "img portfolio-item svelte-c6giv6");
-    			set_style(img4, "height", "80%");
+    			attr_dev(img4, "class", "img portfolio-item attatiuvidd svelte-13vy55a");
     			attr_dev(img4, "alt", "mynd");
     			if (img4.src !== (img4_src_value = "igms/oeb/h.png")) attr_dev(img4, "src", img4_src_value);
     			add_location(img4, file$i, 12, 1, 518);
-    			add_location(br34, file$i, 12, 88, 605);
-    			attr_dev(img5, "class", "img portfolio-item svelte-c6giv6");
-    			set_style(img5, "height", "80%");
+    			add_location(br34, file$i, 12, 79, 596);
+    			attr_dev(img5, "class", "img portfolio-item attatiuvidd svelte-13vy55a");
     			attr_dev(img5, "alt", "mynd");
     			if (img5.src !== (img5_src_value = "igms/oeb/0a.png")) attr_dev(img5, "src", img5_src_value);
-    			add_location(img5, file$i, 13, 1, 611);
-    			attr_dev(img6, "class", "img portfolio-item svelte-c6giv6");
+    			add_location(img5, file$i, 13, 1, 602);
+    			attr_dev(img6, "class", "img portfolio-item svelte-13vy55a");
     			attr_dev(img6, "alt", "mynd");
     			if (img6.src !== (img6_src_value = "igms/oeb/1b.png")) attr_dev(img6, "src", img6_src_value);
-    			add_location(img6, file$i, 14, 1, 701);
-    			attr_dev(img7, "class", "img portfolio-item svelte-c6giv6");
+    			add_location(img6, file$i, 14, 1, 683);
+    			attr_dev(img7, "class", "img portfolio-item svelte-13vy55a");
     			attr_dev(img7, "alt", "mynd");
     			if (img7.src !== (img7_src_value = "igms/oeb/5.png")) attr_dev(img7, "src", img7_src_value);
-    			add_location(img7, file$i, 15, 1, 770);
-    			attr_dev(img8, "class", "img portfolio-item svelte-c6giv6");
+    			add_location(img7, file$i, 15, 1, 752);
+    			attr_dev(img8, "class", "img portfolio-item svelte-13vy55a");
     			attr_dev(img8, "alt", "mynd");
     			if (img8.src !== (img8_src_value = "igms/oeb/yout_Page_25.jpg")) attr_dev(img8, "src", img8_src_value);
-    			add_location(img8, file$i, 18, 1, 842);
-    			add_location(br35, file$i, 18, 78, 919);
-    			add_location(br36, file$i, 18, 82, 923);
-    			add_location(br37, file$i, 18, 86, 927);
-    			add_location(br38, file$i, 18, 90, 931);
-    			add_location(br39, file$i, 18, 94, 935);
-    			add_location(br40, file$i, 18, 98, 939);
-    			add_location(br41, file$i, 18, 102, 943);
-    			add_location(br42, file$i, 18, 106, 947);
-    			attr_dev(img9, "class", "img portfolio-item svelte-c6giv6");
+    			add_location(img8, file$i, 18, 1, 824);
+    			add_location(br35, file$i, 18, 78, 901);
+    			add_location(br36, file$i, 18, 82, 905);
+    			add_location(br37, file$i, 18, 86, 909);
+    			add_location(br38, file$i, 18, 90, 913);
+    			add_location(br39, file$i, 18, 94, 917);
+    			add_location(br40, file$i, 18, 98, 921);
+    			add_location(br41, file$i, 18, 102, 925);
+    			add_location(br42, file$i, 18, 106, 929);
+    			attr_dev(img9, "class", "img portfolio-item svelte-13vy55a");
     			attr_dev(img9, "alt", "mynd");
     			if (img9.src !== (img9_src_value = "igms/oeb/yout_Page_20.jpg")) attr_dev(img9, "src", img9_src_value);
-    			add_location(img9, file$i, 19, 1, 953);
-    			add_location(br43, file$i, 28, 1, 1417);
-    			add_location(br44, file$i, 28, 5, 1421);
-    			add_location(br45, file$i, 28, 9, 1425);
-    			add_location(br46, file$i, 28, 13, 1429);
-    			add_location(br47, file$i, 28, 17, 1433);
-    			add_location(br48, file$i, 28, 21, 1437);
-    			add_location(br49, file$i, 28, 25, 1441);
-    			add_location(br50, file$i, 28, 29, 1445);
-    			attr_dev(div, "class", "backgroundcolor svelte-c6giv6");
+    			add_location(img9, file$i, 19, 1, 935);
+    			add_location(br43, file$i, 28, 1, 1399);
+    			add_location(br44, file$i, 28, 5, 1403);
+    			add_location(br45, file$i, 28, 9, 1407);
+    			add_location(br46, file$i, 28, 13, 1411);
+    			add_location(br47, file$i, 28, 17, 1415);
+    			add_location(br48, file$i, 28, 21, 1419);
+    			add_location(br49, file$i, 28, 25, 1423);
+    			add_location(br50, file$i, 28, 29, 1427);
+    			attr_dev(div, "class", "backgroundcolor svelte-13vy55a");
     			add_location(div, file$i, 5, 0, 23);
     		},
     		l: function claim(nodes) {
@@ -5025,18 +5041,6 @@ var app = (function () {
     	let br34;
     	let br35;
     	let br36;
-    	let t35;
-    	let img29;
-    	let img29_src_value;
-    	let t36;
-    	let br37;
-    	let br38;
-    	let br39;
-    	let br40;
-    	let br41;
-    	let br42;
-    	let br43;
-    	let br44;
 
     	const block = {
     		c: function create() {
@@ -5142,20 +5146,9 @@ var app = (function () {
     			br34 = element("br");
     			br35 = element("br");
     			br36 = element("br");
-    			t35 = space();
-    			img29 = element("img");
-    			t36 = space();
-    			br37 = element("br");
-    			br38 = element("br");
-    			br39 = element("br");
-    			br40 = element("br");
-    			br41 = element("br");
-    			br42 = element("br");
-    			br43 = element("br");
-    			br44 = element("br");
     			add_location(br0, file$j, 6, 1, 54);
     			add_location(br1, file$j, 6, 5, 58);
-    			attr_dev(img0, "class", "img portfolio-item svelte-cgatct");
+    			attr_dev(img0, "class", "img portfolio-item svelte-vg5c57");
     			attr_dev(img0, "alt", "mynd");
     			if (img0.src !== (img0_src_value = "igms/beauimg/main.jpg")) attr_dev(img0, "src", img0_src_value);
     			add_location(img0, file$j, 7, 1, 64);
@@ -5163,59 +5156,59 @@ var app = (function () {
     			add_location(br3, file$j, 8, 5, 143);
     			add_location(br4, file$j, 8, 9, 147);
     			add_location(br5, file$j, 8, 13, 151);
-    			attr_dev(img1, "class", "img portfolio-item svelte-cgatct");
+    			attr_dev(img1, "class", "img portfolio-item svelte-vg5c57");
     			attr_dev(img1, "alt", "mynd");
     			if (img1.src !== (img1_src_value = "igms/beauimg/0.jpg")) attr_dev(img1, "src", img1_src_value);
     			add_location(img1, file$j, 9, 1, 157);
-    			attr_dev(img2, "class", "img portfolio-item svelte-cgatct");
+    			attr_dev(img2, "class", "img portfolio-item svelte-vg5c57");
     			attr_dev(img2, "alt", "mynd");
     			if (img2.src !== (img2_src_value = "igms/beauimg/1.jpg")) attr_dev(img2, "src", img2_src_value);
     			add_location(img2, file$j, 10, 1, 229);
     			add_location(br6, file$j, 10, 71, 299);
-    			attr_dev(img3, "class", "img portfolio-item larger svelte-cgatct");
+    			attr_dev(img3, "class", "img portfolio-item larger svelte-vg5c57");
     			attr_dev(img3, "alt", "mynd");
     			if (img3.src !== (img3_src_value = "igms/beauimg/auka1b.jpg")) attr_dev(img3, "src", img3_src_value);
     			add_location(img3, file$j, 11, 1, 305);
     			add_location(br7, file$j, 11, 83, 387);
-    			attr_dev(img4, "class", "img portfolio-item svelte-cgatct");
+    			attr_dev(img4, "class", "img portfolio-item svelte-vg5c57");
     			attr_dev(img4, "alt", "mynd");
     			if (img4.src !== (img4_src_value = "igms/beauimg/2.jpg")) attr_dev(img4, "src", img4_src_value);
     			add_location(img4, file$j, 12, 1, 393);
-    			attr_dev(img5, "class", "img portfolio-item svelte-cgatct");
+    			attr_dev(img5, "class", "img portfolio-item svelte-vg5c57");
     			attr_dev(img5, "alt", "mynd");
     			if (img5.src !== (img5_src_value = "igms/beauimg/3.jpg")) attr_dev(img5, "src", img5_src_value);
     			add_location(img5, file$j, 13, 1, 465);
-    			attr_dev(img6, "class", "img portfolio-item svelte-cgatct");
+    			attr_dev(img6, "class", "img portfolio-item svelte-vg5c57");
     			attr_dev(img6, "alt", "mynd");
     			if (img6.src !== (img6_src_value = "igms/beauimg/4.jpg")) attr_dev(img6, "src", img6_src_value);
     			add_location(img6, file$j, 14, 1, 537);
     			add_location(br8, file$j, 14, 71, 607);
-    			attr_dev(img7, "class", "img portfolio-item svelte-cgatct");
+    			attr_dev(img7, "class", "img portfolio-item svelte-vg5c57");
     			attr_dev(img7, "alt", "mynd");
     			if (img7.src !== (img7_src_value = "igms/beauimg/5.jpg")) attr_dev(img7, "src", img7_src_value);
     			add_location(img7, file$j, 15, 1, 613);
-    			attr_dev(img8, "class", "img portfolio-item svelte-cgatct");
+    			attr_dev(img8, "class", "img portfolio-item svelte-vg5c57");
     			attr_dev(img8, "alt", "mynd");
     			if (img8.src !== (img8_src_value = "igms/beauimg/6.jpg")) attr_dev(img8, "src", img8_src_value);
     			add_location(img8, file$j, 16, 1, 685);
-    			attr_dev(img9, "class", "img portfolio-item svelte-cgatct");
+    			attr_dev(img9, "class", "img portfolio-item svelte-vg5c57");
     			attr_dev(img9, "alt", "mynd");
     			if (img9.src !== (img9_src_value = "igms/beauimg/9.jpg")) attr_dev(img9, "src", img9_src_value);
     			add_location(img9, file$j, 19, 1, 908);
-    			attr_dev(img10, "class", "img portfolio-item svelte-cgatct");
+    			attr_dev(img10, "class", "img portfolio-item svelte-vg5c57");
     			attr_dev(img10, "alt", "mynd");
     			if (img10.src !== (img10_src_value = "igms/beauimg/10.jpg")) attr_dev(img10, "src", img10_src_value);
     			add_location(img10, file$j, 20, 1, 980);
-    			attr_dev(img11, "class", "img portfolio-item svelte-cgatct");
+    			attr_dev(img11, "class", "img portfolio-item svelte-vg5c57");
     			attr_dev(img11, "alt", "mynd");
     			if (img11.src !== (img11_src_value = "igms/beauimg/11.jpg")) attr_dev(img11, "src", img11_src_value);
     			add_location(img11, file$j, 21, 1, 1053);
     			add_location(br9, file$j, 21, 72, 1124);
-    			attr_dev(img12, "class", "img portfolio-item svelte-cgatct");
+    			attr_dev(img12, "class", "img portfolio-item svelte-vg5c57");
     			attr_dev(img12, "alt", "mynd");
     			if (img12.src !== (img12_src_value = "igms/beauimg/12.jpg")) attr_dev(img12, "src", img12_src_value);
     			add_location(img12, file$j, 22, 1, 1130);
-    			attr_dev(img13, "class", "img portfolio-item svelte-cgatct");
+    			attr_dev(img13, "class", "img portfolio-item svelte-vg5c57");
     			attr_dev(img13, "alt", "mynd");
     			if (img13.src !== (img13_src_value = "igms/beauimg/13.jpg")) attr_dev(img13, "src", img13_src_value);
     			add_location(img13, file$j, 23, 1, 1203);
@@ -5223,7 +5216,7 @@ var app = (function () {
     			add_location(br11, file$j, 24, 5, 1280);
     			add_location(br12, file$j, 24, 9, 1284);
     			add_location(br13, file$j, 24, 13, 1288);
-    			attr_dev(img14, "class", "img portfolio-item larger svelte-cgatct");
+    			attr_dev(img14, "class", "img portfolio-item larger svelte-vg5c57");
     			attr_dev(img14, "alt", "mynd");
     			if (img14.src !== (img14_src_value = "igms/beauimg/blubbsmallerbutnotsmallenough.png")) attr_dev(img14, "src", img14_src_value);
     			add_location(img14, file$j, 25, 1, 1294);
@@ -5231,42 +5224,42 @@ var app = (function () {
     			add_location(br15, file$j, 26, 5, 1405);
     			add_location(br16, file$j, 26, 9, 1409);
     			add_location(br17, file$j, 26, 13, 1413);
-    			attr_dev(img15, "class", "img portfolio-item svelte-cgatct");
+    			attr_dev(img15, "class", "img portfolio-item svelte-vg5c57");
     			attr_dev(img15, "alt", "mynd");
     			if (img15.src !== (img15_src_value = "igms/beauimg/14.jpg")) attr_dev(img15, "src", img15_src_value);
     			add_location(img15, file$j, 27, 1, 1419);
     			add_location(br18, file$j, 27, 72, 1490);
-    			attr_dev(img16, "class", "img portfolio-item svelte-cgatct");
+    			attr_dev(img16, "class", "img portfolio-item svelte-vg5c57");
     			attr_dev(img16, "alt", "mynd");
     			if (img16.src !== (img16_src_value = "igms/beauimg/15.jpg")) attr_dev(img16, "src", img16_src_value);
     			add_location(img16, file$j, 28, 1, 1496);
-    			attr_dev(img17, "class", "img portfolio-item svelte-cgatct");
+    			attr_dev(img17, "class", "img portfolio-item svelte-vg5c57");
     			attr_dev(img17, "alt", "mynd");
     			if (img17.src !== (img17_src_value = "igms/beauimg/16.jpg")) attr_dev(img17, "src", img17_src_value);
     			add_location(img17, file$j, 29, 1, 1569);
-    			attr_dev(img18, "class", "img portfolio-item svelte-cgatct");
+    			attr_dev(img18, "class", "img portfolio-item svelte-vg5c57");
     			attr_dev(img18, "alt", "mynd");
     			if (img18.src !== (img18_src_value = "igms/beauimg/17.jpg")) attr_dev(img18, "src", img18_src_value);
     			add_location(img18, file$j, 30, 1, 1642);
     			add_location(br19, file$j, 30, 72, 1713);
-    			attr_dev(img19, "class", "img portfolio-item svelte-cgatct");
+    			attr_dev(img19, "class", "img portfolio-item svelte-vg5c57");
     			attr_dev(img19, "alt", "mynd");
     			if (img19.src !== (img19_src_value = "igms/beauimg/21.jpg")) attr_dev(img19, "src", img19_src_value);
     			add_location(img19, file$j, 32, 1, 1720);
     			add_location(br20, file$j, 32, 72, 1791);
-    			attr_dev(img20, "class", "img portfolio-item svelte-cgatct");
+    			attr_dev(img20, "class", "img portfolio-item svelte-vg5c57");
     			attr_dev(img20, "alt", "mynd");
     			if (img20.src !== (img20_src_value = "igms/beauimg/22.jpg")) attr_dev(img20, "src", img20_src_value);
     			add_location(img20, file$j, 33, 1, 1797);
-    			attr_dev(img21, "class", "img portfolio-item svelte-cgatct");
+    			attr_dev(img21, "class", "img portfolio-item svelte-vg5c57");
     			attr_dev(img21, "alt", "mynd");
     			if (img21.src !== (img21_src_value = "igms/beauimg/23.jpg")) attr_dev(img21, "src", img21_src_value);
     			add_location(img21, file$j, 34, 1, 1870);
-    			attr_dev(img22, "class", "img portfolio-item svelte-cgatct");
+    			attr_dev(img22, "class", "img portfolio-item svelte-vg5c57");
     			attr_dev(img22, "alt", "mynd");
     			if (img22.src !== (img22_src_value = "igms/beauimg/24.jpg")) attr_dev(img22, "src", img22_src_value);
     			add_location(img22, file$j, 35, 1, 1943);
-    			attr_dev(img23, "class", "img portfolio-item svelte-cgatct");
+    			attr_dev(img23, "class", "img portfolio-item svelte-vg5c57");
     			attr_dev(img23, "alt", "mynd");
     			if (img23.src !== (img23_src_value = "igms/beauimg/aukaauka2.jpg")) attr_dev(img23, "src", img23_src_value);
     			add_location(img23, file$j, 36, 1, 2016);
@@ -5274,19 +5267,19 @@ var app = (function () {
     			add_location(br22, file$j, 38, 5, 2181);
     			add_location(br23, file$j, 38, 9, 2185);
     			add_location(br24, file$j, 38, 13, 2189);
-    			attr_dev(img24, "class", "img portfolio-item smaller svelte-cgatct");
+    			attr_dev(img24, "class", "img portfolio-item smaller svelte-vg5c57");
     			attr_dev(img24, "alt", "mynd");
     			if (img24.src !== (img24_src_value = "igms/beauimg/aukaa2.jpg")) attr_dev(img24, "src", img24_src_value);
     			add_location(img24, file$j, 39, 1, 2195);
-    			attr_dev(img25, "class", "img portfolio-item smaller svelte-cgatct");
+    			attr_dev(img25, "class", "img portfolio-item smaller svelte-vg5c57");
     			attr_dev(img25, "alt", "mynd");
     			if (img25.src !== (img25_src_value = "igms/beauimg/aukab2.jpg")) attr_dev(img25, "src", img25_src_value);
     			add_location(img25, file$j, 40, 1, 2280);
-    			attr_dev(img26, "class", "img portfolio-item smaller svelte-cgatct");
+    			attr_dev(img26, "class", "img portfolio-item smaller svelte-vg5c57");
     			attr_dev(img26, "alt", "mynd");
     			if (img26.src !== (img26_src_value = "igms/beauimg/aukac2.jpg")) attr_dev(img26, "src", img26_src_value);
     			add_location(img26, file$j, 41, 1, 2365);
-    			attr_dev(img27, "class", "img portfolio-item smaller svelte-cgatct");
+    			attr_dev(img27, "class", "img portfolio-item smaller svelte-vg5c57");
     			attr_dev(img27, "alt", "mynd");
     			if (img27.src !== (img27_src_value = "igms/beauimg/aukad2.jpg")) attr_dev(img27, "src", img27_src_value);
     			add_location(img27, file$j, 42, 1, 2450);
@@ -5294,31 +5287,19 @@ var app = (function () {
     			add_location(br26, file$j, 43, 5, 2539);
     			add_location(br27, file$j, 43, 9, 2543);
     			add_location(br28, file$j, 43, 13, 2547);
-    			attr_dev(img28, "class", "img portfolio-item larger svelte-cgatct");
+    			attr_dev(img28, "class", "img portfolio-item larger svelte-vg5c57");
     			attr_dev(img28, "alt", "mynd");
     			if (img28.src !== (img28_src_value = "igms/beauimg/aukaaukaauka.jpg")) attr_dev(img28, "src", img28_src_value);
     			add_location(img28, file$j, 44, 1, 2553);
-    			add_location(br29, file$j, 45, 1, 2643);
-    			add_location(br30, file$j, 45, 5, 2647);
-    			add_location(br31, file$j, 45, 9, 2651);
-    			add_location(br32, file$j, 45, 13, 2655);
-    			add_location(br33, file$j, 45, 17, 2659);
-    			add_location(br34, file$j, 45, 21, 2663);
-    			add_location(br35, file$j, 45, 25, 2667);
-    			add_location(br36, file$j, 45, 29, 2671);
-    			attr_dev(img29, "class", "img portfolio-item smaller svelte-cgatct");
-    			attr_dev(img29, "alt", "mynd");
-    			if (img29.src !== (img29_src_value = "igms/beauimg/27.jpg")) attr_dev(img29, "src", img29_src_value);
-    			add_location(img29, file$j, 46, 1, 2677);
-    			add_location(br37, file$j, 47, 1, 2758);
-    			add_location(br38, file$j, 47, 5, 2762);
-    			add_location(br39, file$j, 47, 9, 2766);
-    			add_location(br40, file$j, 47, 13, 2770);
-    			add_location(br41, file$j, 47, 17, 2774);
-    			add_location(br42, file$j, 47, 21, 2778);
-    			add_location(br43, file$j, 47, 25, 2782);
-    			add_location(br44, file$j, 47, 29, 2786);
-    			attr_dev(div, "class", "backgroundcolor svelte-cgatct");
+    			add_location(br29, file$j, 47, 1, 2765);
+    			add_location(br30, file$j, 47, 5, 2769);
+    			add_location(br31, file$j, 47, 9, 2773);
+    			add_location(br32, file$j, 47, 13, 2777);
+    			add_location(br33, file$j, 47, 17, 2781);
+    			add_location(br34, file$j, 47, 21, 2785);
+    			add_location(br35, file$j, 47, 25, 2789);
+    			add_location(br36, file$j, 47, 29, 2793);
+    			attr_dev(div, "class", "backgroundcolor svelte-vg5c57");
     			add_location(div, file$j, 5, 0, 23);
     		},
     		l: function claim(nodes) {
@@ -5427,17 +5408,6 @@ var app = (function () {
     			append_dev(div, br34);
     			append_dev(div, br35);
     			append_dev(div, br36);
-    			append_dev(div, t35);
-    			append_dev(div, img29);
-    			append_dev(div, t36);
-    			append_dev(div, br37);
-    			append_dev(div, br38);
-    			append_dev(div, br39);
-    			append_dev(div, br40);
-    			append_dev(div, br41);
-    			append_dev(div, br42);
-    			append_dev(div, br43);
-    			append_dev(div, br44);
     		},
     		p: noop,
     		i: noop,
@@ -5619,12 +5589,12 @@ var app = (function () {
     			br28 = element("br");
     			add_location(br0, file$k, 6, 1, 54);
     			add_location(br1, file$k, 6, 5, 58);
-    			attr_dev(img0, "class", "img portfolio-item svelte-1w6v5kh");
+    			attr_dev(img0, "class", "img portfolio-item svelte-1nlb3g3");
     			attr_dev(img0, "alt", "mynd");
     			if (img0.src !== (img0_src_value = "igms/bread/first.jpg")) attr_dev(img0, "src", img0_src_value);
     			add_location(img0, file$k, 7, 1, 64);
     			add_location(br2, file$k, 7, 73, 136);
-    			attr_dev(img1, "class", "img portfolio-item svelte-1w6v5kh");
+    			attr_dev(img1, "class", "img portfolio-item svelte-1nlb3g3");
     			attr_dev(img1, "alt", "mynd");
     			if (img1.src !== (img1_src_value = "igms/bread/bread-book-table1b.jpg")) attr_dev(img1, "src", img1_src_value);
     			add_location(img1, file$k, 8, 1, 142);
@@ -5633,12 +5603,12 @@ var app = (function () {
     			add_location(br5, file$k, 9, 5, 237);
     			add_location(br6, file$k, 9, 9, 241);
     			add_location(br7, file$k, 9, 13, 245);
-    			attr_dev(img2, "class", "img portfolio-item svelte-1w6v5kh");
+    			attr_dev(img2, "class", "img portfolio-item svelte-1nlb3g3");
     			set_style(img2, "padding-right", "0px");
     			attr_dev(img2, "alt", "mynd");
     			if (img2.src !== (img2_src_value = "igms/bread/bread-book-p2.jpg")) attr_dev(img2, "src", img2_src_value);
     			add_location(img2, file$k, 10, 1, 251);
-    			attr_dev(img3, "class", "img portfolio-item svelte-1w6v5kh");
+    			attr_dev(img3, "class", "img portfolio-item svelte-1nlb3g3");
     			set_style(img3, "padding-left", "0px");
     			attr_dev(img3, "alt", "mynd");
     			if (img3.src !== (img3_src_value = "igms/bread/bread-book-p1.jpg")) attr_dev(img3, "src", img3_src_value);
@@ -5648,31 +5618,31 @@ var app = (function () {
     			add_location(br10, file$k, 12, 5, 478);
     			add_location(br11, file$k, 12, 9, 482);
     			add_location(br12, file$k, 12, 13, 486);
-    			attr_dev(img4, "class", "img portfolio-item svelte-1w6v5kh");
+    			attr_dev(img4, "class", "img portfolio-item svelte-1nlb3g3");
     			attr_dev(img4, "alt", "mynd");
     			if (img4.src !== (img4_src_value = "igms/bread/bitmap3.png")) attr_dev(img4, "src", img4_src_value);
     			add_location(img4, file$k, 13, 1, 492);
     			add_location(br13, file$k, 14, 1, 568);
-    			attr_dev(img5, "class", "img portfolio-item svelte-1w6v5kh");
+    			attr_dev(img5, "class", "img portfolio-item svelte-1nlb3g3");
     			attr_dev(img5, "alt", "mynd");
     			if (img5.src !== (img5_src_value = "igms/bread/looking2.jpg")) attr_dev(img5, "src", img5_src_value);
     			add_location(img5, file$k, 20, 1, 691);
     			add_location(br14, file$k, 20, 76, 766);
-    			attr_dev(img6, "class", "img portfolio-item svelte-1w6v5kh");
+    			attr_dev(img6, "class", "img portfolio-item svelte-1nlb3g3");
     			attr_dev(img6, "alt", "mynd");
     			if (img6.src !== (img6_src_value = "igms/bread/looking1.jpg")) attr_dev(img6, "src", img6_src_value);
     			add_location(img6, file$k, 21, 1, 772);
     			add_location(br15, file$k, 21, 76, 847);
-    			attr_dev(img7, "class", "img portfolio-item svelte-1w6v5kh");
+    			attr_dev(img7, "class", "img portfolio-item svelte-1nlb3g3");
     			attr_dev(img7, "alt", "mynd");
     			if (img7.src !== (img7_src_value = "igms/bread/close2.jpg")) attr_dev(img7, "src", img7_src_value);
     			add_location(img7, file$k, 22, 1, 853);
     			add_location(br16, file$k, 22, 74, 926);
-    			attr_dev(img8, "class", "img portfolio-item svelte-1w6v5kh");
+    			attr_dev(img8, "class", "img portfolio-item svelte-1nlb3g3");
     			attr_dev(img8, "alt", "mynd");
     			if (img8.src !== (img8_src_value = "igms/bread/bottle.jpg")) attr_dev(img8, "src", img8_src_value);
     			add_location(img8, file$k, 23, 1, 932);
-    			attr_dev(img9, "class", "img portfolio-item svelte-1w6v5kh");
+    			attr_dev(img9, "class", "img portfolio-item svelte-1nlb3g3");
     			attr_dev(img9, "alt", "mynd");
     			if (img9.src !== (img9_src_value = "igms/bread/overview.jpg")) attr_dev(img9, "src", img9_src_value);
     			add_location(img9, file$k, 24, 1, 1007);
@@ -5680,7 +5650,7 @@ var app = (function () {
     			add_location(br18, file$k, 36, 5, 1702);
     			add_location(br19, file$k, 36, 9, 1706);
     			add_location(br20, file$k, 36, 13, 1710);
-    			attr_dev(img10, "class", "img portfolio-item svelte-1w6v5kh");
+    			attr_dev(img10, "class", "img portfolio-item svelte-1nlb3g3");
     			attr_dev(img10, "alt", "mynd");
     			if (img10.src !== (img10_src_value = "igms/bread/bread-book-table2.jpg")) attr_dev(img10, "src", img10_src_value);
     			add_location(img10, file$k, 37, 1, 1716);
@@ -5692,7 +5662,7 @@ var app = (function () {
     			add_location(br26, file$k, 38, 21, 1822);
     			add_location(br27, file$k, 38, 25, 1826);
     			add_location(br28, file$k, 38, 29, 1830);
-    			attr_dev(div, "class", "backgroundcolor svelte-1w6v5kh");
+    			attr_dev(div, "class", "backgroundcolor svelte-1nlb3g3");
     			add_location(div, file$k, 5, 0, 23);
     		},
     		l: function claim(nodes) {
@@ -6087,11 +6057,7 @@ var app = (function () {
     			add_location(br0, file$l, 6, 1, 54);
     			add_location(br1, file$l, 6, 5, 58);
     			if (iframe.src !== (iframe_src_value = "https://player.vimeo.com/video/488284876?autoplay=1&loop=1&color=ffffff&title=0&byline=0&portrait=0")) attr_dev(iframe, "src", iframe_src_value);
-    			set_style(iframe, "position", "absolute");
-    			set_style(iframe, "top", "6.5%");
-    			set_style(iframe, "left", "20%");
-    			set_style(iframe, "width", "60%");
-    			set_style(iframe, "height", "80%");
+    			attr_dev(iframe, "class", "video-flora svelte-106wltv");
     			attr_dev(iframe, "frameborder", "0");
     			attr_dev(iframe, "allow", "autoplay; fullscreen");
     			iframe.allowFullscreen = true;
@@ -6100,170 +6066,170 @@ var app = (function () {
     			set_style(div0, "position", "relative");
     			add_location(div0, file$l, 7, 1, 64);
     			if (script.src !== (script_src_value = "https://player.vimeo.com/api/player.js")) attr_dev(script, "src", script_src_value);
-    			add_location(script, file$l, 7, 310, 373);
-    			add_location(br2, file$l, 8, 1, 437);
-    			add_location(br3, file$l, 8, 5, 441);
-    			add_location(br4, file$l, 8, 9, 445);
-    			add_location(br5, file$l, 8, 13, 449);
-    			add_location(br6, file$l, 8, 17, 453);
-    			add_location(br7, file$l, 8, 21, 457);
-    			add_location(br8, file$l, 8, 25, 461);
-    			add_location(br9, file$l, 8, 29, 465);
-    			attr_dev(img0, "class", "img portfolio-item svelte-1f8v928");
+    			add_location(script, file$l, 7, 264, 327);
+    			add_location(br2, file$l, 8, 1, 391);
+    			add_location(br3, file$l, 8, 5, 395);
+    			add_location(br4, file$l, 8, 9, 399);
+    			add_location(br5, file$l, 8, 13, 403);
+    			add_location(br6, file$l, 8, 17, 407);
+    			add_location(br7, file$l, 8, 21, 411);
+    			add_location(br8, file$l, 8, 25, 415);
+    			add_location(br9, file$l, 8, 29, 419);
+    			attr_dev(img0, "class", "img portfolio-item svelte-106wltv");
     			attr_dev(img0, "alt", "mynd");
     			if (img0.src !== (img0_src_value = "igms/flora/front-desktop.png")) attr_dev(img0, "src", img0_src_value);
-    			add_location(img0, file$l, 9, 1, 471);
-    			attr_dev(img1, "class", "img portfolio-item smaller svelte-1f8v928");
+    			add_location(img0, file$l, 9, 1, 425);
+    			attr_dev(img1, "class", "img portfolio-item smaller svelte-106wltv");
     			attr_dev(img1, "alt", "mynd");
     			if (img1.src !== (img1_src_value = "igms/flora/front-mobile.png")) attr_dev(img1, "src", img1_src_value);
-    			add_location(img1, file$l, 10, 1, 553);
-    			add_location(br10, file$l, 10, 88, 640);
-    			attr_dev(img2, "class", "img portfolio-item smaller svelte-1f8v928");
+    			add_location(img1, file$l, 10, 1, 507);
+    			add_location(br10, file$l, 10, 88, 594);
+    			attr_dev(img2, "class", "img portfolio-item smaller svelte-106wltv");
     			attr_dev(img2, "alt", "mynd");
     			if (img2.src !== (img2_src_value = "igms/flora/grein1-mobile.png")) attr_dev(img2, "src", img2_src_value);
-    			add_location(img2, file$l, 11, 1, 646);
-    			attr_dev(img3, "class", "img portfolio-item svelte-1f8v928");
+    			add_location(img2, file$l, 11, 1, 600);
+    			attr_dev(img3, "class", "img portfolio-item svelte-106wltv");
     			attr_dev(img3, "alt", "mynd");
     			if (img3.src !== (img3_src_value = "igms/flora/grein1-desktop.png")) attr_dev(img3, "src", img3_src_value);
-    			add_location(img3, file$l, 12, 1, 736);
-    			attr_dev(img4, "class", "img portfolio-item svelte-1f8v928");
+    			add_location(img3, file$l, 12, 1, 690);
+    			attr_dev(img4, "class", "img portfolio-item svelte-106wltv");
     			attr_dev(img4, "alt", "mynd");
     			if (img4.src !== (img4_src_value = "igms/flora/grein1c-desktop.png")) attr_dev(img4, "src", img4_src_value);
-    			add_location(img4, file$l, 13, 1, 819);
-    			attr_dev(img5, "class", "img portfolio-item svelte-1f8v928");
+    			add_location(img4, file$l, 13, 1, 773);
+    			attr_dev(img5, "class", "img portfolio-item svelte-106wltv");
     			attr_dev(img5, "alt", "mynd");
     			if (img5.src !== (img5_src_value = "igms/flora/grein1d-desktop.png")) attr_dev(img5, "src", img5_src_value);
-    			add_location(img5, file$l, 14, 1, 903);
-    			add_location(br11, file$l, 14, 83, 985);
-    			attr_dev(img6, "class", "img portfolio-item smaller svelte-1f8v928");
+    			add_location(img5, file$l, 14, 1, 857);
+    			add_location(br11, file$l, 14, 83, 939);
+    			attr_dev(img6, "class", "img portfolio-item smaller svelte-106wltv");
     			attr_dev(img6, "alt", "mynd");
     			if (img6.src !== (img6_src_value = "igms/flora/grein2-mobile.png")) attr_dev(img6, "src", img6_src_value);
-    			add_location(img6, file$l, 15, 1, 991);
-    			attr_dev(img7, "class", "img portfolio-item smaller svelte-1f8v928");
+    			add_location(img6, file$l, 15, 1, 945);
+    			attr_dev(img7, "class", "img portfolio-item smaller svelte-106wltv");
     			attr_dev(img7, "alt", "mynd");
     			if (img7.src !== (img7_src_value = "igms/flora/grein2b-mobile.png")) attr_dev(img7, "src", img7_src_value);
-    			add_location(img7, file$l, 16, 1, 1081);
-    			add_location(br12, file$l, 16, 90, 1170);
-    			attr_dev(img8, "class", "img portfolio-item smaller svelte-1f8v928");
+    			add_location(img7, file$l, 16, 1, 1035);
+    			add_location(br12, file$l, 16, 90, 1124);
+    			attr_dev(img8, "class", "img portfolio-item smaller svelte-106wltv");
     			attr_dev(img8, "alt", "mynd");
     			if (img8.src !== (img8_src_value = "igms/flora/utgafa7-mobile.png")) attr_dev(img8, "src", img8_src_value);
-    			add_location(img8, file$l, 17, 1, 1176);
-    			attr_dev(img9, "class", "img portfolio-item smaller svelte-1f8v928");
+    			add_location(img8, file$l, 17, 1, 1130);
+    			attr_dev(img9, "class", "img portfolio-item smaller svelte-106wltv");
     			attr_dev(img9, "alt", "mynd");
     			if (img9.src !== (img9_src_value = "igms/flora/utgafa5-mobile.png")) attr_dev(img9, "src", img9_src_value);
-    			add_location(img9, file$l, 18, 1, 1267);
-    			attr_dev(img10, "class", "img portfolio-item svelte-1f8v928");
+    			add_location(img9, file$l, 18, 1, 1221);
+    			attr_dev(img10, "class", "img portfolio-item svelte-106wltv");
     			attr_dev(img10, "alt", "mynd");
     			if (img10.src !== (img10_src_value = "igms/flora/utgafa-desktop.png")) attr_dev(img10, "src", img10_src_value);
-    			add_location(img10, file$l, 19, 1, 1358);
-    			add_location(br13, file$l, 19, 82, 1439);
-    			attr_dev(img11, "class", "img portfolio-item smaller svelte-1f8v928");
+    			add_location(img10, file$l, 19, 1, 1312);
+    			add_location(br13, file$l, 19, 82, 1393);
+    			attr_dev(img11, "class", "img portfolio-item smaller svelte-106wltv");
     			attr_dev(img11, "alt", "mynd");
     			if (img11.src !== (img11_src_value = "igms/flora/flaedi-mobile.png")) attr_dev(img11, "src", img11_src_value);
-    			add_location(img11, file$l, 20, 1, 1445);
-    			attr_dev(img12, "class", "img portfolio-item svelte-1f8v928");
+    			add_location(img11, file$l, 20, 1, 1399);
+    			attr_dev(img12, "class", "img portfolio-item svelte-106wltv");
     			attr_dev(img12, "alt", "mynd");
     			if (img12.src !== (img12_src_value = "igms/flora/flaedi-desktop.png")) attr_dev(img12, "src", img12_src_value);
-    			add_location(img12, file$l, 21, 1, 1535);
-    			add_location(br14, file$l, 21, 82, 1616);
-    			attr_dev(img13, "class", "img portfolio-item svelte-1f8v928");
+    			add_location(img12, file$l, 21, 1, 1489);
+    			add_location(br14, file$l, 21, 82, 1570);
+    			attr_dev(img13, "class", "img portfolio-item svelte-106wltv");
     			attr_dev(img13, "alt", "mynd");
     			if (img13.src !== (img13_src_value = "igms/flora/leita-desktop.png")) attr_dev(img13, "src", img13_src_value);
-    			add_location(img13, file$l, 22, 1, 1622);
-    			attr_dev(img14, "class", "img portfolio-item smaller svelte-1f8v928");
+    			add_location(img13, file$l, 22, 1, 1576);
+    			attr_dev(img14, "class", "img portfolio-item smaller svelte-106wltv");
     			attr_dev(img14, "alt", "mynd");
     			if (img14.src !== (img14_src_value = "igms/flora/leita-mobile.png")) attr_dev(img14, "src", img14_src_value);
-    			add_location(img14, file$l, 23, 1, 1704);
-    			add_location(br15, file$l, 23, 88, 1791);
-    			add_location(br16, file$l, 24, 1, 1797);
-    			add_location(br17, file$l, 24, 5, 1801);
-    			add_location(br18, file$l, 24, 9, 1805);
-    			add_location(br19, file$l, 24, 13, 1809);
-    			add_location(br20, file$l, 24, 17, 1813);
-    			add_location(br21, file$l, 24, 21, 1817);
-    			add_location(br22, file$l, 24, 25, 1821);
-    			add_location(br23, file$l, 24, 29, 1825);
-    			attr_dev(img15, "class", "img portfolio-item svelte-1f8v928");
+    			add_location(img14, file$l, 23, 1, 1658);
+    			add_location(br15, file$l, 23, 88, 1745);
+    			add_location(br16, file$l, 24, 1, 1751);
+    			add_location(br17, file$l, 24, 5, 1755);
+    			add_location(br18, file$l, 24, 9, 1759);
+    			add_location(br19, file$l, 24, 13, 1763);
+    			add_location(br20, file$l, 24, 17, 1767);
+    			add_location(br21, file$l, 24, 21, 1771);
+    			add_location(br22, file$l, 24, 25, 1775);
+    			add_location(br23, file$l, 24, 29, 1779);
+    			attr_dev(img15, "class", "img portfolio-item svelte-106wltv");
     			attr_dev(img15, "alt", "mynd");
     			if (img15.src !== (img15_src_value = "igms/undefined-posters/druslaXflora-poster-litil-en.jpg")) attr_dev(img15, "src", img15_src_value);
-    			add_location(img15, file$l, 25, 1, 1831);
-    			attr_dev(img16, "class", "img portfolio-item svelte-1f8v928");
+    			add_location(img15, file$l, 25, 1, 1785);
+    			attr_dev(img16, "class", "img portfolio-item svelte-106wltv");
     			attr_dev(img16, "alt", "mynd");
     			if (img16.src !== (img16_src_value = "igms/undefined-posters/druslaXflora-poster-stor-en.jpg")) attr_dev(img16, "src", img16_src_value);
-    			add_location(img16, file$l, 26, 1, 1940);
-    			add_location(br24, file$l, 26, 107, 2046);
-    			attr_dev(img17, "class", "img portfolio-item svelte-1f8v928");
+    			add_location(img16, file$l, 26, 1, 1894);
+    			add_location(br24, file$l, 26, 107, 2000);
+    			attr_dev(img17, "class", "img portfolio-item svelte-106wltv");
     			attr_dev(img17, "alt", "mynd");
     			if (img17.src !== (img17_src_value = "igms/undefined-posters/druslaXflora-poster-litil-isl.jpg")) attr_dev(img17, "src", img17_src_value);
-    			add_location(img17, file$l, 27, 1, 2052);
-    			attr_dev(img18, "class", "img portfolio-item svelte-1f8v928");
+    			add_location(img17, file$l, 27, 1, 2006);
+    			attr_dev(img18, "class", "img portfolio-item svelte-106wltv");
     			attr_dev(img18, "alt", "mynd");
     			if (img18.src !== (img18_src_value = "igms/undefined-posters/druslaXflora-poster-stor-isl.jpg")) attr_dev(img18, "src", img18_src_value);
-    			add_location(img18, file$l, 28, 1, 2162);
-    			add_location(br25, file$l, 28, 108, 2269);
-    			add_location(br26, file$l, 29, 1, 2275);
-    			add_location(br27, file$l, 29, 5, 2279);
-    			add_location(br28, file$l, 29, 9, 2283);
-    			add_location(br29, file$l, 29, 13, 2287);
-    			add_location(br30, file$l, 29, 17, 2291);
-    			add_location(br31, file$l, 29, 21, 2295);
-    			add_location(br32, file$l, 29, 25, 2299);
-    			add_location(br33, file$l, 29, 29, 2303);
-    			attr_dev(img19, "class", "img portfolio-item larger svelte-1f8v928");
+    			add_location(img18, file$l, 28, 1, 2116);
+    			add_location(br25, file$l, 28, 108, 2223);
+    			add_location(br26, file$l, 29, 1, 2229);
+    			add_location(br27, file$l, 29, 5, 2233);
+    			add_location(br28, file$l, 29, 9, 2237);
+    			add_location(br29, file$l, 29, 13, 2241);
+    			add_location(br30, file$l, 29, 17, 2245);
+    			add_location(br31, file$l, 29, 21, 2249);
+    			add_location(br32, file$l, 29, 25, 2253);
+    			add_location(br33, file$l, 29, 29, 2257);
+    			attr_dev(img19, "class", "img portfolio-item larger svelte-106wltv");
     			attr_dev(img19, "alt", "mynd");
     			if (img19.src !== (img19_src_value = "igms/flora/plaggadd.jpg")) attr_dev(img19, "src", img19_src_value);
-    			add_location(img19, file$l, 30, 1, 2309);
-    			attr_dev(img20, "class", "img portfolio-item smaller svelte-1f8v928");
+    			add_location(img19, file$l, 30, 1, 2263);
+    			attr_dev(img20, "class", "img portfolio-item smaller svelte-106wltv");
     			attr_dev(img20, "alt", "mynd");
     			if (img20.src !== (img20_src_value = "igms/flora/banner.gif")) attr_dev(img20, "src", img20_src_value);
-    			add_location(img20, file$l, 31, 1, 2393);
-    			add_location(br34, file$l, 32, 1, 2476);
-    			add_location(br35, file$l, 32, 5, 2480);
-    			add_location(br36, file$l, 32, 9, 2484);
-    			add_location(br37, file$l, 32, 13, 2488);
-    			add_location(br38, file$l, 32, 17, 2492);
-    			add_location(br39, file$l, 32, 21, 2496);
-    			add_location(br40, file$l, 32, 25, 2500);
-    			add_location(br41, file$l, 32, 29, 2504);
-    			attr_dev(img21, "class", "img portfolio-item larger svelte-1f8v928");
+    			add_location(img20, file$l, 31, 1, 2347);
+    			add_location(br34, file$l, 32, 1, 2430);
+    			add_location(br35, file$l, 32, 5, 2434);
+    			add_location(br36, file$l, 32, 9, 2438);
+    			add_location(br37, file$l, 32, 13, 2442);
+    			add_location(br38, file$l, 32, 17, 2446);
+    			add_location(br39, file$l, 32, 21, 2450);
+    			add_location(br40, file$l, 32, 25, 2454);
+    			add_location(br41, file$l, 32, 29, 2458);
+    			attr_dev(img21, "class", "img portfolio-item larger svelte-106wltv");
     			attr_dev(img21, "alt", "mynd");
     			if (img21.src !== (img21_src_value = "igms/flora/spurn.png")) attr_dev(img21, "src", img21_src_value);
-    			add_location(img21, file$l, 33, 1, 2510);
-    			add_location(br42, file$l, 33, 80, 2589);
-    			attr_dev(img22, "class", "img portfolio-item larger svelte-1f8v928");
+    			add_location(img21, file$l, 33, 1, 2464);
+    			add_location(br42, file$l, 33, 80, 2543);
+    			attr_dev(img22, "class", "img portfolio-item larger svelte-106wltv");
     			attr_dev(img22, "alt", "mynd");
     			if (img22.src !== (img22_src_value = "igms/flora/tik.png")) attr_dev(img22, "src", img22_src_value);
-    			add_location(img22, file$l, 34, 1, 2595);
-    			attr_dev(img23, "class", "img portfolio-item larger svelte-1f8v928");
+    			add_location(img22, file$l, 34, 1, 2549);
+    			attr_dev(img23, "class", "img portfolio-item larger svelte-106wltv");
     			attr_dev(img23, "alt", "mynd");
     			if (img23.src !== (img23_src_value = "igms/flora/baradyr.jpg")) attr_dev(img23, "src", img23_src_value);
-    			add_location(img23, file$l, 35, 1, 2674);
-    			add_location(br43, file$l, 36, 1, 2757);
-    			add_location(br44, file$l, 36, 5, 2761);
-    			add_location(br45, file$l, 36, 9, 2765);
-    			add_location(br46, file$l, 36, 13, 2769);
-    			add_location(br47, file$l, 36, 17, 2773);
-    			add_location(br48, file$l, 36, 21, 2777);
-    			add_location(br49, file$l, 36, 25, 2781);
-    			add_location(br50, file$l, 36, 29, 2785);
-    			attr_dev(img24, "class", "img portfolio-item larger svelte-1f8v928");
+    			add_location(img23, file$l, 35, 1, 2628);
+    			add_location(br43, file$l, 36, 1, 2711);
+    			add_location(br44, file$l, 36, 5, 2715);
+    			add_location(br45, file$l, 36, 9, 2719);
+    			add_location(br46, file$l, 36, 13, 2723);
+    			add_location(br47, file$l, 36, 17, 2727);
+    			add_location(br48, file$l, 36, 21, 2731);
+    			add_location(br49, file$l, 36, 25, 2735);
+    			add_location(br50, file$l, 36, 29, 2739);
+    			attr_dev(img24, "class", "img portfolio-item larger svelte-106wltv");
     			attr_dev(img24, "alt", "mynd");
     			if (img24.src !== (img24_src_value = "igms/flora/handonlæri2.png")) attr_dev(img24, "src", img24_src_value);
-    			add_location(img24, file$l, 37, 1, 2791);
-    			add_location(br51, file$l, 37, 86, 2876);
-    			add_location(br52, file$l, 38, 1, 2882);
-    			add_location(br53, file$l, 38, 5, 2886);
-    			add_location(br54, file$l, 38, 9, 2890);
-    			add_location(br55, file$l, 38, 13, 2894);
-    			add_location(br56, file$l, 38, 17, 2898);
-    			add_location(br57, file$l, 38, 21, 2902);
-    			add_location(br58, file$l, 38, 25, 2906);
-    			add_location(br59, file$l, 38, 29, 2910);
-    			attr_dev(img25, "class", "img portfolio-item smaller fixedlogo svelte-1f8v928");
+    			add_location(img24, file$l, 37, 1, 2745);
+    			add_location(br51, file$l, 37, 86, 2830);
+    			add_location(br52, file$l, 38, 1, 2836);
+    			add_location(br53, file$l, 38, 5, 2840);
+    			add_location(br54, file$l, 38, 9, 2844);
+    			add_location(br55, file$l, 38, 13, 2848);
+    			add_location(br56, file$l, 38, 17, 2852);
+    			add_location(br57, file$l, 38, 21, 2856);
+    			add_location(br58, file$l, 38, 25, 2860);
+    			add_location(br59, file$l, 38, 29, 2864);
+    			attr_dev(img25, "class", "img portfolio-item smaller fixedlogo svelte-106wltv");
     			attr_dev(img25, "alt", "mynd");
     			if (img25.src !== (img25_src_value = "igms/flora/logo-flora.png")) attr_dev(img25, "src", img25_src_value);
-    			add_location(img25, file$l, 39, 1, 2916);
-    			attr_dev(div1, "class", "backgroundcolor svelte-1f8v928");
+    			add_location(img25, file$l, 39, 1, 2870);
+    			attr_dev(div1, "class", "backgroundcolor svelte-106wltv");
     			add_location(div1, file$l, 5, 0, 23);
     		},
     		l: function claim(nodes) {
@@ -6500,24 +6466,24 @@ var app = (function () {
     			br10 = element("br");
     			add_location(br0, file$m, 6, 1, 54);
     			add_location(br1, file$m, 6, 5, 58);
-    			attr_dev(img0, "class", "img portfolio-item svelte-12uxl75");
+    			attr_dev(img0, "class", "img portfolio-item svelte-ajr8db");
     			attr_dev(img0, "alt", "mynd");
     			if (img0.src !== (img0_src_value = "igms/bread/giant.jpg")) attr_dev(img0, "src", img0_src_value);
     			add_location(img0, file$m, 10, 1, 85);
-    			attr_dev(img1, "class", "img portfolio-item svelte-12uxl75");
+    			attr_dev(img1, "class", "img portfolio-item svelte-ajr8db");
     			attr_dev(img1, "alt", "mynd");
     			if (img1.src !== (img1_src_value = "igms/bread/letthemeat.jpg")) attr_dev(img1, "src", img1_src_value);
     			add_location(img1, file$m, 11, 1, 159);
     			add_location(br2, file$m, 11, 78, 236);
-    			attr_dev(img2, "class", "img portfolio-item svelte-12uxl75");
+    			attr_dev(img2, "class", "img portfolio-item svelte-ajr8db");
     			attr_dev(img2, "alt", "mynd");
     			if (img2.src !== (img2_src_value = "igms/bread/magclose.jpg")) attr_dev(img2, "src", img2_src_value);
     			add_location(img2, file$m, 12, 1, 242);
-    			attr_dev(img3, "class", "img portfolio-item svelte-12uxl75");
+    			attr_dev(img3, "class", "img portfolio-item svelte-ajr8db");
     			attr_dev(img3, "alt", "mynd");
     			if (img3.src !== (img3_src_value = "igms/bread/mag1.jpg")) attr_dev(img3, "src", img3_src_value);
     			add_location(img3, file$m, 13, 1, 319);
-    			attr_dev(img4, "class", "img portfolio-item svelte-12uxl75");
+    			attr_dev(img4, "class", "img portfolio-item svelte-ajr8db");
     			attr_dev(img4, "alt", "mynd");
     			if (img4.src !== (img4_src_value = "igms/bread/letthemeattitle.jpg")) attr_dev(img4, "src", img4_src_value);
     			add_location(img4, file$m, 14, 1, 392);
@@ -6529,7 +6495,7 @@ var app = (function () {
     			add_location(br8, file$m, 16, 21, 497);
     			add_location(br9, file$m, 16, 25, 501);
     			add_location(br10, file$m, 16, 29, 505);
-    			attr_dev(div, "class", "backgroundcolor svelte-12uxl75");
+    			attr_dev(div, "class", "backgroundcolor svelte-ajr8db");
     			add_location(div, file$m, 5, 0, 23);
     		},
     		l: function claim(nodes) {
@@ -6688,37 +6654,37 @@ var app = (function () {
     			br16 = element("br");
     			add_location(br0, file$n, 6, 1, 54);
     			add_location(br1, file$n, 6, 5, 58);
-    			attr_dev(img0, "class", "img portfolio-item svelte-lsg2gy");
+    			attr_dev(img0, "class", "img portfolio-item svelte-fotrha");
     			attr_dev(img0, "alt", "mynd");
     			if (img0.src !== (img0_src_value = "igms/evublad/evublad-spreads0.jpg")) attr_dev(img0, "src", img0_src_value);
     			add_location(img0, file$n, 7, 1, 64);
     			add_location(br2, file$n, 7, 86, 149);
-    			attr_dev(img1, "class", "img portfolio-item svelte-lsg2gy");
+    			attr_dev(img1, "class", "img portfolio-item svelte-fotrha");
     			attr_dev(img1, "alt", "mynd");
     			if (img1.src !== (img1_src_value = "igms/evublad/evublad-spreads2.jpg")) attr_dev(img1, "src", img1_src_value);
     			add_location(img1, file$n, 8, 1, 155);
     			add_location(br3, file$n, 8, 86, 240);
-    			attr_dev(img2, "class", "img portfolio-item svelte-lsg2gy");
+    			attr_dev(img2, "class", "img portfolio-item svelte-fotrha");
     			attr_dev(img2, "alt", "mynd");
     			if (img2.src !== (img2_src_value = "igms/evublad/evublad-spreads4.jpg")) attr_dev(img2, "src", img2_src_value);
     			add_location(img2, file$n, 9, 1, 246);
     			add_location(br4, file$n, 9, 86, 331);
-    			attr_dev(img3, "class", "img portfolio-item svelte-lsg2gy");
+    			attr_dev(img3, "class", "img portfolio-item svelte-fotrha");
     			attr_dev(img3, "alt", "mynd");
     			if (img3.src !== (img3_src_value = "igms/evublad/evublad-spreads5.jpg")) attr_dev(img3, "src", img3_src_value);
     			add_location(img3, file$n, 10, 1, 337);
     			add_location(br5, file$n, 10, 86, 422);
-    			attr_dev(img4, "class", "img portfolio-item svelte-lsg2gy");
+    			attr_dev(img4, "class", "img portfolio-item svelte-fotrha");
     			attr_dev(img4, "alt", "mynd");
     			if (img4.src !== (img4_src_value = "igms/evublad/evublad-spreads6.jpg")) attr_dev(img4, "src", img4_src_value);
     			add_location(img4, file$n, 11, 1, 428);
     			add_location(br6, file$n, 11, 86, 513);
-    			attr_dev(img5, "class", "img portfolio-item svelte-lsg2gy");
+    			attr_dev(img5, "class", "img portfolio-item svelte-fotrha");
     			attr_dev(img5, "alt", "mynd");
     			if (img5.src !== (img5_src_value = "igms/evublad/evublad-spreads7.jpg")) attr_dev(img5, "src", img5_src_value);
     			add_location(img5, file$n, 12, 1, 519);
     			add_location(br7, file$n, 12, 86, 604);
-    			attr_dev(img6, "class", "img portfolio-item svelte-lsg2gy");
+    			attr_dev(img6, "class", "img portfolio-item svelte-fotrha");
     			attr_dev(img6, "alt", "mynd");
     			if (img6.src !== (img6_src_value = "igms/evublad/evublad-spreads9.jpg")) attr_dev(img6, "src", img6_src_value);
     			add_location(img6, file$n, 13, 1, 610);
@@ -6731,7 +6697,7 @@ var app = (function () {
     			add_location(br14, file$n, 14, 21, 721);
     			add_location(br15, file$n, 14, 25, 725);
     			add_location(br16, file$n, 14, 29, 729);
-    			attr_dev(div, "class", "backgroundcolor svelte-lsg2gy");
+    			attr_dev(div, "class", "backgroundcolor svelte-fotrha");
     			add_location(div, file$n, 5, 0, 23);
     		},
     		l: function claim(nodes) {
@@ -7080,165 +7046,163 @@ var app = (function () {
     			br61 = element("br");
     			add_location(br0, file$o, 6, 1, 54);
     			add_location(br1, file$o, 6, 5, 58);
-    			attr_dev(img0, "class", "img portfolio-item svelte-11ukzm2");
-    			set_style(img0, "height", "905px", 1);
-    			set_style(img0, "max-height", "100%", 1);
-    			set_style(img0, "padding-bottom", "0px");
+    			attr_dev(img0, "class", "img portfolio-item fyrsta-mynd svelte-wptb68");
     			attr_dev(img0, "alt", "mynd");
     			if (img0.src !== (img0_src_value = "igms/somalgors74/vitrine.jpg")) attr_dev(img0, "src", img0_src_value);
     			add_location(img0, file$o, 7, 1, 64);
+    			attr_dev(iframe, "class", "out-on-mobile");
     			if (iframe.src !== (iframe_src_value = "https://player.vimeo.com/video/488240278?autoplay=1&loop=1&color=ffffff&title=0&byline=0&portrait=0")) attr_dev(iframe, "src", iframe_src_value);
     			attr_dev(iframe, "width", "640");
     			attr_dev(iframe, "height", "905");
     			attr_dev(iframe, "frameborder", "0");
     			attr_dev(iframe, "allow", "autoplay; fullscreen");
     			iframe.allowFullscreen = true;
-    			add_location(iframe, file$o, 8, 1, 230);
-    			add_location(br2, file$o, 8, 210, 439);
-    			add_location(br3, file$o, 10, 1, 447);
-    			add_location(br4, file$o, 10, 5, 451);
-    			add_location(br5, file$o, 10, 9, 455);
-    			add_location(br6, file$o, 10, 13, 459);
-    			add_location(br7, file$o, 10, 17, 463);
-    			add_location(br8, file$o, 10, 21, 467);
-    			add_location(br9, file$o, 10, 25, 471);
-    			add_location(br10, file$o, 10, 29, 475);
-    			attr_dev(img1, "class", "img portfolio-item svelte-11ukzm2");
+    			add_location(iframe, file$o, 8, 1, 158);
+    			add_location(br2, file$o, 8, 232, 389);
+    			add_location(br3, file$o, 10, 1, 397);
+    			add_location(br4, file$o, 10, 5, 401);
+    			add_location(br5, file$o, 10, 9, 405);
+    			add_location(br6, file$o, 10, 13, 409);
+    			add_location(br7, file$o, 10, 17, 413);
+    			add_location(br8, file$o, 10, 21, 417);
+    			add_location(br9, file$o, 10, 25, 421);
+    			add_location(br10, file$o, 10, 29, 425);
+    			attr_dev(img1, "class", "img portfolio-item svelte-wptb68");
     			attr_dev(img1, "alt", "mynd");
     			if (img1.src !== (img1_src_value = "igms/somalgors74/vitrine-in-box.jpg")) attr_dev(img1, "src", img1_src_value);
-    			add_location(img1, file$o, 11, 1, 481);
-    			add_location(br11, file$o, 11, 88, 568);
-    			add_location(br12, file$o, 12, 1, 574);
-    			add_location(br13, file$o, 12, 5, 578);
-    			add_location(br14, file$o, 12, 9, 582);
-    			add_location(br15, file$o, 12, 13, 586);
-    			add_location(br16, file$o, 12, 17, 590);
-    			add_location(br17, file$o, 12, 21, 594);
-    			add_location(br18, file$o, 12, 25, 598);
-    			add_location(br19, file$o, 12, 29, 602);
-    			attr_dev(img2, "class", "img portfolio-item smaller svelte-11ukzm2");
+    			add_location(img1, file$o, 11, 1, 431);
+    			add_location(br11, file$o, 11, 88, 518);
+    			add_location(br12, file$o, 12, 1, 524);
+    			add_location(br13, file$o, 12, 5, 528);
+    			add_location(br14, file$o, 12, 9, 532);
+    			add_location(br15, file$o, 12, 13, 536);
+    			add_location(br16, file$o, 12, 17, 540);
+    			add_location(br17, file$o, 12, 21, 544);
+    			add_location(br18, file$o, 12, 25, 548);
+    			add_location(br19, file$o, 12, 29, 552);
+    			attr_dev(img2, "class", "img portfolio-item smaller svelte-wptb68");
     			attr_dev(img2, "alt", "mynd");
     			if (img2.src !== (img2_src_value = "igms/somalgors74/cover.png")) attr_dev(img2, "src", img2_src_value);
-    			add_location(img2, file$o, 13, 1, 608);
-    			attr_dev(img3, "class", "img portfolio-item smaller svelte-11ukzm2");
+    			add_location(img2, file$o, 13, 1, 558);
+    			attr_dev(img3, "class", "img portfolio-item smaller svelte-wptb68");
     			attr_dev(img3, "alt", "mynd");
     			if (img3.src !== (img3_src_value = "igms/somalgors74/1.png")) attr_dev(img3, "src", img3_src_value);
-    			add_location(img3, file$o, 14, 1, 696);
-    			attr_dev(img4, "class", "img portfolio-item smaller svelte-11ukzm2");
+    			add_location(img3, file$o, 14, 1, 646);
+    			attr_dev(img4, "class", "img portfolio-item smaller svelte-wptb68");
     			attr_dev(img4, "alt", "mynd");
     			if (img4.src !== (img4_src_value = "igms/somalgors74/2.png")) attr_dev(img4, "src", img4_src_value);
-    			add_location(img4, file$o, 15, 1, 780);
-    			attr_dev(img5, "class", "img portfolio-item smaller svelte-11ukzm2");
+    			add_location(img4, file$o, 15, 1, 730);
+    			attr_dev(img5, "class", "img portfolio-item smaller svelte-wptb68");
     			attr_dev(img5, "alt", "mynd");
     			if (img5.src !== (img5_src_value = "igms/somalgors74/3.png")) attr_dev(img5, "src", img5_src_value);
-    			add_location(img5, file$o, 16, 1, 864);
-    			attr_dev(img6, "class", "img portfolio-item smaller svelte-11ukzm2");
+    			add_location(img5, file$o, 16, 1, 814);
+    			attr_dev(img6, "class", "img portfolio-item smaller svelte-wptb68");
     			attr_dev(img6, "alt", "mynd");
     			if (img6.src !== (img6_src_value = "igms/somalgors74/5.png")) attr_dev(img6, "src", img6_src_value);
-    			add_location(img6, file$o, 18, 1, 1039);
-    			attr_dev(img7, "class", "img portfolio-item smaller svelte-11ukzm2");
+    			add_location(img6, file$o, 18, 1, 989);
+    			attr_dev(img7, "class", "img portfolio-item smaller svelte-wptb68");
     			attr_dev(img7, "alt", "mynd");
     			if (img7.src !== (img7_src_value = "igms/somalgors74/7.png")) attr_dev(img7, "src", img7_src_value);
-    			add_location(img7, file$o, 20, 1, 1214);
-    			attr_dev(img8, "class", "img portfolio-item smaller svelte-11ukzm2");
+    			add_location(img7, file$o, 20, 1, 1164);
+    			attr_dev(img8, "class", "img portfolio-item smaller svelte-wptb68");
     			attr_dev(img8, "alt", "mynd");
     			if (img8.src !== (img8_src_value = "igms/somalgors74/8.png")) attr_dev(img8, "src", img8_src_value);
-    			add_location(img8, file$o, 21, 1, 1298);
-    			attr_dev(img9, "class", "img portfolio-item smaller svelte-11ukzm2");
+    			add_location(img8, file$o, 21, 1, 1248);
+    			attr_dev(img9, "class", "img portfolio-item smaller svelte-wptb68");
     			attr_dev(img9, "alt", "mynd");
     			if (img9.src !== (img9_src_value = "igms/somalgors74/9.png")) attr_dev(img9, "src", img9_src_value);
-    			add_location(img9, file$o, 22, 1, 1382);
-    			add_location(br20, file$o, 23, 1, 1467);
-    			add_location(br21, file$o, 23, 5, 1471);
-    			add_location(br22, file$o, 23, 9, 1475);
-    			add_location(br23, file$o, 23, 13, 1479);
-    			add_location(br24, file$o, 23, 17, 1483);
-    			add_location(br25, file$o, 23, 21, 1487);
-    			add_location(br26, file$o, 23, 25, 1491);
-    			add_location(br27, file$o, 23, 29, 1495);
-    			attr_dev(img10, "class", "img portfolio-item larger svelte-11ukzm2");
+    			add_location(img9, file$o, 22, 1, 1332);
+    			add_location(br20, file$o, 23, 1, 1417);
+    			add_location(br21, file$o, 23, 5, 1421);
+    			add_location(br22, file$o, 23, 9, 1425);
+    			add_location(br23, file$o, 23, 13, 1429);
+    			add_location(br24, file$o, 23, 17, 1433);
+    			add_location(br25, file$o, 23, 21, 1437);
+    			add_location(br26, file$o, 23, 25, 1441);
+    			add_location(br27, file$o, 23, 29, 1445);
+    			attr_dev(img10, "class", "img portfolio-item larger svelte-wptb68");
     			attr_dev(img10, "alt", "mynd");
     			if (img10.src !== (img10_src_value = "igms/somalgors74/web0.png")) attr_dev(img10, "src", img10_src_value);
-    			add_location(img10, file$o, 24, 1, 1501);
-    			add_location(br28, file$o, 24, 85, 1585);
-    			add_location(br29, file$o, 24, 89, 1589);
-    			attr_dev(img11, "class", "img portfolio-item larger svelte-11ukzm2");
+    			add_location(img10, file$o, 24, 1, 1451);
+    			add_location(br28, file$o, 24, 85, 1535);
+    			add_location(br29, file$o, 24, 89, 1539);
+    			attr_dev(img11, "class", "img portfolio-item larger svelte-wptb68");
     			attr_dev(img11, "alt", "mynd");
     			if (img11.src !== (img11_src_value = "igms/somalgors74/web3.png")) attr_dev(img11, "src", img11_src_value);
-    			add_location(img11, file$o, 25, 1, 1595);
-    			add_location(br30, file$o, 25, 85, 1679);
-    			add_location(br31, file$o, 25, 89, 1683);
-    			attr_dev(img12, "class", "img portfolio-item larger svelte-11ukzm2");
+    			add_location(img11, file$o, 25, 1, 1545);
+    			add_location(br30, file$o, 25, 85, 1629);
+    			add_location(br31, file$o, 25, 89, 1633);
+    			attr_dev(img12, "class", "img portfolio-item larger svelte-wptb68");
     			attr_dev(img12, "alt", "mynd");
     			if (img12.src !== (img12_src_value = "igms/somalgors74/web4.png")) attr_dev(img12, "src", img12_src_value);
-    			add_location(img12, file$o, 26, 1, 1689);
-    			add_location(br32, file$o, 26, 85, 1773);
-    			add_location(br33, file$o, 26, 89, 1777);
-    			attr_dev(img13, "class", "img portfolio-item larger svelte-11ukzm2");
+    			add_location(img12, file$o, 26, 1, 1639);
+    			add_location(br32, file$o, 26, 85, 1723);
+    			add_location(br33, file$o, 26, 89, 1727);
+    			attr_dev(img13, "class", "img portfolio-item larger svelte-wptb68");
     			attr_dev(img13, "alt", "mynd");
     			if (img13.src !== (img13_src_value = "igms/somalgors74/web1.png")) attr_dev(img13, "src", img13_src_value);
-    			add_location(img13, file$o, 27, 1, 1783);
-    			add_location(br34, file$o, 27, 85, 1867);
-    			add_location(br35, file$o, 27, 89, 1871);
-    			attr_dev(img14, "class", "img portfolio-item larger svelte-11ukzm2");
+    			add_location(img13, file$o, 27, 1, 1733);
+    			add_location(br34, file$o, 27, 85, 1817);
+    			add_location(br35, file$o, 27, 89, 1821);
+    			attr_dev(img14, "class", "img portfolio-item larger svelte-wptb68");
     			attr_dev(img14, "alt", "mynd");
     			if (img14.src !== (img14_src_value = "igms/somalgors74/web2.png")) attr_dev(img14, "src", img14_src_value);
-    			add_location(img14, file$o, 28, 1, 1877);
-    			add_location(br36, file$o, 29, 1, 1963);
-    			add_location(br37, file$o, 29, 5, 1967);
-    			add_location(br38, file$o, 29, 9, 1971);
-    			add_location(br39, file$o, 29, 13, 1975);
-    			add_location(br40, file$o, 29, 17, 1979);
-    			add_location(br41, file$o, 29, 21, 1983);
-    			add_location(br42, file$o, 29, 25, 1987);
-    			add_location(br43, file$o, 29, 29, 1991);
-    			attr_dev(img15, "class", "img portfolio-item smallest svelte-11ukzm2");
+    			add_location(img14, file$o, 28, 1, 1827);
+    			add_location(br36, file$o, 29, 1, 1913);
+    			add_location(br37, file$o, 29, 5, 1917);
+    			add_location(br38, file$o, 29, 9, 1921);
+    			add_location(br39, file$o, 29, 13, 1925);
+    			add_location(br40, file$o, 29, 17, 1929);
+    			add_location(br41, file$o, 29, 21, 1933);
+    			add_location(br42, file$o, 29, 25, 1937);
+    			add_location(br43, file$o, 29, 29, 1941);
+    			attr_dev(img15, "class", "img portfolio-item smallest svelte-wptb68");
     			attr_dev(img15, "alt", "mynd");
     			if (img15.src !== (img15_src_value = "igms/somalgors74/stickers.png")) attr_dev(img15, "src", img15_src_value);
-    			add_location(img15, file$o, 31, 1, 2108);
-    			attr_dev(img16, "class", "img portfolio-item smallest svelte-11ukzm2");
+    			add_location(img15, file$o, 31, 1, 2058);
+    			attr_dev(img16, "class", "img portfolio-item smallest svelte-wptb68");
     			attr_dev(img16, "alt", "mynd");
     			if (img16.src !== (img16_src_value = "igms/somalgors74/stickers2.png")) attr_dev(img16, "src", img16_src_value);
-    			add_location(img16, file$o, 32, 1, 2200);
-    			add_location(br44, file$o, 33, 1, 2294);
-    			add_location(br45, file$o, 33, 5, 2298);
-    			add_location(br46, file$o, 33, 9, 2302);
-    			add_location(br47, file$o, 33, 13, 2306);
-    			add_location(br48, file$o, 33, 17, 2310);
-    			add_location(br49, file$o, 33, 21, 2314);
-    			add_location(br50, file$o, 33, 25, 2318);
-    			add_location(br51, file$o, 33, 29, 2322);
-    			attr_dev(img17, "class", "img portfolio-item larger svelte-11ukzm2");
+    			add_location(img16, file$o, 32, 1, 2150);
+    			add_location(br44, file$o, 33, 1, 2244);
+    			add_location(br45, file$o, 33, 5, 2248);
+    			add_location(br46, file$o, 33, 9, 2252);
+    			add_location(br47, file$o, 33, 13, 2256);
+    			add_location(br48, file$o, 33, 17, 2260);
+    			add_location(br49, file$o, 33, 21, 2264);
+    			add_location(br50, file$o, 33, 25, 2268);
+    			add_location(br51, file$o, 33, 29, 2272);
+    			attr_dev(img17, "class", "img portfolio-item larger svelte-wptb68");
     			attr_dev(img17, "alt", "mynd");
     			if (img17.src !== (img17_src_value = "igms/somalgors74/baernytt.jpg")) attr_dev(img17, "src", img17_src_value);
-    			add_location(img17, file$o, 34, 1, 2329);
-    			add_location(br52, file$o, 34, 89, 2417);
-    			attr_dev(img18, "class", "img portfolio-item smaller svelte-11ukzm2");
+    			add_location(img17, file$o, 34, 1, 2279);
+    			add_location(br52, file$o, 34, 89, 2367);
+    			attr_dev(img18, "class", "img portfolio-item smaller svelte-wptb68");
     			attr_dev(img18, "alt", "mynd");
     			if (img18.src !== (img18_src_value = "igms/somalgors74/small.jpg")) attr_dev(img18, "src", img18_src_value);
-    			add_location(img18, file$o, 35, 1, 2423);
-    			attr_dev(img19, "class", "img portfolio-item smaller svelte-11ukzm2");
+    			add_location(img18, file$o, 35, 1, 2373);
+    			attr_dev(img19, "class", "img portfolio-item smaller svelte-wptb68");
     			attr_dev(img19, "alt", "mynd");
     			if (img19.src !== (img19_src_value = "igms/somalgors74/matur2.jpg")) attr_dev(img19, "src", img19_src_value);
-    			add_location(img19, file$o, 36, 1, 2511);
-    			add_location(br53, file$o, 36, 88, 2598);
-    			attr_dev(img20, "class", "img portfolio-item smaller svelte-11ukzm2");
+    			add_location(img19, file$o, 36, 1, 2461);
+    			add_location(br53, file$o, 36, 88, 2548);
+    			attr_dev(img20, "class", "img portfolio-item smaller svelte-wptb68");
     			attr_dev(img20, "alt", "mynd");
     			if (img20.src !== (img20_src_value = "igms/somalgors74/matur1.jpg")) attr_dev(img20, "src", img20_src_value);
-    			add_location(img20, file$o, 37, 1, 2604);
-    			attr_dev(img21, "class", "img portfolio-item smaller svelte-11ukzm2");
+    			add_location(img20, file$o, 37, 1, 2554);
+    			attr_dev(img21, "class", "img portfolio-item smaller svelte-wptb68");
     			attr_dev(img21, "alt", "mynd");
     			if (img21.src !== (img21_src_value = "igms/somalgors74/matur3.jpg")) attr_dev(img21, "src", img21_src_value);
-    			add_location(img21, file$o, 38, 1, 2693);
-    			add_location(br54, file$o, 39, 1, 2782);
-    			add_location(br55, file$o, 39, 5, 2786);
-    			add_location(br56, file$o, 39, 9, 2790);
-    			add_location(br57, file$o, 39, 13, 2794);
-    			add_location(br58, file$o, 39, 17, 2798);
-    			add_location(br59, file$o, 39, 21, 2802);
-    			add_location(br60, file$o, 39, 25, 2806);
-    			add_location(br61, file$o, 39, 29, 2810);
-    			attr_dev(div, "class", "backgroundcolor svelte-11ukzm2");
+    			add_location(img21, file$o, 38, 1, 2643);
+    			add_location(br54, file$o, 39, 1, 2732);
+    			add_location(br55, file$o, 39, 5, 2736);
+    			add_location(br56, file$o, 39, 9, 2740);
+    			add_location(br57, file$o, 39, 13, 2744);
+    			add_location(br58, file$o, 39, 17, 2748);
+    			add_location(br59, file$o, 39, 21, 2752);
+    			add_location(br60, file$o, 39, 25, 2756);
+    			add_location(br61, file$o, 39, 29, 2760);
+    			attr_dev(div, "class", "backgroundcolor svelte-wptb68");
     			add_location(div, file$o, 5, 0, 23);
     		},
     		l: function claim(nodes) {
@@ -7470,7 +7434,7 @@ var app = (function () {
     			add_location(div0, file$p, 7, 1, 64);
     			if (script.src !== (script_src_value = "https://player.vimeo.com/api/player.js")) attr_dev(script, "src", script_src_value);
     			add_location(script, file$p, 7, 310, 373);
-    			attr_dev(img, "class", "img portfolio-item svelte-zqi07z");
+    			attr_dev(img, "class", "img portfolio-item svelte-54sr07");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/organogram/poster-smaller.jpg")) attr_dev(img, "src", img_src_value);
     			add_location(img, file$p, 8, 1, 437);
@@ -7482,7 +7446,7 @@ var app = (function () {
     			add_location(br7, file$p, 9, 21, 545);
     			add_location(br8, file$p, 9, 25, 549);
     			add_location(br9, file$p, 9, 29, 553);
-    			attr_dev(div1, "class", "backgroundcolor svelte-zqi07z");
+    			attr_dev(div1, "class", "backgroundcolor svelte-54sr07");
     			add_location(div1, file$p, 5, 0, 23);
     		},
     		l: function claim(nodes) {
@@ -11302,7 +11266,7 @@ var app = (function () {
     	return block;
     }
 
-    // (710:4) {#if PICflora}
+    // (712:4) {#if PICflora}
     function create_if_block_62(ctx) {
     	let img;
     	let img_src_value;
@@ -11315,7 +11279,7 @@ var app = (function () {
     			attr_dev(img, "class", "smallPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/flora/small.png")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$q, 709, 18, 38284);
+    			add_location(img, file$q, 711, 18, 38542);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -11341,14 +11305,14 @@ var app = (function () {
     		block,
     		id: create_if_block_62.name,
     		type: "if",
-    		source: "(710:4) {#if PICflora}",
+    		source: "(712:4) {#if PICflora}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (711:4) {#if PIConourowntime}
+    // (713:4) {#if PIConourowntime}
     function create_if_block_61(ctx) {
     	let img;
     	let img_src_value;
@@ -11361,7 +11325,7 @@ var app = (function () {
     			attr_dev(img, "class", "smallPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/onourowntime/small.png")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$q, 710, 25, 38434);
+    			add_location(img, file$q, 712, 25, 38692);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -11387,14 +11351,14 @@ var app = (function () {
     		block,
     		id: create_if_block_61.name,
     		type: "if",
-    		source: "(711:4) {#if PIConourowntime}",
+    		source: "(713:4) {#if PIConourowntime}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (712:4) {#if PICgreen}
+    // (714:4) {#if PICgreen}
     function create_if_block_60(ctx) {
     	let img;
     	let img_src_value;
@@ -11407,7 +11371,7 @@ var app = (function () {
     			attr_dev(img, "class", "smallPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/thesis/small.jpg")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$q, 711, 18, 38591);
+    			add_location(img, file$q, 713, 18, 38849);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -11433,14 +11397,14 @@ var app = (function () {
     		block,
     		id: create_if_block_60.name,
     		type: "if",
-    		source: "(712:4) {#if PICgreen}",
+    		source: "(714:4) {#if PICgreen}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (713:4) {#if PICviv}
+    // (715:4) {#if PICviv}
     function create_if_block_59(ctx) {
     	let img;
     	let img_src_value;
@@ -11453,7 +11417,7 @@ var app = (function () {
     			attr_dev(img, "class", "smallPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/viv/small.png")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$q, 712, 16, 38733);
+    			add_location(img, file$q, 714, 16, 38991);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -11479,14 +11443,14 @@ var app = (function () {
     		block,
     		id: create_if_block_59.name,
     		type: "if",
-    		source: "(713:4) {#if PICviv}",
+    		source: "(715:4) {#if PICviv}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (714:4) {#if PICbread}
+    // (716:4) {#if PICbread}
     function create_if_block_58(ctx) {
     	let img;
     	let img_src_value;
@@ -11499,7 +11463,7 @@ var app = (function () {
     			attr_dev(img, "class", "smallPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/bread/small.jpg")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$q, 713, 18, 38872);
+    			add_location(img, file$q, 715, 18, 39130);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -11525,14 +11489,14 @@ var app = (function () {
     		block,
     		id: create_if_block_58.name,
     		type: "if",
-    		source: "(714:4) {#if PICbread}",
+    		source: "(716:4) {#if PICbread}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (715:4) {#if PICbreadmag}
+    // (717:4) {#if PICbreadmag}
     function create_if_block_57(ctx) {
     	let img;
     	let img_src_value;
@@ -11545,7 +11509,7 @@ var app = (function () {
     			attr_dev(img, "class", "smallPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/bread/breadmag.jpg")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$q, 714, 21, 39018);
+    			add_location(img, file$q, 716, 21, 39276);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -11571,14 +11535,14 @@ var app = (function () {
     		block,
     		id: create_if_block_57.name,
     		type: "if",
-    		source: "(715:4) {#if PICbreadmag}",
+    		source: "(717:4) {#if PICbreadmag}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (716:4) {#if PICportfolioio}
+    // (718:4) {#if PICportfolioio}
     function create_if_block_56(ctx) {
     	let img;
     	let img_src_value;
@@ -11591,7 +11555,7 @@ var app = (function () {
     			attr_dev(img, "class", "smallPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/io/small.png")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$q, 715, 24, 39173);
+    			add_location(img, file$q, 717, 24, 39431);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -11617,14 +11581,14 @@ var app = (function () {
     		block,
     		id: create_if_block_56.name,
     		type: "if",
-    		source: "(716:4) {#if PICportfolioio}",
+    		source: "(718:4) {#if PICportfolioio}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (717:4) {#if PICbeauimg}
+    // (719:4) {#if PICbeauimg}
     function create_if_block_55(ctx) {
     	let img;
     	let img_src_value;
@@ -11637,7 +11601,7 @@ var app = (function () {
     			attr_dev(img, "class", "smallPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/beauimg/small.jpg")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$q, 716, 20, 39321);
+    			add_location(img, file$q, 718, 20, 39579);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -11663,14 +11627,14 @@ var app = (function () {
     		block,
     		id: create_if_block_55.name,
     		type: "if",
-    		source: "(717:4) {#if PICbeauimg}",
+    		source: "(719:4) {#if PICbeauimg}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (718:4) {#if PICtypoposters}
+    // (720:4) {#if PICtypoposters}
     function create_if_block_54(ctx) {
     	let img;
     	let img_src_value;
@@ -11683,7 +11647,7 @@ var app = (function () {
     			attr_dev(img, "class", "smallPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/typoPosters/3.jpg")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$q, 717, 24, 39474);
+    			add_location(img, file$q, 719, 24, 39732);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -11709,14 +11673,14 @@ var app = (function () {
     		block,
     		id: create_if_block_54.name,
     		type: "if",
-    		source: "(718:4) {#if PICtypoposters}",
+    		source: "(720:4) {#if PICtypoposters}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (720:4) {#if PICoeb}
+    // (722:4) {#if PICoeb}
     function create_if_block_53(ctx) {
     	let img;
     	let img_src_value;
@@ -11729,7 +11693,7 @@ var app = (function () {
     			attr_dev(img, "class", "smallPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/oeb/small.png")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$q, 719, 16, 39756);
+    			add_location(img, file$q, 721, 16, 40014);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -11755,14 +11719,14 @@ var app = (function () {
     		block,
     		id: create_if_block_53.name,
     		type: "if",
-    		source: "(720:4) {#if PICoeb}",
+    		source: "(722:4) {#if PICoeb}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (721:4) {#if PICsortedplastic}
+    // (723:4) {#if PICsortedplastic}
     function create_if_block_52(ctx) {
     	let img;
     	let img_src_value;
@@ -11775,7 +11739,7 @@ var app = (function () {
     			attr_dev(img, "class", "smallPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/sortedPlastic/small.png")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$q, 720, 26, 39903);
+    			add_location(img, file$q, 722, 26, 40161);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -11801,14 +11765,14 @@ var app = (function () {
     		block,
     		id: create_if_block_52.name,
     		type: "if",
-    		source: "(721:4) {#if PICsortedplastic}",
+    		source: "(723:4) {#if PICsortedplastic}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (722:4) {#if PICmusicposters}
+    // (724:4) {#if PICmusicposters}
     function create_if_block_51(ctx) {
     	let img;
     	let img_src_value;
@@ -11821,7 +11785,7 @@ var app = (function () {
     			attr_dev(img, "class", "smallPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/musicPosters/small.jpg")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$q, 721, 25, 40069);
+    			add_location(img, file$q, 723, 25, 40327);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -11847,14 +11811,14 @@ var app = (function () {
     		block,
     		id: create_if_block_51.name,
     		type: "if",
-    		source: "(722:4) {#if PICmusicposters}",
+    		source: "(724:4) {#if PICmusicposters}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (723:4) {#if PICtimatal}
+    // (725:4) {#if PICtimatal}
     function create_if_block_50(ctx) {
     	let img;
     	let img_src_value;
@@ -11867,7 +11831,7 @@ var app = (function () {
     			attr_dev(img, "class", "smallPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/timatal/small.png")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$q, 722, 20, 40228);
+    			add_location(img, file$q, 724, 20, 40486);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -11893,14 +11857,14 @@ var app = (function () {
     		block,
     		id: create_if_block_50.name,
     		type: "if",
-    		source: "(723:4) {#if PICtimatal}",
+    		source: "(725:4) {#if PICtimatal}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (724:4) {#if PICtools}
+    // (726:4) {#if PICtools}
     function create_if_block_49(ctx) {
     	let img;
     	let img_src_value;
@@ -11913,7 +11877,7 @@ var app = (function () {
     			attr_dev(img, "class", "smallPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/tools/tools.png")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$q, 723, 18, 40375);
+    			add_location(img, file$q, 725, 18, 40633);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -11939,14 +11903,14 @@ var app = (function () {
     		block,
     		id: create_if_block_49.name,
     		type: "if",
-    		source: "(724:4) {#if PICtools}",
+    		source: "(726:4) {#if PICtools}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (725:4) {#if PICfamiliarfaces}
+    // (727:4) {#if PICfamiliarfaces}
     function create_if_block_48(ctx) {
     	let img;
     	let img_src_value;
@@ -11959,7 +11923,7 @@ var app = (function () {
     			attr_dev(img, "class", "smallPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/familiarfaces/small.jpg")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$q, 724, 26, 40526);
+    			add_location(img, file$q, 726, 26, 40784);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -11985,14 +11949,14 @@ var app = (function () {
     		block,
     		id: create_if_block_48.name,
     		type: "if",
-    		source: "(725:4) {#if PICfamiliarfaces}",
+    		source: "(727:4) {#if PICfamiliarfaces}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (730:3) {#if PICmusicbook}
+    // (732:3) {#if PICmusicbook}
     function create_if_block_47(ctx) {
     	let img;
     	let img_src_value;
@@ -12005,7 +11969,7 @@ var app = (function () {
     			attr_dev(img, "class", "smallPic mw-430px");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/musicBook/4.png")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$q, 729, 21, 41088);
+    			add_location(img, file$q, 731, 21, 41346);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -12031,14 +11995,14 @@ var app = (function () {
     		block,
     		id: create_if_block_47.name,
     		type: "if",
-    		source: "(730:3) {#if PICmusicbook}",
+    		source: "(732:3) {#if PICmusicbook}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (731:3) {#if PICcorruptedspace}
+    // (733:3) {#if PICcorruptedspace}
     function create_if_block_46(ctx) {
     	let img;
     	let img_src_value;
@@ -12051,7 +12015,7 @@ var app = (function () {
     			attr_dev(img, "class", "smallPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/corruptedspace/smaller.jpg")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$q, 730, 26, 41252);
+    			add_location(img, file$q, 732, 26, 41510);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -12077,14 +12041,14 @@ var app = (function () {
     		block,
     		id: create_if_block_46.name,
     		type: "if",
-    		source: "(731:3) {#if PICcorruptedspace}",
+    		source: "(733:3) {#if PICcorruptedspace}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (732:4) {#if PICsomalgors}
+    // (734:4) {#if PICsomalgors}
     function create_if_block_45(ctx) {
     	let img;
     	let img_src_value;
@@ -12097,7 +12061,7 @@ var app = (function () {
     			attr_dev(img, "class", "smallPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/somalgors74/vitrine.jpg")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$q, 731, 22, 41419);
+    			add_location(img, file$q, 733, 22, 41677);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -12123,14 +12087,14 @@ var app = (function () {
     		block,
     		id: create_if_block_45.name,
     		type: "if",
-    		source: "(732:4) {#if PICsomalgors}",
+    		source: "(734:4) {#if PICsomalgors}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (733:4) {#if PIClitabok}
+    // (735:4) {#if PIClitabok}
     function create_if_block_44(ctx) {
     	let img;
     	let img_src_value;
@@ -12144,7 +12108,7 @@ var app = (function () {
     			attr_dev(img, "alt", "mynd");
     			set_style(img, "max-width", "230px");
     			if (img.src !== (img_src_value = "igms/litabok/skulpt25-small.png")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$q, 732, 20, 41576);
+    			add_location(img, file$q, 734, 20, 41834);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -12170,14 +12134,14 @@ var app = (function () {
     		block,
     		id: create_if_block_44.name,
     		type: "if",
-    		source: "(733:4) {#if PIClitabok}",
+    		source: "(735:4) {#if PIClitabok}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (734:4) {#if PICevublad}
+    // (736:4) {#if PICevublad}
     function create_if_block_43(ctx) {
     	let img;
     	let img_src_value;
@@ -12190,7 +12154,7 @@ var app = (function () {
     			attr_dev(img, "class", "smallPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/evublad/evublad-spreads0.jpg")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$q, 733, 20, 41760);
+    			add_location(img, file$q, 735, 20, 42018);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -12216,14 +12180,14 @@ var app = (function () {
     		block,
     		id: create_if_block_43.name,
     		type: "if",
-    		source: "(734:4) {#if PICevublad}",
+    		source: "(736:4) {#if PICevublad}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (740:4) {#if PICplastica}
+    // (742:4) {#if PICplastica}
     function create_if_block_42(ctx) {
     	let img;
     	let img_src_value;
@@ -12236,7 +12200,7 @@ var app = (function () {
     			attr_dev(img, "class", "smallPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/plastica/small2.png")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$q, 739, 21, 42380);
+    			add_location(img, file$q, 741, 21, 42638);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -12262,14 +12226,14 @@ var app = (function () {
     		block,
     		id: create_if_block_42.name,
     		type: "if",
-    		source: "(740:4) {#if PICplastica}",
+    		source: "(742:4) {#if PICplastica}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (742:4) {#if PICorgano}
+    // (744:4) {#if PICorgano}
     function create_if_block_41(ctx) {
     	let img;
     	let img_src_value;
@@ -12282,7 +12246,7 @@ var app = (function () {
     			attr_dev(img, "class", "smallPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/undefined-undefined/organo.jpg")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$q, 741, 19, 42725);
+    			add_location(img, file$q, 743, 19, 42983);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -12308,14 +12272,14 @@ var app = (function () {
     		block,
     		id: create_if_block_41.name,
     		type: "if",
-    		source: "(742:4) {#if PICorgano}",
+    		source: "(744:4) {#if PICorgano}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (743:4) {#if PIClikamar}
+    // (745:4) {#if PIClikamar}
     function create_if_block_40(ctx) {
     	let img;
     	let img_src_value;
@@ -12328,7 +12292,7 @@ var app = (function () {
     			attr_dev(img, "class", "smallPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/typedesign/small.jpg")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$q, 742, 20, 42890);
+    			add_location(img, file$q, 744, 20, 43148);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -12354,14 +12318,14 @@ var app = (function () {
     		block,
     		id: create_if_block_40.name,
     		type: "if",
-    		source: "(743:4) {#if PIClikamar}",
+    		source: "(745:4) {#if PIClikamar}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (749:2) {#if other}
+    // (751:2) {#if other}
     function create_if_block(ctx) {
     	let t0;
     	let t1;
@@ -12534,12 +12498,12 @@ var app = (function () {
     			br3 = element("br");
     			br4 = element("br");
     			br5 = element("br");
-    			add_location(br0, file$q, 826, 6, 50919);
-    			add_location(br1, file$q, 826, 10, 50923);
-    			add_location(br2, file$q, 826, 14, 50927);
-    			add_location(br3, file$q, 826, 18, 50931);
-    			add_location(br4, file$q, 826, 22, 50935);
-    			add_location(br5, file$q, 826, 26, 50939);
+    			add_location(br0, file$q, 828, 6, 51177);
+    			add_location(br1, file$q, 828, 10, 51181);
+    			add_location(br2, file$q, 828, 14, 51185);
+    			add_location(br3, file$q, 828, 18, 51189);
+    			add_location(br4, file$q, 828, 22, 51193);
+    			add_location(br5, file$q, 828, 26, 51197);
     		},
     		m: function mount(target, anchor) {
     			if (if_block0) if_block0.m(target, anchor);
@@ -13149,14 +13113,14 @@ var app = (function () {
     		block,
     		id: create_if_block.name,
     		type: "if",
-    		source: "(749:2) {#if other}",
+    		source: "(751:2) {#if other}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (751:5) {#if PICgjafakort}
+    // (753:5) {#if PICgjafakort}
     function create_if_block_39(ctx) {
     	let img0;
     	let img0_src_value;
@@ -13173,15 +13137,15 @@ var app = (function () {
     			attr_dev(img0, "class", "mediumPic");
     			attr_dev(img0, "alt", "mynd");
     			if (img0.src !== (img0_src_value = "igms/kaffivest/gjafakort2.png")) attr_dev(img0, "src", img0_src_value);
-    			add_location(img0, file$q, 750, 23, 43179);
+    			add_location(img0, file$q, 752, 23, 43437);
     			attr_dev(img1, "class", "mediumPic");
     			attr_dev(img1, "alt", "mynd");
     			if (img1.src !== (img1_src_value = "igms/kaffivest/gjafakort.png")) attr_dev(img1, "src", img1_src_value);
-    			add_location(img1, file$q, 750, 93, 43249);
+    			add_location(img1, file$q, 752, 93, 43507);
     			attr_dev(img2, "class", "mediumPic");
     			attr_dev(img2, "alt", "mynd");
     			if (img2.src !== (img2_src_value = "igms/kaffivest/3D.png")) attr_dev(img2, "src", img2_src_value);
-    			add_location(img2, file$q, 750, 162, 43318);
+    			add_location(img2, file$q, 752, 162, 43576);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img0, anchor);
@@ -13199,14 +13163,14 @@ var app = (function () {
     		block,
     		id: create_if_block_39.name,
     		type: "if",
-    		source: "(751:5) {#if PICgjafakort}",
+    		source: "(753:5) {#if PICgjafakort}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (752:5) {#if PICcalendarA}
+    // (754:5) {#if PICcalendarA}
     function create_if_block_38(ctx) {
     	let img;
     	let img_src_value;
@@ -13217,7 +13181,7 @@ var app = (function () {
     			attr_dev(img, "class", "mediumPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/undefined-teikningar/ulines.png")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$q, 751, 23, 43409);
+    			add_location(img, file$q, 753, 23, 43667);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -13231,14 +13195,14 @@ var app = (function () {
     		block,
     		id: create_if_block_38.name,
     		type: "if",
-    		source: "(752:5) {#if PICcalendarA}",
+    		source: "(754:5) {#if PICcalendarA}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (753:5) {#if PICcalendarB}
+    // (755:5) {#if PICcalendarB}
     function create_if_block_37(ctx) {
     	let img;
     	let img_src_value;
@@ -13249,7 +13213,7 @@ var app = (function () {
     			attr_dev(img, "class", "mediumPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/undefined-teikningar/upprodun3rettmeddrasli2.jpg")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$q, 752, 23, 43515);
+    			add_location(img, file$q, 754, 23, 43773);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -13263,14 +13227,14 @@ var app = (function () {
     		block,
     		id: create_if_block_37.name,
     		type: "if",
-    		source: "(753:5) {#if PICcalendarB}",
+    		source: "(755:5) {#if PICcalendarB}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (754:5) {#if PICbeyond}
+    // (756:5) {#if PICbeyond}
     function create_if_block_36(ctx) {
     	let img;
     	let img_src_value;
@@ -13281,7 +13245,7 @@ var app = (function () {
     			attr_dev(img, "class", "mediumPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/undefined-posters/2.jpg")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$q, 753, 20, 43635);
+    			add_location(img, file$q, 755, 20, 43893);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -13295,14 +13259,14 @@ var app = (function () {
     		block,
     		id: create_if_block_36.name,
     		type: "if",
-    		source: "(754:5) {#if PICbeyond}",
+    		source: "(756:5) {#if PICbeyond}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (755:5) {#if PICtoomuch}
+    // (757:5) {#if PICtoomuch}
     function create_if_block_35(ctx) {
     	let img;
     	let img_src_value;
@@ -13313,7 +13277,7 @@ var app = (function () {
     			attr_dev(img, "class", "mediumPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/undefined-undefined/toomuchtoseelevel.jpg")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$q, 754, 21, 43731);
+    			add_location(img, file$q, 756, 21, 43989);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -13327,14 +13291,14 @@ var app = (function () {
     		block,
     		id: create_if_block_35.name,
     		type: "if",
-    		source: "(755:5) {#if PICtoomuch}",
+    		source: "(757:5) {#if PICtoomuch}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (756:5) {#if PICproverb}
+    // (758:5) {#if PICproverb}
     function create_if_block_34(ctx) {
     	let img;
     	let img_src_value;
@@ -13345,7 +13309,7 @@ var app = (function () {
     			attr_dev(img, "class", "mediumPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/undefined-undefined/aproverb.jpg")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$q, 755, 21, 43845);
+    			add_location(img, file$q, 757, 21, 44103);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -13359,14 +13323,14 @@ var app = (function () {
     		block,
     		id: create_if_block_34.name,
     		type: "if",
-    		source: "(756:5) {#if PICproverb}",
+    		source: "(758:5) {#if PICproverb}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (760:5) {#if PICpsdmynd}
+    // (762:5) {#if PICpsdmynd}
     function create_if_block_33(ctx) {
     	let img;
     	let img_src_value;
@@ -13377,7 +13341,7 @@ var app = (function () {
     			attr_dev(img, "class", "mediumPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/undefined-undefined/blubb_Page_14b.jpg")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$q, 759, 21, 44225);
+    			add_location(img, file$q, 761, 21, 44483);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -13391,14 +13355,14 @@ var app = (function () {
     		block,
     		id: create_if_block_33.name,
     		type: "if",
-    		source: "(760:5) {#if PICpsdmynd}",
+    		source: "(762:5) {#if PICpsdmynd}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (763:5) {#if PICfloraA}
+    // (765:5) {#if PICfloraA}
     function create_if_block_32(ctx) {
     	let img;
     	let img_src_value;
@@ -13409,7 +13373,7 @@ var app = (function () {
     			attr_dev(img, "class", "mediumPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/undefined-undefined/5utgafa-ut.jpg")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$q, 762, 20, 44527);
+    			add_location(img, file$q, 764, 20, 44785);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -13423,14 +13387,14 @@ var app = (function () {
     		block,
     		id: create_if_block_32.name,
     		type: "if",
-    		source: "(763:5) {#if PICfloraA}",
+    		source: "(765:5) {#if PICfloraA}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (764:6) {#if PICdrawing}
+    // (766:6) {#if PICdrawing}
     function create_if_block_31(ctx) {
     	let img;
     	let img_src_value;
@@ -13441,7 +13405,7 @@ var app = (function () {
     			attr_dev(img, "class", "mediumPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/undefined-undefined/heyasinhot.jpg")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$q, 763, 22, 44635);
+    			add_location(img, file$q, 765, 22, 44893);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -13455,14 +13419,14 @@ var app = (function () {
     		block,
     		id: create_if_block_31.name,
     		type: "if",
-    		source: "(764:6) {#if PICdrawing}",
+    		source: "(766:6) {#if PICdrawing}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (765:6) {#if PICdrawing}
+    // (767:6) {#if PICdrawing}
     function create_if_block_30(ctx) {
     	let img;
     	let img_src_value;
@@ -13473,7 +13437,7 @@ var app = (function () {
     			attr_dev(img, "class", "mediumPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/undefined-undefined/rug3.jpg")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$q, 764, 22, 44743);
+    			add_location(img, file$q, 766, 22, 45001);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -13487,14 +13451,14 @@ var app = (function () {
     		block,
     		id: create_if_block_30.name,
     		type: "if",
-    		source: "(765:6) {#if PICdrawing}",
+    		source: "(767:6) {#if PICdrawing}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (770:5) {#if PICcali}
+    // (772:5) {#if PICcali}
     function create_if_block_29(ctx) {
     	let img;
     	let img_src_value;
@@ -13505,7 +13469,7 @@ var app = (function () {
     			attr_dev(img, "class", "mediumPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/cali/cali1.jpg")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$q, 769, 18, 45206);
+    			add_location(img, file$q, 771, 18, 45464);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -13519,14 +13483,14 @@ var app = (function () {
     		block,
     		id: create_if_block_29.name,
     		type: "if",
-    		source: "(770:5) {#if PICcali}",
+    		source: "(772:5) {#if PICcali}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (772:5) {#if PICcali}
+    // (774:5) {#if PICcali}
     function create_if_block_28(ctx) {
     	let img;
     	let img_src_value;
@@ -13537,7 +13501,7 @@ var app = (function () {
     			attr_dev(img, "class", "mediumPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/cali/cali3.jpg")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$q, 771, 18, 45374);
+    			add_location(img, file$q, 773, 18, 45632);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -13551,14 +13515,14 @@ var app = (function () {
     		block,
     		id: create_if_block_28.name,
     		type: "if",
-    		source: "(772:5) {#if PICcali}",
+    		source: "(774:5) {#if PICcali}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (774:5) {#if PICbaby}
+    // (776:5) {#if PICbaby}
     function create_if_block_27(ctx) {
     	let img;
     	let img_src_value;
@@ -13569,7 +13533,7 @@ var app = (function () {
     			attr_dev(img, "class", "mediumPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/undefined-undefined/smallbaby.png")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$q, 773, 18, 45531);
+    			add_location(img, file$q, 775, 18, 45789);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -13583,14 +13547,14 @@ var app = (function () {
     		block,
     		id: create_if_block_27.name,
     		type: "if",
-    		source: "(774:5) {#if PICbaby}",
+    		source: "(776:5) {#if PICbaby}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (775:5) {#if PICfimma}
+    // (777:5) {#if PICfimma}
     function create_if_block_26(ctx) {
     	let img;
     	let img_src_value;
@@ -13601,7 +13565,7 @@ var app = (function () {
     			attr_dev(img, "class", "mediumPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/undefined-undefined/5red1.png")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$q, 774, 19, 45635);
+    			add_location(img, file$q, 776, 19, 45893);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -13615,14 +13579,14 @@ var app = (function () {
     		block,
     		id: create_if_block_26.name,
     		type: "if",
-    		source: "(775:5) {#if PICfimma}",
+    		source: "(777:5) {#if PICfimma}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (779:5) {#if PICpuppy}
+    // (781:5) {#if PICpuppy}
     function create_if_block_25(ctx) {
     	let img;
     	let img_src_value;
@@ -13634,7 +13598,7 @@ var app = (function () {
     			attr_dev(img, "alt", "mynd");
     			set_style(img, "max-width", "30vw");
     			if (img.src !== (img_src_value = "igms/undefined-posters/KABKPuppyParade2.png")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$q, 778, 19, 46039);
+    			add_location(img, file$q, 780, 19, 46297);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -13648,14 +13612,14 @@ var app = (function () {
     		block,
     		id: create_if_block_25.name,
     		type: "if",
-    		source: "(779:5) {#if PICpuppy}",
+    		source: "(781:5) {#if PICpuppy}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (780:6) {#if PICtypobook}
+    // (782:6) {#if PICtypobook}
     function create_if_block_24(ctx) {
     	let img;
     	let img_src_value;
@@ -13666,7 +13630,7 @@ var app = (function () {
     			attr_dev(img, "class", "mediumPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/undefined-undefined/typography.jpg")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$q, 779, 23, 46177);
+    			add_location(img, file$q, 781, 23, 46435);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -13680,14 +13644,14 @@ var app = (function () {
     		block,
     		id: create_if_block_24.name,
     		type: "if",
-    		source: "(780:6) {#if PICtypobook}",
+    		source: "(782:6) {#if PICtypobook}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (783:6) {#if PICbuyt}
+    // (785:6) {#if PICbuyt}
     function create_if_block_23(ctx) {
     	let img;
     	let img_src_value;
@@ -13698,7 +13662,7 @@ var app = (function () {
     			attr_dev(img, "class", "mediumPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/undefined-undefined/5web.jpg")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$q, 782, 19, 46461);
+    			add_location(img, file$q, 784, 19, 46719);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -13712,14 +13676,14 @@ var app = (function () {
     		block,
     		id: create_if_block_23.name,
     		type: "if",
-    		source: "(783:6) {#if PICbuyt}",
+    		source: "(785:6) {#if PICbuyt}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (785:6) {#if PICdrawing}
+    // (787:6) {#if PICdrawing}
     function create_if_block_22(ctx) {
     	let img;
     	let img_src_value;
@@ -13730,7 +13694,7 @@ var app = (function () {
     			attr_dev(img, "class", "mediumPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/undefined-undefined/platti1.png")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$q, 784, 22, 46676);
+    			add_location(img, file$q, 786, 22, 46934);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -13744,14 +13708,14 @@ var app = (function () {
     		block,
     		id: create_if_block_22.name,
     		type: "if",
-    		source: "(785:6) {#if PICdrawing}",
+    		source: "(787:6) {#if PICdrawing}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (786:6) {#if PICdrawing}
+    // (788:6) {#if PICdrawing}
     function create_if_block_21(ctx) {
     	let img;
     	let img_src_value;
@@ -13762,7 +13726,7 @@ var app = (function () {
     			attr_dev(img, "class", "mediumPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/undefined-undefined/platti3.png")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$q, 785, 22, 46781);
+    			add_location(img, file$q, 787, 22, 47039);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -13776,14 +13740,14 @@ var app = (function () {
     		block,
     		id: create_if_block_21.name,
     		type: "if",
-    		source: "(786:6) {#if PICdrawing}",
+    		source: "(788:6) {#if PICdrawing}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (793:5) {#if PICleturgif}
+    // (795:5) {#if PICleturgif}
     function create_if_block_20(ctx) {
     	let img;
     	let img_src_value;
@@ -13794,7 +13758,7 @@ var app = (function () {
     			attr_dev(img, "class", "mediumPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/undefined-undefined/oohnoo.gif")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$q, 792, 22, 47675);
+    			add_location(img, file$q, 794, 22, 47933);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -13808,14 +13772,14 @@ var app = (function () {
     		block,
     		id: create_if_block_20.name,
     		type: "if",
-    		source: "(793:5) {#if PICleturgif}",
+    		source: "(795:5) {#if PICleturgif}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (794:5) {#if PICflottabok}
+    // (796:5) {#if PICflottabok}
     function create_if_block_19(ctx) {
     	let img;
     	let img_src_value;
@@ -13826,7 +13790,7 @@ var app = (function () {
     			attr_dev(img, "class", "mediumPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/undefined-undefined/front.png")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$q, 793, 23, 47780);
+    			add_location(img, file$q, 795, 23, 48038);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -13840,14 +13804,14 @@ var app = (function () {
     		block,
     		id: create_if_block_19.name,
     		type: "if",
-    		source: "(794:5) {#if PICflottabok}",
+    		source: "(796:5) {#if PICflottabok}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (796:6) {#if PICtypobook}
+    // (798:6) {#if PICtypobook}
     function create_if_block_18(ctx) {
     	let img;
     	let img_src_value;
@@ -13858,7 +13822,7 @@ var app = (function () {
     			attr_dev(img, "class", "mediumPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/undefined-undefined/display1.jpg")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$q, 795, 23, 47982);
+    			add_location(img, file$q, 797, 23, 48240);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -13872,14 +13836,14 @@ var app = (function () {
     		block,
     		id: create_if_block_18.name,
     		type: "if",
-    		source: "(796:6) {#if PICtypobook}",
+    		source: "(798:6) {#if PICtypobook}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (797:6) {#if PICtypobook}
+    // (799:6) {#if PICtypobook}
     function create_if_block_17(ctx) {
     	let img;
     	let img_src_value;
@@ -13890,7 +13854,7 @@ var app = (function () {
     			attr_dev(img, "class", "mediumPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/undefined-undefined/display2.jpg")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$q, 796, 23, 48089);
+    			add_location(img, file$q, 798, 23, 48347);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -13904,14 +13868,14 @@ var app = (function () {
     		block,
     		id: create_if_block_17.name,
     		type: "if",
-    		source: "(797:6) {#if PICtypobook}",
+    		source: "(799:6) {#if PICtypobook}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (798:6) {#if PICtypobook}
+    // (800:6) {#if PICtypobook}
     function create_if_block_16(ctx) {
     	let img;
     	let img_src_value;
@@ -13922,7 +13886,7 @@ var app = (function () {
     			attr_dev(img, "class", "mediumPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/undefined-undefined/display3.jpg")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$q, 797, 23, 48196);
+    			add_location(img, file$q, 799, 23, 48454);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -13936,14 +13900,14 @@ var app = (function () {
     		block,
     		id: create_if_block_16.name,
     		type: "if",
-    		source: "(798:6) {#if PICtypobook}",
+    		source: "(800:6) {#if PICtypobook}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (805:6) {#if PICegoposter}
+    // (807:6) {#if PICegoposter}
     function create_if_block_15(ctx) {
     	let img;
     	let img_src_value;
@@ -13954,7 +13918,7 @@ var app = (function () {
     			attr_dev(img, "class", "mediumPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/undefined-posters/otherPoster.jpg")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$q, 804, 24, 48915);
+    			add_location(img, file$q, 806, 24, 49173);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -13968,14 +13932,14 @@ var app = (function () {
     		block,
     		id: create_if_block_15.name,
     		type: "if",
-    		source: "(805:6) {#if PICegoposter}",
+    		source: "(807:6) {#if PICegoposter}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (806:6) {#if PICdrawing}
+    // (808:6) {#if PICdrawing}
     function create_if_block_14(ctx) {
     	let img;
     	let img_src_value;
@@ -13986,7 +13950,7 @@ var app = (function () {
     			attr_dev(img, "class", "mediumPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/undefined-teikningar/teikning1.jpg")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$q, 805, 22, 49022);
+    			add_location(img, file$q, 807, 22, 49280);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -14000,14 +13964,14 @@ var app = (function () {
     		block,
     		id: create_if_block_14.name,
     		type: "if",
-    		source: "(806:6) {#if PICdrawing}",
+    		source: "(808:6) {#if PICdrawing}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (807:6) {#if PICdrawing}
+    // (809:6) {#if PICdrawing}
     function create_if_block_13(ctx) {
     	let img;
     	let img_src_value;
@@ -14018,7 +13982,7 @@ var app = (function () {
     			attr_dev(img, "class", "mediumPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/undefined-teikningar/teikning2.jpg")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$q, 806, 22, 49130);
+    			add_location(img, file$q, 808, 22, 49388);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -14032,14 +13996,14 @@ var app = (function () {
     		block,
     		id: create_if_block_13.name,
     		type: "if",
-    		source: "(807:6) {#if PICdrawing}",
+    		source: "(809:6) {#if PICdrawing}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (808:6) {#if PICdrawing}
+    // (810:6) {#if PICdrawing}
     function create_if_block_12(ctx) {
     	let img;
     	let img_src_value;
@@ -14050,7 +14014,7 @@ var app = (function () {
     			attr_dev(img, "class", "mediumPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/undefined-teikningar/teikning3.jpg")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$q, 807, 22, 49238);
+    			add_location(img, file$q, 809, 22, 49496);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -14064,14 +14028,14 @@ var app = (function () {
     		block,
     		id: create_if_block_12.name,
     		type: "if",
-    		source: "(808:6) {#if PICdrawing}",
+    		source: "(810:6) {#if PICdrawing}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (809:6) {#if PICalltmitt}
+    // (811:6) {#if PICalltmitt}
     function create_if_block_11(ctx) {
     	let img;
     	let img_src_value;
@@ -14082,7 +14046,7 @@ var app = (function () {
     			attr_dev(img, "class", "mediumPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/alltmitt/1.png")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$q, 808, 23, 49347);
+    			add_location(img, file$q, 810, 23, 49605);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -14096,14 +14060,14 @@ var app = (function () {
     		block,
     		id: create_if_block_11.name,
     		type: "if",
-    		source: "(809:6) {#if PICalltmitt}",
+    		source: "(811:6) {#if PICalltmitt}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (810:6) {#if PICpsdmynd}
+    // (812:6) {#if PICpsdmynd}
     function create_if_block_10(ctx) {
     	let img;
     	let img_src_value;
@@ -14115,7 +14079,7 @@ var app = (function () {
     			attr_dev(img, "alt", "mynd");
     			set_style(img, "border-radius", "120px");
     			if (img.src !== (img_src_value = "igms/undefined-undefined/_.jpg")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$q, 809, 22, 49435);
+    			add_location(img, file$q, 811, 22, 49693);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -14129,14 +14093,14 @@ var app = (function () {
     		block,
     		id: create_if_block_10.name,
     		type: "if",
-    		source: "(810:6) {#if PICpsdmynd}",
+    		source: "(812:6) {#if PICpsdmynd}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (811:6) {#if PICtrash}
+    // (813:6) {#if PICtrash}
     function create_if_block_9(ctx) {
     	let img;
     	let img_src_value;
@@ -14147,7 +14111,7 @@ var app = (function () {
     			attr_dev(img, "class", "mediumPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/trash/small.png")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$q, 810, 20, 49562);
+    			add_location(img, file$q, 812, 20, 49820);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -14161,14 +14125,14 @@ var app = (function () {
     		block,
     		id: create_if_block_9.name,
     		type: "if",
-    		source: "(811:6) {#if PICtrash}",
+    		source: "(813:6) {#if PICtrash}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (812:6) {#if PICsecret}
+    // (814:6) {#if PICsecret}
     function create_if_block_8(ctx) {
     	let img;
     	let img_src_value;
@@ -14179,7 +14143,7 @@ var app = (function () {
     			attr_dev(img, "class", "mediumPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/secret/small.png")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$q, 811, 21, 49650);
+    			add_location(img, file$q, 813, 21, 49908);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -14193,14 +14157,14 @@ var app = (function () {
     		block,
     		id: create_if_block_8.name,
     		type: "if",
-    		source: "(812:6) {#if PICsecret}",
+    		source: "(814:6) {#if PICsecret}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (813:6) {#if PICbritney}
+    // (815:6) {#if PICbritney}
     function create_if_block_7(ctx) {
     	let img;
     	let img_src_value;
@@ -14211,7 +14175,7 @@ var app = (function () {
     			attr_dev(img, "class", "mediumPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/undefined-web/7.jpg")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$q, 812, 22, 49740);
+    			add_location(img, file$q, 814, 22, 49998);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -14225,14 +14189,14 @@ var app = (function () {
     		block,
     		id: create_if_block_7.name,
     		type: "if",
-    		source: "(813:6) {#if PICbritney}",
+    		source: "(815:6) {#if PICbritney}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (814:6) {#if PICpsycho}
+    // (816:6) {#if PICpsycho}
     function create_if_block_6(ctx) {
     	let iframe;
     	let iframe_src_value;
@@ -14246,7 +14210,7 @@ var app = (function () {
     			attr_dev(iframe, "frameborder", "0");
     			attr_dev(iframe, "allow", "autoplay; fullscreen");
     			iframe.allowFullscreen = true;
-    			add_location(iframe, file$q, 813, 21, 49832);
+    			add_location(iframe, file$q, 815, 21, 50090);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, iframe, anchor);
@@ -14260,14 +14224,14 @@ var app = (function () {
     		block,
     		id: create_if_block_6.name,
     		type: "if",
-    		source: "(814:6) {#if PICpsycho}",
+    		source: "(816:6) {#if PICpsycho}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (815:6) {#if PICbrandalism}
+    // (817:6) {#if PICbrandalism}
     function create_if_block_5(ctx) {
     	let img;
     	let img_src_value;
@@ -14278,7 +14242,7 @@ var app = (function () {
     			attr_dev(img, "class", "mediumPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/undefined-undefined/15.png")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$q, 814, 25, 50074);
+    			add_location(img, file$q, 816, 25, 50332);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -14292,14 +14256,14 @@ var app = (function () {
     		block,
     		id: create_if_block_5.name,
     		type: "if",
-    		source: "(815:6) {#if PICbrandalism}",
+    		source: "(817:6) {#if PICbrandalism}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (816:6) {#if PICbrandalism}
+    // (818:6) {#if PICbrandalism}
     function create_if_block_4(ctx) {
     	let img;
     	let img_src_value;
@@ -14310,7 +14274,7 @@ var app = (function () {
     			attr_dev(img, "class", "mediumPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/undefined-undefined/14.png")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$q, 815, 25, 50177);
+    			add_location(img, file$q, 817, 25, 50435);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -14324,14 +14288,14 @@ var app = (function () {
     		block,
     		id: create_if_block_4.name,
     		type: "if",
-    		source: "(816:6) {#if PICbrandalism}",
+    		source: "(818:6) {#if PICbrandalism}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (818:6) {#if PICegobook}
+    // (820:6) {#if PICegobook}
     function create_if_block_3(ctx) {
     	let img;
     	let img_src_value;
@@ -14342,7 +14306,7 @@ var app = (function () {
     			attr_dev(img, "class", "mediumPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/undefined-undefined/1.png")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$q, 817, 22, 50363);
+    			add_location(img, file$q, 819, 22, 50621);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -14356,14 +14320,14 @@ var app = (function () {
     		block,
     		id: create_if_block_3.name,
     		type: "if",
-    		source: "(818:6) {#if PICegobook}",
+    		source: "(820:6) {#if PICegobook}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (819:6) {#if PICmen}
+    // (821:6) {#if PICmen}
     function create_if_block_2(ctx) {
     	let img;
     	let img_src_value;
@@ -14374,7 +14338,7 @@ var app = (function () {
     			attr_dev(img, "class", "mediumPic");
     			attr_dev(img, "alt", "mynd");
     			if (img.src !== (img_src_value = "igms/undefined-undefined/aSmalltable.png")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$q, 818, 18, 50458);
+    			add_location(img, file$q, 820, 18, 50716);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -14388,14 +14352,14 @@ var app = (function () {
     		block,
     		id: create_if_block_2.name,
     		type: "if",
-    		source: "(819:6) {#if PICmen}",
+    		source: "(821:6) {#if PICmen}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (820:6) {#if PICoilbuddies}
+    // (822:6) {#if PICoilbuddies}
     function create_if_block_1(ctx) {
     	let img;
     	let img_src_value;
@@ -14407,7 +14371,7 @@ var app = (function () {
     			attr_dev(img, "alt", "mynd");
     			set_style(img, "border-radius", "50px");
     			if (img.src !== (img_src_value = "igms/oilbuddies/small.png")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$q, 819, 25, 50570);
+    			add_location(img, file$q, 821, 25, 50828);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -14421,7 +14385,7 @@ var app = (function () {
     		block,
     		id: create_if_block_1.name,
     		type: "if",
-    		source: "(820:6) {#if PICoilbuddies}",
+    		source: "(822:6) {#if PICoilbuddies}",
     		ctx
     	});
 
@@ -14649,31 +14613,33 @@ var app = (function () {
     	let i6;
     	let br29;
     	let t163;
-    	let br30;
-    	let t164;
-    	let br31;
-    	let t165;
-    	let br32;
-    	let br33;
-    	let t166;
     	let i7;
-    	let br34;
+    	let t165;
+    	let br30;
+    	let t166;
+    	let br31;
+    	let t167;
+    	let br32;
     	let t168;
-    	let br35;
+    	let br33;
     	let t169;
-    	let span4;
-    	let br36;
-    	let br37;
+    	let br34;
+    	let br35;
     	let t170;
-    	let t171;
+    	let i8;
+    	let br36;
+    	let t172;
+    	let br37;
+    	let t173;
+    	let span4;
     	let br38;
     	let br39;
-    	let br40;
-    	let br41;
-    	let t172;
-    	let t173;
     	let t174;
     	let t175;
+    	let br40;
+    	let br41;
+    	let br42;
+    	let br43;
     	let t176;
     	let t177;
     	let t178;
@@ -14694,8 +14660,12 @@ var app = (function () {
     	let t193;
     	let t194;
     	let t195;
-    	let div15;
     	let t196;
+    	let t197;
+    	let t198;
+    	let t199;
+    	let div15;
+    	let t200;
     	let current;
     	let mounted;
     	let dispose;
@@ -15201,78 +15171,85 @@ var app = (function () {
     			i6 = element("i");
     			i6.textContent = "Work experience";
     			br29 = element("br");
-    			t163 = text("\n      Web building / graphic design for Flóra útgáfa");
-    			br30 = element("br");
-    			t164 = text("\n      Internship at Somalgors74 / Curdin Tones");
-    			br31 = element("br");
-    			t165 = text("\n      Portfolio website for photographer Io Alexa Sivertsen");
-    			br32 = element("br");
-    			br33 = element("br");
-    			t166 = space();
+    			t163 = text("\n      Designing ");
     			i7 = element("i");
-    			i7.textContent = "Contact";
+    			i7.textContent = "Kortlagning á kynjasjónarmiðum - Stöðuskýrsla 2021";
+    			t165 = text(" report for Iceland's Prime Minister's Office and Ministry of Finance and Economic Affairs");
+    			br30 = element("br");
+    			t166 = text("\n      Designing drink-menu and gift card for Kaffihús Vesturbæjar");
+    			br31 = element("br");
+    			t167 = text("\n      Graphic design / web building for Flóra útgáfa");
+    			br32 = element("br");
+    			t168 = text("\n      Internship at Somalgors74 / Curdin Tones");
+    			br33 = element("br");
+    			t169 = text("\n      Portfolio website design and building for photographer Io Alexa Sivertsen");
     			br34 = element("br");
-    			t168 = text("\n      berglindbra28@gmail.com");
     			br35 = element("br");
-    			t169 = space();
-    			span4 = element("span");
+    			t170 = space();
+    			i8 = element("i");
+    			i8.textContent = "Contact";
     			br36 = element("br");
+    			t172 = text("\n      berglindbra28@gmail.com");
     			br37 = element("br");
-    			t170 = text("**MOBILE VERSION IS UNDER CONSTRUCTION**");
-    			t171 = space();
+    			t173 = space();
+    			span4 = element("span");
     			br38 = element("br");
     			br39 = element("br");
+    			t174 = text("**MOBILE VERSION IS UNDER CONSTRUCTION**");
+    			t175 = space();
     			br40 = element("br");
     			br41 = element("br");
-    			t172 = space();
-    			if (if_block123) if_block123.c();
-    			t173 = space();
-    			if (if_block124) if_block124.c();
-    			t174 = space();
-    			if (if_block125) if_block125.c();
-    			t175 = space();
-    			if (if_block126) if_block126.c();
+    			br42 = element("br");
+    			br43 = element("br");
     			t176 = space();
-    			if (if_block127) if_block127.c();
+    			if (if_block123) if_block123.c();
     			t177 = space();
-    			if (if_block128) if_block128.c();
+    			if (if_block124) if_block124.c();
     			t178 = space();
-    			if (if_block129) if_block129.c();
+    			if (if_block125) if_block125.c();
     			t179 = space();
-    			if (if_block130) if_block130.c();
+    			if (if_block126) if_block126.c();
     			t180 = space();
-    			if (if_block131) if_block131.c();
+    			if (if_block127) if_block127.c();
     			t181 = space();
-    			if (if_block132) if_block132.c();
+    			if (if_block128) if_block128.c();
     			t182 = space();
-    			if (if_block133) if_block133.c();
+    			if (if_block129) if_block129.c();
     			t183 = space();
-    			if (if_block134) if_block134.c();
+    			if (if_block130) if_block130.c();
     			t184 = space();
-    			if (if_block135) if_block135.c();
+    			if (if_block131) if_block131.c();
     			t185 = space();
-    			if (if_block136) if_block136.c();
+    			if (if_block132) if_block132.c();
     			t186 = space();
-    			if (if_block137) if_block137.c();
+    			if (if_block133) if_block133.c();
     			t187 = space();
-    			if (if_block138) if_block138.c();
+    			if (if_block134) if_block134.c();
     			t188 = space();
-    			if (if_block139) if_block139.c();
+    			if (if_block135) if_block135.c();
     			t189 = space();
-    			if (if_block140) if_block140.c();
+    			if (if_block136) if_block136.c();
     			t190 = space();
-    			if (if_block141) if_block141.c();
+    			if (if_block137) if_block137.c();
     			t191 = space();
-    			if (if_block142) if_block142.c();
+    			if (if_block138) if_block138.c();
     			t192 = space();
-    			if (if_block143) if_block143.c();
+    			if (if_block139) if_block139.c();
     			t193 = space();
-    			if (if_block144) if_block144.c();
+    			if (if_block140) if_block140.c();
     			t194 = space();
-    			if (if_block145) if_block145.c();
+    			if (if_block141) if_block141.c();
     			t195 = space();
-    			div15 = element("div");
+    			if (if_block142) if_block142.c();
     			t196 = space();
+    			if (if_block143) if_block143.c();
+    			t197 = space();
+    			if (if_block144) if_block144.c();
+    			t198 = space();
+    			if (if_block145) if_block145.c();
+    			t199 = space();
+    			div15 = element("div");
+    			t200 = space();
     			if (if_block146) if_block146.c();
     			attr_dev(div0, "class", "button");
     			add_location(div0, file$q, 484, 2, 25744);
@@ -15372,27 +15349,30 @@ var app = (function () {
     			add_location(br28, file$q, 693, 10, 37653);
     			add_location(i6, file$q, 694, 12, 37670);
     			add_location(br29, file$q, 694, 34, 37692);
-    			add_location(br30, file$q, 695, 57, 37754);
-    			add_location(br31, file$q, 696, 51, 37810);
-    			add_location(br32, file$q, 697, 64, 37879);
-    			add_location(br33, file$q, 697, 68, 37883);
+    			add_location(i7, file$q, 695, 16, 37713);
+    			add_location(br30, file$q, 695, 178, 37875);
+    			add_location(br31, file$q, 696, 65, 37945);
+    			add_location(br32, file$q, 697, 52, 38002);
+    			add_location(br33, file$q, 698, 46, 38053);
+    			add_location(br34, file$q, 699, 79, 38137);
+    			add_location(br35, file$q, 699, 83, 38141);
     			add_location(span3, file$q, 694, 6, 37664);
-    			add_location(i7, file$q, 701, 6, 37966);
-    			add_location(br34, file$q, 701, 20, 37980);
-    			add_location(br35, file$q, 702, 29, 38014);
-    			add_location(br36, file$q, 704, 61, 38169);
-    			add_location(br37, file$q, 704, 65, 38173);
+    			add_location(i8, file$q, 703, 6, 38224);
+    			add_location(br36, file$q, 703, 20, 38238);
+    			add_location(br37, file$q, 704, 29, 38272);
+    			add_location(br38, file$q, 706, 61, 38427);
+    			add_location(br39, file$q, 706, 65, 38431);
     			attr_dev(span4, "class", "construction");
     			set_style(span4, "text-align", "center");
-    			add_location(span4, file$q, 704, 6, 38114);
+    			add_location(span4, file$q, 706, 6, 38372);
     			attr_dev(div14, "class", "biography-text biography-text-mobile out-on-desktop");
     			add_location(div14, file$q, 687, 4, 37315);
-    			add_location(br38, file$q, 707, 4, 38244);
-    			add_location(br39, file$q, 707, 8, 38248);
-    			add_location(br40, file$q, 707, 12, 38252);
-    			add_location(br41, file$q, 707, 16, 38256);
+    			add_location(br40, file$q, 709, 4, 38502);
+    			add_location(br41, file$q, 709, 8, 38506);
+    			add_location(br42, file$q, 709, 12, 38510);
+    			add_location(br43, file$q, 709, 16, 38514);
     			attr_dev(div15, "class", "line svelte-i9x7wk");
-    			add_location(div15, file$q, 747, 5, 43035);
+    			add_location(div15, file$q, 749, 5, 43293);
     			attr_dev(div16, "class", "wrapper back");
     			add_location(div16, file$q, 679, 2, 37183);
     			attr_dev(div17, "class", "container");
@@ -15743,76 +15723,82 @@ var app = (function () {
     			append_dev(span3, i6);
     			append_dev(span3, br29);
     			append_dev(span3, t163);
-    			append_dev(span3, br30);
-    			append_dev(span3, t164);
-    			append_dev(span3, br31);
+    			append_dev(span3, i7);
     			append_dev(span3, t165);
+    			append_dev(span3, br30);
+    			append_dev(span3, t166);
+    			append_dev(span3, br31);
+    			append_dev(span3, t167);
     			append_dev(span3, br32);
+    			append_dev(span3, t168);
     			append_dev(span3, br33);
-    			append_dev(div14, t166);
-    			append_dev(div14, i7);
-    			append_dev(div14, br34);
-    			append_dev(div14, t168);
-    			append_dev(div14, br35);
-    			append_dev(div14, t169);
+    			append_dev(span3, t169);
+    			append_dev(span3, br34);
+    			append_dev(span3, br35);
+    			append_dev(div14, t170);
+    			append_dev(div14, i8);
+    			append_dev(div14, br36);
+    			append_dev(div14, t172);
+    			append_dev(div14, br37);
+    			append_dev(div14, t173);
     			append_dev(div14, span4);
-    			append_dev(span4, br36);
-    			append_dev(span4, br37);
-    			append_dev(span4, t170);
-    			append_dev(div16, t171);
-    			append_dev(div16, br38);
-    			append_dev(div16, br39);
+    			append_dev(span4, br38);
+    			append_dev(span4, br39);
+    			append_dev(span4, t174);
+    			append_dev(div16, t175);
     			append_dev(div16, br40);
     			append_dev(div16, br41);
-    			append_dev(div16, t172);
-    			if (if_block123) if_block123.m(div16, null);
-    			append_dev(div16, t173);
-    			if (if_block124) if_block124.m(div16, null);
-    			append_dev(div16, t174);
-    			if (if_block125) if_block125.m(div16, null);
-    			append_dev(div16, t175);
-    			if (if_block126) if_block126.m(div16, null);
+    			append_dev(div16, br42);
+    			append_dev(div16, br43);
     			append_dev(div16, t176);
-    			if (if_block127) if_block127.m(div16, null);
+    			if (if_block123) if_block123.m(div16, null);
     			append_dev(div16, t177);
-    			if (if_block128) if_block128.m(div16, null);
+    			if (if_block124) if_block124.m(div16, null);
     			append_dev(div16, t178);
-    			if (if_block129) if_block129.m(div16, null);
+    			if (if_block125) if_block125.m(div16, null);
     			append_dev(div16, t179);
-    			if (if_block130) if_block130.m(div16, null);
+    			if (if_block126) if_block126.m(div16, null);
     			append_dev(div16, t180);
-    			if (if_block131) if_block131.m(div16, null);
+    			if (if_block127) if_block127.m(div16, null);
     			append_dev(div16, t181);
-    			if (if_block132) if_block132.m(div16, null);
+    			if (if_block128) if_block128.m(div16, null);
     			append_dev(div16, t182);
-    			if (if_block133) if_block133.m(div16, null);
+    			if (if_block129) if_block129.m(div16, null);
     			append_dev(div16, t183);
-    			if (if_block134) if_block134.m(div16, null);
+    			if (if_block130) if_block130.m(div16, null);
     			append_dev(div16, t184);
-    			if (if_block135) if_block135.m(div16, null);
+    			if (if_block131) if_block131.m(div16, null);
     			append_dev(div16, t185);
-    			if (if_block136) if_block136.m(div16, null);
+    			if (if_block132) if_block132.m(div16, null);
     			append_dev(div16, t186);
-    			if (if_block137) if_block137.m(div16, null);
+    			if (if_block133) if_block133.m(div16, null);
     			append_dev(div16, t187);
-    			if (if_block138) if_block138.m(div16, null);
+    			if (if_block134) if_block134.m(div16, null);
     			append_dev(div16, t188);
-    			if (if_block139) if_block139.m(div16, null);
+    			if (if_block135) if_block135.m(div16, null);
     			append_dev(div16, t189);
-    			if (if_block140) if_block140.m(div16, null);
+    			if (if_block136) if_block136.m(div16, null);
     			append_dev(div16, t190);
-    			if (if_block141) if_block141.m(div16, null);
+    			if (if_block137) if_block137.m(div16, null);
     			append_dev(div16, t191);
-    			if (if_block142) if_block142.m(div16, null);
+    			if (if_block138) if_block138.m(div16, null);
     			append_dev(div16, t192);
-    			if (if_block143) if_block143.m(div16, null);
+    			if (if_block139) if_block139.m(div16, null);
     			append_dev(div16, t193);
-    			if (if_block144) if_block144.m(div16, null);
+    			if (if_block140) if_block140.m(div16, null);
     			append_dev(div16, t194);
-    			if (if_block145) if_block145.m(div16, null);
+    			if (if_block141) if_block141.m(div16, null);
     			append_dev(div16, t195);
-    			append_dev(div16, div15);
+    			if (if_block142) if_block142.m(div16, null);
     			append_dev(div16, t196);
+    			if (if_block143) if_block143.m(div16, null);
+    			append_dev(div16, t197);
+    			if (if_block144) if_block144.m(div16, null);
+    			append_dev(div16, t198);
+    			if (if_block145) if_block145.m(div16, null);
+    			append_dev(div16, t199);
+    			append_dev(div16, div15);
+    			append_dev(div16, t200);
     			if (if_block146) if_block146.m(div16, null);
     			current = true;
 
@@ -17454,7 +17440,7 @@ var app = (function () {
     				} else {
     					if_block123 = create_if_block_62(ctx);
     					if_block123.c();
-    					if_block123.m(div16, t173);
+    					if_block123.m(div16, t177);
     				}
     			} else if (if_block123) {
     				if_block123.d(1);
@@ -17467,7 +17453,7 @@ var app = (function () {
     				} else {
     					if_block124 = create_if_block_61(ctx);
     					if_block124.c();
-    					if_block124.m(div16, t174);
+    					if_block124.m(div16, t178);
     				}
     			} else if (if_block124) {
     				if_block124.d(1);
@@ -17480,7 +17466,7 @@ var app = (function () {
     				} else {
     					if_block125 = create_if_block_60(ctx);
     					if_block125.c();
-    					if_block125.m(div16, t175);
+    					if_block125.m(div16, t179);
     				}
     			} else if (if_block125) {
     				if_block125.d(1);
@@ -17493,7 +17479,7 @@ var app = (function () {
     				} else {
     					if_block126 = create_if_block_59(ctx);
     					if_block126.c();
-    					if_block126.m(div16, t176);
+    					if_block126.m(div16, t180);
     				}
     			} else if (if_block126) {
     				if_block126.d(1);
@@ -17506,7 +17492,7 @@ var app = (function () {
     				} else {
     					if_block127 = create_if_block_58(ctx);
     					if_block127.c();
-    					if_block127.m(div16, t177);
+    					if_block127.m(div16, t181);
     				}
     			} else if (if_block127) {
     				if_block127.d(1);
@@ -17519,7 +17505,7 @@ var app = (function () {
     				} else {
     					if_block128 = create_if_block_57(ctx);
     					if_block128.c();
-    					if_block128.m(div16, t178);
+    					if_block128.m(div16, t182);
     				}
     			} else if (if_block128) {
     				if_block128.d(1);
@@ -17532,7 +17518,7 @@ var app = (function () {
     				} else {
     					if_block129 = create_if_block_56(ctx);
     					if_block129.c();
-    					if_block129.m(div16, t179);
+    					if_block129.m(div16, t183);
     				}
     			} else if (if_block129) {
     				if_block129.d(1);
@@ -17545,7 +17531,7 @@ var app = (function () {
     				} else {
     					if_block130 = create_if_block_55(ctx);
     					if_block130.c();
-    					if_block130.m(div16, t180);
+    					if_block130.m(div16, t184);
     				}
     			} else if (if_block130) {
     				if_block130.d(1);
@@ -17558,7 +17544,7 @@ var app = (function () {
     				} else {
     					if_block131 = create_if_block_54(ctx);
     					if_block131.c();
-    					if_block131.m(div16, t181);
+    					if_block131.m(div16, t185);
     				}
     			} else if (if_block131) {
     				if_block131.d(1);
@@ -17571,7 +17557,7 @@ var app = (function () {
     				} else {
     					if_block132 = create_if_block_53(ctx);
     					if_block132.c();
-    					if_block132.m(div16, t182);
+    					if_block132.m(div16, t186);
     				}
     			} else if (if_block132) {
     				if_block132.d(1);
@@ -17584,7 +17570,7 @@ var app = (function () {
     				} else {
     					if_block133 = create_if_block_52(ctx);
     					if_block133.c();
-    					if_block133.m(div16, t183);
+    					if_block133.m(div16, t187);
     				}
     			} else if (if_block133) {
     				if_block133.d(1);
@@ -17597,7 +17583,7 @@ var app = (function () {
     				} else {
     					if_block134 = create_if_block_51(ctx);
     					if_block134.c();
-    					if_block134.m(div16, t184);
+    					if_block134.m(div16, t188);
     				}
     			} else if (if_block134) {
     				if_block134.d(1);
@@ -17610,7 +17596,7 @@ var app = (function () {
     				} else {
     					if_block135 = create_if_block_50(ctx);
     					if_block135.c();
-    					if_block135.m(div16, t185);
+    					if_block135.m(div16, t189);
     				}
     			} else if (if_block135) {
     				if_block135.d(1);
@@ -17623,7 +17609,7 @@ var app = (function () {
     				} else {
     					if_block136 = create_if_block_49(ctx);
     					if_block136.c();
-    					if_block136.m(div16, t186);
+    					if_block136.m(div16, t190);
     				}
     			} else if (if_block136) {
     				if_block136.d(1);
@@ -17636,7 +17622,7 @@ var app = (function () {
     				} else {
     					if_block137 = create_if_block_48(ctx);
     					if_block137.c();
-    					if_block137.m(div16, t187);
+    					if_block137.m(div16, t191);
     				}
     			} else if (if_block137) {
     				if_block137.d(1);
@@ -17649,7 +17635,7 @@ var app = (function () {
     				} else {
     					if_block138 = create_if_block_47(ctx);
     					if_block138.c();
-    					if_block138.m(div16, t188);
+    					if_block138.m(div16, t192);
     				}
     			} else if (if_block138) {
     				if_block138.d(1);
@@ -17662,7 +17648,7 @@ var app = (function () {
     				} else {
     					if_block139 = create_if_block_46(ctx);
     					if_block139.c();
-    					if_block139.m(div16, t189);
+    					if_block139.m(div16, t193);
     				}
     			} else if (if_block139) {
     				if_block139.d(1);
@@ -17675,7 +17661,7 @@ var app = (function () {
     				} else {
     					if_block140 = create_if_block_45(ctx);
     					if_block140.c();
-    					if_block140.m(div16, t190);
+    					if_block140.m(div16, t194);
     				}
     			} else if (if_block140) {
     				if_block140.d(1);
@@ -17688,7 +17674,7 @@ var app = (function () {
     				} else {
     					if_block141 = create_if_block_44(ctx);
     					if_block141.c();
-    					if_block141.m(div16, t191);
+    					if_block141.m(div16, t195);
     				}
     			} else if (if_block141) {
     				if_block141.d(1);
@@ -17701,7 +17687,7 @@ var app = (function () {
     				} else {
     					if_block142 = create_if_block_43(ctx);
     					if_block142.c();
-    					if_block142.m(div16, t192);
+    					if_block142.m(div16, t196);
     				}
     			} else if (if_block142) {
     				if_block142.d(1);
@@ -17714,7 +17700,7 @@ var app = (function () {
     				} else {
     					if_block143 = create_if_block_42(ctx);
     					if_block143.c();
-    					if_block143.m(div16, t193);
+    					if_block143.m(div16, t197);
     				}
     			} else if (if_block143) {
     				if_block143.d(1);
@@ -17727,7 +17713,7 @@ var app = (function () {
     				} else {
     					if_block144 = create_if_block_41(ctx);
     					if_block144.c();
-    					if_block144.m(div16, t194);
+    					if_block144.m(div16, t198);
     				}
     			} else if (if_block144) {
     				if_block144.d(1);
@@ -17740,7 +17726,7 @@ var app = (function () {
     				} else {
     					if_block145 = create_if_block_40(ctx);
     					if_block145.c();
-    					if_block145.m(div16, t195);
+    					if_block145.m(div16, t199);
     				}
     			} else if (if_block145) {
     				if_block145.d(1);

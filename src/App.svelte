@@ -693,9 +693,11 @@
       Graphic Design BA 2020, The Royal Academy of&nbsp;Art, The&nbsp;Hague
       <br><br>
       <span><i>Work experience</i><br>
-      Web building / graphic design for Flóra&nbsp;útgáfa<br>
-      Internship at Somalgors74 / Curdin&nbsp;Tones<br>
-      Portfolio website for photographer Io&nbsp;Alexa Sivertsen<br><br></span>
+      Designing <i>Kortlagning á kynjasjónarmiðum - Stöðuskýrsla 2021</i> report for Iceland's Prime&nbsp;Minister's&nbsp;Office and Ministry of Finance and Economic&nbsp;Affairs<br>
+      Designing drink-menu and gift card for Kaffihús Vesturbæjar<br>
+      Graphic design / web building for Flóra útgáfa<br>
+      Internship at Somalgors74 / Curdin Tones<br>
+      Portfolio website design and building for photographer Io Alexa Sivertsen<br><br></span>
       <!--<i>Experties</i><br>
       Webdesign<br><br>-->
       

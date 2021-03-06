@@ -48,10 +48,23 @@ img {
 .poster {
 	max-height: 70%;
 	max-width: 60%;
-	/*margin-top: 60%;*/
 	padding: 1%;
 	cursor: auto;
 	border-radius: 15px;
+}
+
+@media screen and (max-width: 1000px) {
+	img {
+		display: inline-block;
+		max-height: 100%;
+		padding: 15px;
+		max-width: calc(100vw - 30px);
+	}
+	.poster {
+		max-height: 100%;
+		max-width: calc(100vw - 30px);
+		padding: 15px;
+	}
 }
 
 </style>

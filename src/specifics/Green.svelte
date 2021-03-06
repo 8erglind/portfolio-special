@@ -58,4 +58,19 @@ img {
 	max-height: 50%;
 }
 
+@media screen and (max-width: 1000px) {
+	img {
+		display: inline-block;
+		max-height: 100%;
+		padding: 15px;
+		max-width: calc(100vw - 30px);
+	}
+	video {
+		display: inline-block;
+		max-height: 100%;
+		padding: 15px;
+		max-width: calc(100vw - 30px);
+	}
+}
+
 </style>

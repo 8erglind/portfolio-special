@@ -59,4 +59,27 @@ img {
 	right: 5px;
 }
 
+
+
+@media screen and (max-width: 1000px) {
+	img {
+		display: inline-block;
+		max-height: 100%;
+		padding: 15px;
+		max-width: calc(100vw - 30px);
+	}
+	.smaller, .larger, .smaller-two, .larger {
+		max-height: 100% !important;
+		max-width: calc(100vw - 30px) !important;
+	}
+
+	.tiny {
+		max-height: 25%;
+		max-width: 25%;
+		position: fixed;
+		top: 15px;
+	}
+
+}
+
 </style>

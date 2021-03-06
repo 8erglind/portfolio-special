@@ -37,4 +37,18 @@ img {
 	max-width: 45%;
 }
 
+@media screen and (max-width: 1000px) {
+	img {
+		display: inline-block;
+		max-height: 100%;
+		padding: 15px;
+		max-width: calc(100vw - 30px);
+	}
+	.smaller, .larger {
+		max-height: 100% !important;
+		max-width: calc(100vw - 30px) !important;
+	}
+
+}
+
 </style>

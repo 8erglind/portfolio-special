@@ -5,7 +5,7 @@
 
 <div class="backgroundcolor">
 	<br><br>
-	<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/488284876?autoplay=1&loop=1&color=ffffff&title=0&byline=0&portrait=0" style="position:absolute;top:6.5%;left:20%;width:60%;height:80%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+	<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/488284876?autoplay=1&loop=1&color=ffffff&title=0&byline=0&portrait=0" class="video-flora" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 	<br><br><br><br><br><br><br><br>
 	<img class="img portfolio-item" alt="mynd" src="igms/flora/front-desktop.png" />
 	<img class="img portfolio-item smaller" alt="mynd" src="igms/flora/front-mobile.png" /><br>
@@ -69,6 +69,37 @@ img {
 	left: 1vw;
 	top: 2vw;
 	width: 15vw;
+}
+
+.video-flora {
+	position:absolute;
+	top:6.5%;
+	left:20%;
+	width:60%;
+	height:80%;
+}
+
+@media screen and (max-width: 1000px) {
+	img {
+		display: inline-block;
+		max-height: 100%;
+		padding: 15px;
+		max-width: calc(100vw - 30px);
+	}
+
+	.video-flora {
+		top:20.5%;
+		left:15px;
+		width: calc(100vw - 30px);
+		height:auto;
+	}
+
+	.fixedlogo {
+		left: 1vw;
+		top: auto;
+		bottom: 20px;
+		width: 30vw;
+	}
 }
 
 </style>

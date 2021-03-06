@@ -21,7 +21,7 @@
 	<img class="img portfolio-item smaller" alt="mynd" src="igms/timatal/11.png" />
 	<img class="img portfolio-item smaller" alt="mynd" src="igms/timatal/10.png" />
 	<img class="img portfolio-item" alt="mynd" src="igms/timatal/sammen2.png" />
-	<img class="img portfolio-item" alt="mynd" src="igms/timatal/uppst.jpg" />
+	<img class="img portfolio-item lastpic" alt="mynd" src="igms/timatal/uppst.jpg" />
 	<br><br><br><br><br><br><br><br>
 </div>
 
@@ -44,6 +44,13 @@ img {
 .smaller {
 	max-height: 50%;
 	max-width: 30%;
+}
+
+@media screen and (max-width: 1000px) {
+	.lastpic {
+		max-height: 100% !important;
+		max-width: calc(100vw - 30px) !important;
+	}
 }
 
 </style>

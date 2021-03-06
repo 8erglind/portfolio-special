@@ -30,6 +30,7 @@
 img {
 	display: inline-block;
 	max-height: 70%;
+	max-width: 80%;
 	padding: 30px;
 }
 

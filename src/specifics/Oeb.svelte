@@ -10,8 +10,8 @@
 	<img class="img portfolio-item larger" alt="mynd" src="igms/oeb/screenc.jpg" /><br><br><br><br><br><br><br><br>
 	<img class="img portfolio-item larger" alt="mynd" src="igms/oeb/screend.jpg" />
 	<br><br><br><br><br><br><br><br>
-	<img class="img portfolio-item" style="height: 80%;" alt="mynd" src="igms/oeb/h.png" /><br>
-	<img class="img portfolio-item" style="height: 80%;" alt="mynd" src="igms/oeb/0a.png" />
+	<img class="img portfolio-item attatiuvidd" alt="mynd" src="igms/oeb/h.png" /><br>
+	<img class="img portfolio-item attatiuvidd" alt="mynd" src="igms/oeb/0a.png" />
 	<img class="img portfolio-item" alt="mynd" src="igms/oeb/1b.png" />
 	<img class="img portfolio-item" alt="mynd" src="igms/oeb/5.png" />
 	
@@ -44,6 +44,9 @@ img {
 	padding: 1%;
 	cursor: auto;
 }
+.attatiuvidd {
+	height: 80%;
+}
 .smaller {
 	max-height: 55%;
 	max-width: 45%;
@@ -52,6 +55,23 @@ img {
 	max-height: 90% !important;
 	max-width: 90% !important;
 	border-radius: 25px !important;
+}
+
+
+@media screen and (max-width: 1000px) {
+	img {
+		display: inline-block;
+		max-height: 100%;
+		padding: 15px;
+		max-width: calc(100vw - 30px);
+	}
+	.smaller, .larger, .attatiuvidd {
+		max-height: 100% !important;
+		max-width: calc(100vw - 30px) !important;
+	}
+	.attatiuvidd {
+		height: auto;
+	}
 }
 
 </style>

@@ -4,6 +4,7 @@
 </script>
 
 <div class="backgroundcolor">
+	<br><br><br><br><br>
 	<img class="img portfolio-item" alt="mynd" src="igms/onourowntime/1.png" />
 	<img class="img portfolio-item" alt="mynd" src="igms/onourowntime/3.png" />
 	<img class="img portfolio-item" alt="mynd" src="igms/onourowntime/4.png" />

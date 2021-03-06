@@ -43,8 +43,8 @@
 	<img class="img portfolio-item smaller" alt="mynd" src="igms/beauimg/aukad2.jpg" />
 	<br><br><br><br>
 	<img class="img portfolio-item larger" alt="mynd" src="igms/beauimg/aukaaukaauka.jpg" />
-	<br><br><br><br><br><br><br><br>
-	<img class="img portfolio-item smaller" alt="mynd" src="igms/beauimg/27.jpg" />
+	<!--<br><br><br><br><br><br><br><br>
+	<img class="img portfolio-item smaller" alt="mynd" src="igms/beauimg/27.jpg" />-->
 	<br><br><br><br><br><br><br><br>
 </div>
 
@@ -70,6 +70,19 @@ img {
 .larger {
 	max-height: 95% !important;
 	max-width: 95% !important;
+}
+
+@media screen and (max-width: 1000px) {
+	img {
+		display: inline-block;
+		max-height: 100%;
+		padding: 15px;
+		max-width: calc(100vw - 30px);
+	}
+	.smaller, .larger {
+		max-height: 100% !important;
+		max-width: calc(100vw - 30px) !important;
+	}
 }
 
 </style>
