@@ -529,7 +529,7 @@
   </div>
 
   <div class="subtitlesDate mainscreen-subtitles"><span class="subtitles-text">
-  	{#if frontscreen}Page last updated<br>3rd of March, 2021.{/if}
+  	{#if frontscreen}Page last updated<br>March 2021.{/if}
   	{#if onourowntime}...{/if}
   	{#if green}...{/if}
   	{#if viv}...{/if}
